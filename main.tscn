@@ -1,0 +1,83 @@
+[gd_scene format=3 uid="uid://x0el8888vdx0"]
+
+[ext_resource type="PackedScene" uid="uid://dupetyompd2ie" path="res://beat/example_beat.tscn" id="1_0xm2m"]
+[ext_resource type="Script" uid="uid://b06ivl4r5nlpg" path="res://flow_manager.gd" id="1_h2yge"]
+[ext_resource type="Script" uid="uid://uv6mi2xhx3ad" path="res://beat/button_minigame_beat.gd" id="2_h2yge"]
+[ext_resource type="Texture2D" uid="uid://ofamio4jldke" path="res://icon.svg" id="4_1bvp3"]
+
+[node name="FlowManager" type="Node" unique_id=916733901]
+script = ExtResource("1_h2yge")
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=950963134]
+position = Vector2(576, 324)
+
+[node name="Timer" type="Timer" parent="Camera2D" unique_id=1040454347]
+wait_time = 3.0
+autostart = true
+
+[node name="Beat" parent="." unique_id=1144600559 node_paths=PackedStringArray("camera_position") instance=ExtResource("1_0xm2m")]
+camera_position = NodePath("CameraPosition")
+duration = 0.0
+
+[node name="CameraPosition" type="Marker2D" parent="Beat" unique_id=1002364005]
+position = Vector2(566, 318)
+
+[node name="Timer" type="Timer" parent="Beat" unique_id=161067467]
+one_shot = true
+
+[node name="Beat2" parent="." unique_id=2105459706 node_paths=PackedStringArray("camera_position") instance=ExtResource("1_0xm2m")]
+script = ExtResource("2_h2yge")
+camera_position = NodePath("CameraPosition")
+duration = 2.56
+zoom_out = 0.715
+transition_type = 4
+
+[node name="CameraPosition" type="Marker2D" parent="Beat2" unique_id=103499334]
+position = Vector2(2040, 265)
+
+[node name="Button" type="Button" parent="Beat2" unique_id=1869341674]
+offset_left = 1980.0
+offset_top = 255.0
+offset_right = 2091.0
+offset_bottom = 286.0
+text = "Press 3 times"
+metadata/_edit_use_anchors_ = true
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Beat2" unique_id=479808913]
+
+[node name="RElleno" type="Node2D" parent="." unique_id=429273309]
+
+[node name="Sprite2D" type="Sprite2D" parent="RElleno" unique_id=198801140]
+position = Vector2(195, 184)
+texture = ExtResource("4_1bvp3")
+
+[node name="Sprite2D2" type="Sprite2D" parent="RElleno" unique_id=2121056566]
+position = Vector2(609, 480)
+texture = ExtResource("4_1bvp3")
+
+[node name="Sprite2D3" type="Sprite2D" parent="RElleno" unique_id=212030406]
+position = Vector2(994, 214)
+texture = ExtResource("4_1bvp3")
+
+[node name="Sprite2D4" type="Sprite2D" parent="RElleno" unique_id=1009609673]
+position = Vector2(1699, 770)
+texture = ExtResource("4_1bvp3")
+
+[node name="Sprite2D5" type="Sprite2D" parent="RElleno" unique_id=1882563260]
+position = Vector2(1699, 285)
+texture = ExtResource("4_1bvp3")
+
+[node name="Sprite2D6" type="Sprite2D" parent="RElleno" unique_id=919158220]
+position = Vector2(2392, 544)
+texture = ExtResource("4_1bvp3")
+
+[node name="Sprite2D7" type="Sprite2D" parent="RElleno" unique_id=486389748]
+position = Vector2(2274, 82)
+texture = ExtResource("4_1bvp3")
+
+[node name="Sprite2D8" type="Sprite2D" parent="RElleno" unique_id=2033834953]
+position = Vector2(1652, -84)
+texture = ExtResource("4_1bvp3")
+
+[connection signal="timeout" from="Camera2D/Timer" to="." method="reset"]
+[connection signal="timeout" from="Beat/Timer" to="Beat" method="emit_signal" binds= ["finished"]]

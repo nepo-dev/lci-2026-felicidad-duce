@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://dupetyompd2ie"]
+
+[ext_resource type="Script" uid="uid://ch0m0yimte0qe" path="res://beat/beat.gd" id="1_ov6kx"]
+
+[node name="Beat" type="Node" unique_id=1144600559]
+script = ExtResource("1_ov6kx")
