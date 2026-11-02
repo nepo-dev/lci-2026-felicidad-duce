@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://b6caaokkgvajl"]
+
+[ext_resource type="Script" uid="uid://vujrcsq3ycfk" path="res://camera_guide/camera_guide.gd" id="1_rcrl8"]
+
+[node name="CameraGuide" type="Node2D" unique_id=1632236526]
+script = ExtResource("1_rcrl8")

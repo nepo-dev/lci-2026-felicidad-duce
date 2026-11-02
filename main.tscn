@@ -4,6 +4,7 @@
 [ext_resource type="Script" uid="uid://b06ivl4r5nlpg" path="res://flow_manager.gd" id="1_h2yge"]
 [ext_resource type="Script" uid="uid://uv6mi2xhx3ad" path="res://beat/button_minigame_beat.gd" id="2_h2yge"]
 [ext_resource type="Texture2D" uid="uid://ofamio4jldke" path="res://icon.svg" id="4_1bvp3"]
+[ext_resource type="PackedScene" uid="uid://b6caaokkgvajl" path="res://camera_guide/camera_guide.tscn" id="4_lquwl"]
 
 [node name="FlowManager" type="Node" unique_id=916733901]
 script = ExtResource("1_h2yge")
@@ -15,25 +16,28 @@ position = Vector2(576, 324)
 wait_time = 3.0
 autostart = true
 
-[node name="Beat" parent="." unique_id=1144600559 node_paths=PackedStringArray("camera_position") instance=ExtResource("1_0xm2m")]
-camera_position = NodePath("CameraPosition")
+[node name="Beat" parent="." unique_id=1144600559 instance=ExtResource("1_0xm2m")]
 duration = 0.0
 
-[node name="CameraPosition" type="Marker2D" parent="Beat" unique_id=1002364005]
-position = Vector2(566, 318)
+[node name="CameraGuide" parent="Beat" unique_id=1632236526 instance=ExtResource("4_lquwl")]
+position = Vector2(805, 316)
+zoom = 1.225
 
 [node name="Timer" type="Timer" parent="Beat" unique_id=161067467]
 one_shot = true
 
-[node name="Beat2" parent="." unique_id=2105459706 node_paths=PackedStringArray("camera_position") instance=ExtResource("1_0xm2m")]
+[node name="Beat2" parent="." unique_id=2105459706 instance=ExtResource("1_0xm2m")]
 script = ExtResource("2_h2yge")
-camera_position = NodePath("CameraPosition")
 duration = 2.56
-zoom_out = 0.715
+zoom_out = 2.51
 transition_type = 4
 
+[node name="CameraGuide" parent="Beat2" unique_id=1004338771 instance=ExtResource("4_lquwl")]
+position = Vector2(890, 525)
+zoom = 3.448
+
 [node name="CameraPosition" type="Marker2D" parent="Beat2" unique_id=103499334]
-position = Vector2(2040, 265)
+position = Vector2(830, 509)
 
 [node name="Button" type="Button" parent="Beat2" unique_id=1869341674]
 offset_left = 1980.0
