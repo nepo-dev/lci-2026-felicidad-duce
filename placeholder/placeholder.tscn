@@ -1,0 +1,24 @@
+[gd_scene format=3 uid="uid://chtluyvm5xdti"]
+
+[ext_resource type="Script" uid="uid://c6d46d1lrvkkg" path="res://placeholder/placeholder.gd" id="1_w7yks"]
+[ext_resource type="Texture2D" uid="uid://dem7dku0ossms" path="res://square.svg" id="2_ihjtf"]
+
+[node name="Placeholder" type="MarginContainer" unique_id=1863333449]
+offset_right = 400.0
+offset_bottom = 400.0
+script = ExtResource("1_w7yks")
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=612093916]
+layout_mode = 2
+texture = ExtResource("2_ihjtf")
+
+[node name="Label" type="Label" parent="." unique_id=955949999]
+layout_mode = 2
+size_flags_vertical = 1
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 70
+text = "Placeholder"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 1
+metadata/_edit_use_anchors_ = true
