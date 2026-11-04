@@ -5,7 +5,8 @@ extends Node2D
 @export var zoom: float = 1:
 	set(value):
 		zoom = value
-		queue_redraw()
+		if _should_draw():
+			queue_redraw()
 
 var game_resolution: Vector2
 
@@ -16,12 +17,14 @@ func _ready() -> void:
 		ProjectSettings.get_setting("display/window/size/viewport_height")
 	)
 
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(delta: float) -> void:
-	pass
+func _should_draw() -> bool:
+	if not is_inside_tree(): # safe-guard for 1st frame, where the node tree isn't initialized yet
+		return false
+	return get_tree().debug_collisions_hint or Engine.is_editor_hint()
 
 func _draw() -> void:
-	var inverse_zoom = 1/zoom
-	var zoomed_resolution = game_resolution*inverse_zoom
-	var box: Rect2 = Rect2(-zoomed_resolution/2, zoomed_resolution)
-	draw_rect(box, Color.CYAN, false, 20.0)
+	if _should_draw():
+		var inverse_zoom = 1/zoom
+		var zoomed_resolution = game_resolution*inverse_zoom
+		var box: Rect2 = Rect2(-zoomed_resolution/2, zoomed_resolution)
+		draw_rect(box, Color.CYAN, false, 20.0)
