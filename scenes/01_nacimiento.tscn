@@ -1,42 +1,125 @@
 [gd_scene format=3 uid="uid://xe5mxmvsuo5"]
 
+[ext_resource type="Script" uid="uid://dsq7ol5atjcor" path="res://scenes/sequence.gd" id="1_fincd"]
+[ext_resource type="Script" uid="uid://ch0m0yimte0qe" path="res://beat/beat.gd" id="1_rrc2i"]
 [ext_resource type="PackedScene" uid="uid://chtluyvm5xdti" path="res://placeholder/placeholder.tscn" id="1_xk5ox"]
+[ext_resource type="Texture2D" uid="uid://bipkiyap33iln" path="res://slide_button/button.svg" id="2_8ka13"]
+[ext_resource type="Script" uid="uid://vujrcsq3ycfk" path="res://camera_guide/camera_guide.gd" id="2_fincd"]
+[ext_resource type="Script" uid="uid://bpq2uossvr2or" path="res://slide_button/slide_button.gd" id="3_ykoj7"]
+[ext_resource type="Script" uid="uid://b5yui4s13ipdq" path="res://layer/layer.gd" id="5_xi2da"]
 
 [node name="01Nacimiento" type="Node2D" unique_id=904274263]
+script = ExtResource("1_fincd")
 
-[node name="Placeholder6" parent="." unique_id=1863333449 instance=ExtResource("1_xk5ox")]
+[node name="Beat" type="Node" parent="." unique_id=991866738]
+script = ExtResource("1_rrc2i")
+duration = 0.0
+zoom_out = 0.9
+transition_type = 4
+metadata/_custom_type_script = "uid://ch0m0yimte0qe"
+
+[node name="CameraGuide" type="Node2D" parent="Beat" unique_id=1571246197]
+position = Vector2(1012, 763)
+script = ExtResource("2_fincd")
+metadata/_custom_type_script = "uid://vujrcsq3ycfk"
+
+[node name="Timer" type="Timer" parent="Beat" unique_id=576780571]
+wait_time = 3.0
+one_shot = true
+autostart = true
+
+[node name="Beat2" type="Node" parent="." unique_id=648372492]
+script = ExtResource("1_rrc2i")
+zoom_out = 2.5
+transition_type = 4
+metadata/_custom_type_script = "uid://ch0m0yimte0qe"
+
+[node name="CameraGuide" type="Node2D" parent="Beat2" unique_id=1082020047]
+position = Vector2(1012, 763)
+script = ExtResource("2_fincd")
+zoom = 2.75
+metadata/_custom_type_script = "uid://vujrcsq3ycfk"
+
+[node name="Timer" type="Timer" parent="Beat2" unique_id=1796289303]
+wait_time = 3.0
+one_shot = true
+autostart = true
+
+[node name="Layer" type="Node2D" parent="." unique_id=937026131]
+script = ExtResource("5_xi2da")
+metadata/_custom_type_script = "uid://b5yui4s13ipdq"
+
+[node name="Placeholder6" parent="Layer" unique_id=1863333449 instance=ExtResource("1_xk5ox")]
 offset_left = 197.0
 offset_top = 391.0
 offset_right = 483.0
-offset_bottom = 1348.0
-text = "Faro"
+offset_bottom = 1551.0
+text = "Torre reloj"
 
-[node name="Placeholder7" parent="." unique_id=1772224025 instance=ExtResource("1_xk5ox")]
-offset_left = 669.0
-offset_top = 554.0
-offset_right = 1992.0
-offset_bottom = 919.0
+[node name="Placeholder7" parent="Layer" unique_id=1772224025 instance=ExtResource("1_xk5ox")]
+offset_left = 641.0
+offset_top = 491.0
+offset_right = 2017.0
+offset_bottom = 1176.0
 text = "Edificio"
 
-[node name="Placeholder8" parent="." unique_id=1105704511 instance=ExtResource("1_xk5ox")]
-offset_left = 800.0
-offset_top = 510.0
-offset_right = 1161.0
-offset_bottom = 754.0
+[node name="Beat3" type="Node" parent="." unique_id=309386250]
+script = ExtResource("1_rrc2i")
+zoom_out = 2.5
+transition_type = 4
+metadata/_custom_type_script = "uid://ch0m0yimte0qe"
+
+[node name="CameraGuide" type="Node2D" parent="Beat3" unique_id=2016729822]
+position = Vector2(1535, 763)
+script = ExtResource("2_fincd")
+zoom = 2.75
+metadata/_custom_type_script = "uid://vujrcsq3ycfk"
+
+[node name="Timer" type="Timer" parent="Beat3" unique_id=1623725104]
+wait_time = 3.0
+one_shot = true
+autostart = true
+
+[node name="Beat4" type="Node" parent="." unique_id=1362558568]
+script = ExtResource("1_rrc2i")
+zoom_out = 2.5
+transition_type = 4
+metadata/_custom_type_script = "uid://ch0m0yimte0qe"
+
+[node name="CameraGuide" type="Node2D" parent="Beat4" unique_id=526287108]
+position = Vector2(2082, 763)
+script = ExtResource("2_fincd")
+zoom = 2.75
+metadata/_custom_type_script = "uid://vujrcsq3ycfk"
+
+[node name="Timer" type="Timer" parent="Beat4" unique_id=1869405794]
+wait_time = 3.0
+one_shot = true
+autostart = true
+
+[node name="Layer2" type="Node2D" parent="." unique_id=357948264]
+script = ExtResource("5_xi2da")
+visible_at_start = false
+
+[node name="Placeholder8" parent="Layer2" unique_id=1105704511 instance=ExtResource("1_xk5ox")]
+offset_left = 639.0
+offset_top = 492.0
+offset_right = 1377.0
+offset_bottom = 1060.0
 text = "Estudiando"
 
-[node name="Placeholder9" parent="." unique_id=545319123 instance=ExtResource("1_xk5ox")]
-offset_left = 1070.0
-offset_top = 504.0
-offset_right = 1431.0
-offset_bottom = 748.0
+[node name="Placeholder9" parent="Layer2" unique_id=545319123 instance=ExtResource("1_xk5ox")]
+offset_left = 1158.0
+offset_top = 481.0
+offset_right = 1890.0
+offset_bottom = 1026.0
 text = "Monja"
 
-[node name="Placeholder10" parent="." unique_id=1841718326 instance=ExtResource("1_xk5ox")]
-offset_left = 1318.0
-offset_top = 502.0
-offset_right = 1679.0
-offset_bottom = 746.0
+[node name="Placeholder10" parent="Layer2" unique_id=1841718326 instance=ExtResource("1_xk5ox")]
+offset_left = 1710.0
+offset_top = 472.0
+offset_right = 2461.0
+offset_bottom = 1046.0
 text = "Asdf"
 
 [node name="CenterContainer" type="CenterContainer" parent="." unique_id=1219331408]
@@ -57,3 +140,15 @@ grow_vertical = 2
 layout_mode = 2
 text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sodales semper gravida. Suspendisse potenti. Vivamus interdum condimentum facilisis. Maecenas ut elit ligula. Sed egestas eros sed mollis finibus. Donec sit amet dolor dictum arcu sodales ultrices id varius justo. Praesent ut pellentesque tellus. Maecenas dapibus justo consequat efficitur malesuada. Donec nec orci vel mauris efficitur bibendum. Sed sodales lorem ac nulla vestibulum hendrerit. "
 autowrap_mode = 2
+
+[node name="SlideButton" type="Sprite2D" parent="." unique_id=972562573]
+texture = ExtResource("2_8ka13")
+script = ExtResource("3_ykoj7")
+metadata/_custom_type_script = "uid://bpq2uossvr2or"
+
+[connection signal="finished" from="Beat" to="Layer2" method="show_layer"]
+[connection signal="finished" from="Beat" to="Layer" method="hide_layer"]
+[connection signal="timeout" from="Beat/Timer" to="Beat" method="stop"]
+[connection signal="timeout" from="Beat2/Timer" to="Beat2" method="stop"]
+[connection signal="timeout" from="Beat3/Timer" to="Beat3" method="stop"]
+[connection signal="timeout" from="Beat4/Timer" to="Beat4" method="stop"]
