@@ -1,0 +1,8 @@
+[gd_scene format=3 uid="uid://c0gpev6kh5bcx"]
+
+[ext_resource type="Texture2D" uid="uid://bipkiyap33iln" path="res://slide_button/button.svg" id="1_km2do"]
+[ext_resource type="Script" uid="uid://bpq2uossvr2or" path="res://slide_button/slide_button.gd" id="2_q03u6"]
+
+[node name="SlideButton" type="Sprite2D" unique_id=1707101629]
+texture = ExtResource("1_km2do")
+script = ExtResource("2_q03u6")
