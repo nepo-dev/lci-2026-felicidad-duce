@@ -19,8 +19,9 @@ var zoom_out: float = 0.5
 var transition_type: Tween.TransitionType = Tween.TRANS_LINEAR
 
 func _ready() -> void:
-	if camera_guide == null:
-		if not Engine.is_editor_hint():
+	if not Engine.is_editor_hint():
+		process_mode = Node.PROCESS_MODE_DISABLED
+		if camera_guide == null:
 			camera_guide = _get_camera_guide_or_null()
 
 func _get_camera_guide_or_null():
@@ -43,11 +44,18 @@ func center_camera() -> void:
 	tween2.tween_property(cam, "zoom", Vector2.ONE * zoom_out, duration/2)
 	tween2.tween_property(cam, "zoom", Vector2.ONE * camera_guide.zoom, duration/2)
 
+## Call this method when the scene starts. It will center the camera and enable
+## its components
 func start() -> void:
+	process_mode = PROCESS_MODE_INHERIT
 	center_camera()
 
+## Call this method when the scene finishes. It will move on to the next scene
+## and disable its components
 func stop() -> void:
-	pass
+	print("%s stopped" % name)
+	finished.emit()
+	process_mode = PROCESS_MODE_DISABLED
 
 func _get_configuration_warnings() -> PackedStringArray:
 	var warnings := PackedStringArray()
