@@ -1,0 +1,21 @@
+[gd_scene format=3 uid="uid://gfrxcsbjyhwf"]
+
+[ext_resource type="Script" uid="uid://cdp61qb85lnhh" path="res://components/text_box/text_box.gd" id="1_obhgb"]
+
+[node name="TextBox" type="MarginContainer" unique_id=1603631282]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = 529.0
+offset_bottom = 205.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+script = ExtResource("1_obhgb")
+
+[node name="Label" type="Label" parent="." unique_id=291552607]
+custom_minimum_size = Vector2(50, 0)
+layout_mode = 2
+text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sodales semper gravida. Suspendisse potenti. Vivamus interdum condimentum facilisis. Maecenas ut elit ligula. Sed egestas eros sed mollis finibus. Donec sit amet dolor dictum arcu sodales ultrices id varius justo. Praesent ut pellentesque tellus. Maecenas dapibus justo consequat efficitur malesuada. Donec nec orci vel mauris efficitur bibendum. Sed sodales lorem ac nulla vestibulum hendrerit. "
+autowrap_mode = 2

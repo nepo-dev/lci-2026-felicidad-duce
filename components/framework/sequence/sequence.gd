@@ -1,4 +1,6 @@
-extends Node2D
+@tool
+class_name Sequence
+extends FrameworkNode
 
 signal finished
 
@@ -7,6 +9,8 @@ var current_beat: int = 0
 var beat_list: Array = []
 
 func _ready() -> void:
+	if Engine.is_editor_hint():
+		return
 	for child in get_children():
 		if child is Beat:
 			beat_list.append(child)
@@ -20,3 +24,9 @@ func advance_to_next_beat() -> void:
 		beat_list[current_beat].start()
 	else:
 		finished.emit()
+
+func _get_configuration_warnings() -> PackedStringArray:
+	for child in get_children():
+		if child is Beat:
+			return []
+	return ["A sequence should have at least 1 child Beat or it will do nothing."]

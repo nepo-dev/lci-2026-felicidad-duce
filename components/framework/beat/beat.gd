@@ -1,6 +1,6 @@
 @tool
 class_name Beat
-extends Node
+extends FrameworkNode
 
 signal finished
 
@@ -34,6 +34,9 @@ func _get_camera_guide_or_null():
 
 func center_camera() -> void:
 	var cam := get_viewport().get_camera_2d()
+	if cam == null:
+		push_error("Tried to center camera when on camera is visible. Are you trying to center the camera on the first frame?")
+		return
 	var tween := create_tween()
 	tween.set_trans(transition_type)
 	tween.tween_property(cam, "global_position", camera_guide.global_position, duration)

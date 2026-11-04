@@ -1,5 +1,5 @@
 class_name Layer
-extends Node2D
+extends FrameworkNode
 
 @export var visible_at_start: bool = true
 @export var transition_time: float = 1

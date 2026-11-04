@@ -6,7 +6,7 @@ signal grabbed
 signal dropped
 signal slide_finished
 
-const DEFAULT_SPRITE_PATH = "res://slide_button/button.svg"
+const DEFAULT_SPRITE_PATH = "res://components/slide_button/button.svg"
 
 @export_range(0, 1000, 10)
 var radius: float = 300:

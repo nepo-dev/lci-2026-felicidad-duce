@@ -16,7 +16,7 @@ var _max_font_size: int = 200
 ## Step size used when searching for a fitting font size
 var _step_size: int = 1
 
-## 
+##
 var _margin: float = 80 #px
 
 ## If true, re-fit the text whenever the container is resized in the editor.

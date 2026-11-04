@@ -1,0 +1,2 @@
+class_name FrameworkNode
+extends Node2D

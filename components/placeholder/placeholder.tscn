@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://chtluyvm5xdti"]
 
-[ext_resource type="Script" uid="uid://c6d46d1lrvkkg" path="res://placeholder/placeholder.gd" id="1_w7yks"]
-[ext_resource type="Texture2D" uid="uid://dem7dku0ossms" path="res://square.svg" id="2_ihjtf"]
+[ext_resource type="Script" uid="uid://c6d46d1lrvkkg" path="res://components/placeholder/placeholder.gd" id="1_w7yks"]
+[ext_resource type="Texture2D" uid="uid://dem7dku0ossms" path="res://components/placeholder/square.svg" id="2_ihjtf"]
 
 [node name="Placeholder" type="MarginContainer" unique_id=1863333449]
 offset_right = 400.0
@@ -16,7 +16,7 @@ texture = ExtResource("2_ihjtf")
 layout_mode = 2
 size_flags_vertical = 1
 theme_override_colors/font_color = Color(0, 0, 0, 1)
-theme_override_font_sizes/font_size = 70
+theme_override_font_sizes/font_size = 56
 text = "Placeholder"
 horizontal_alignment = 1
 vertical_alignment = 1

@@ -1,6 +1,6 @@
 @tool
 class_name CameraGuide
-extends Node2D
+extends FrameworkNode
 
 @export var zoom: float = 1:
 	set(value):
