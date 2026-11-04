@@ -1,3 +1,4 @@
+@icon("uid://dttkcsq1lvic6")
 @tool
 class_name Sequence
 extends FrameworkNode

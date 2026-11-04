@@ -1,4 +1,5 @@
 @tool
+@icon("uid://klya8kn8s0nm")
 class_name CameraGuide
 extends FrameworkNode
 

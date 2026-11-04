@@ -1,3 +1,4 @@
+@icon("uid://bhu4jhuo2sf8")
 class_name Layer
 extends FrameworkNode
 

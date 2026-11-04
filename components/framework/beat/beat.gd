@@ -1,4 +1,5 @@
 @tool
+@icon("uid://ddayvrd2ueuwn")
 class_name Beat
 extends FrameworkNode
 
