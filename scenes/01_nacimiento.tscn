@@ -1,17 +1,18 @@
 [gd_scene format=3 uid="uid://xe5mxmvsuo5"]
 
-[ext_resource type="Script" uid="uid://dsq7ol5atjcor" path="res://scenes/sequence.gd" id="1_fincd"]
-[ext_resource type="Script" uid="uid://ch0m0yimte0qe" path="res://beat/beat.gd" id="1_rrc2i"]
-[ext_resource type="PackedScene" uid="uid://chtluyvm5xdti" path="res://placeholder/placeholder.tscn" id="1_xk5ox"]
-[ext_resource type="Texture2D" uid="uid://bipkiyap33iln" path="res://slide_button/button.svg" id="2_8ka13"]
-[ext_resource type="Script" uid="uid://vujrcsq3ycfk" path="res://camera_guide/camera_guide.gd" id="2_fincd"]
-[ext_resource type="Script" uid="uid://bpq2uossvr2or" path="res://slide_button/slide_button.gd" id="3_ykoj7"]
-[ext_resource type="Script" uid="uid://b5yui4s13ipdq" path="res://layer/layer.gd" id="5_xi2da"]
+[ext_resource type="Script" uid="uid://dsq7ol5atjcor" path="res://components/framework/sequence/sequence.gd" id="1_fincd"]
+[ext_resource type="Script" uid="uid://ch0m0yimte0qe" path="res://components/framework/beat/beat.gd" id="1_rrc2i"]
+[ext_resource type="PackedScene" uid="uid://chtluyvm5xdti" path="res://components/placeholder/placeholder.tscn" id="1_xk5ox"]
+[ext_resource type="Texture2D" uid="uid://bipkiyap33iln" path="res://components/slide_button/button.svg" id="2_8ka13"]
+[ext_resource type="Script" uid="uid://vujrcsq3ycfk" path="res://components/framework/camera_guide/camera_guide.gd" id="2_fincd"]
+[ext_resource type="Script" uid="uid://bpq2uossvr2or" path="res://components/slide_button/slide_button.gd" id="3_ykoj7"]
+[ext_resource type="Script" uid="uid://b5yui4s13ipdq" path="res://components/framework/layer/layer.gd" id="5_xi2da"]
+[ext_resource type="PackedScene" uid="uid://gfrxcsbjyhwf" path="res://components/text_box/text_box.tscn" id="6_kpylw"]
 
 [node name="01Nacimiento" type="Node2D" unique_id=904274263]
 script = ExtResource("1_fincd")
 
-[node name="Beat" type="Node" parent="." unique_id=991866738]
+[node name="Beat" type="Node2D" parent="." unique_id=842857990]
 script = ExtResource("1_rrc2i")
 duration = 0.0
 zoom_out = 0.9
@@ -28,10 +29,10 @@ wait_time = 3.0
 one_shot = true
 autostart = true
 
-[node name="Beat2" type="Node" parent="." unique_id=648372492]
+[node name="Beat2" type="Node2D" parent="." unique_id=760073237]
 script = ExtResource("1_rrc2i")
 zoom_out = 2.5
-transition_type = 4
+transition_type = 1
 metadata/_custom_type_script = "uid://ch0m0yimte0qe"
 
 [node name="CameraGuide" type="Node2D" parent="Beat2" unique_id=1082020047]
@@ -45,9 +46,9 @@ wait_time = 3.0
 one_shot = true
 autostart = true
 
-[node name="Layer" type="Node2D" parent="." unique_id=937026131]
+[node name="Layer" type="Node2D" parent="." unique_id=1126989015]
 script = ExtResource("5_xi2da")
-metadata/_custom_type_script = "uid://b5yui4s13ipdq"
+metadata/_custom_type_script = "uid://ch0m0yimte0qe"
 
 [node name="Placeholder6" parent="Layer" unique_id=1863333449 instance=ExtResource("1_xk5ox")]
 offset_left = 197.0
@@ -63,7 +64,13 @@ offset_right = 2017.0
 offset_bottom = 1176.0
 text = "Edificio"
 
-[node name="Beat3" type="Node" parent="." unique_id=309386250]
+[node name="TextBox" parent="Layer" unique_id=1603631282 instance=ExtResource("6_kpylw")]
+offset_left = 1308.0
+offset_top = 133.0
+offset_right = 1837.0
+offset_bottom = 338.0
+
+[node name="Beat3" type="Node2D" parent="." unique_id=2134046381]
 script = ExtResource("1_rrc2i")
 zoom_out = 2.5
 transition_type = 4
@@ -80,7 +87,7 @@ wait_time = 3.0
 one_shot = true
 autostart = true
 
-[node name="Beat4" type="Node" parent="." unique_id=1362558568]
+[node name="Beat4" type="Node2D" parent="." unique_id=1212160135]
 script = ExtResource("1_rrc2i")
 zoom_out = 2.5
 transition_type = 4
@@ -122,32 +129,19 @@ offset_right = 2461.0
 offset_bottom = 1046.0
 text = "Asdf"
 
-[node name="CenterContainer" type="CenterContainer" parent="." unique_id=1219331408]
-custom_maximum_size = Vector2(700, 300)
-anchors_preset = 8
-anchor_left = 0.5
-anchor_top = 0.5
-anchor_right = 0.5
-anchor_bottom = 0.5
-offset_left = 100.0
-offset_top = 87.0
-offset_right = 800.0
-offset_bottom = 240.0
-grow_horizontal = 2
-grow_vertical = 2
+[node name="Layer3" type="Node2D" parent="." unique_id=677360831]
+script = ExtResource("5_xi2da")
+visible_at_start = false
+metadata/_custom_type_script = "uid://b5yui4s13ipdq"
 
-[node name="Label" type="Label" parent="CenterContainer" unique_id=860637337]
-layout_mode = 2
-text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sodales semper gravida. Suspendisse potenti. Vivamus interdum condimentum facilisis. Maecenas ut elit ligula. Sed egestas eros sed mollis finibus. Donec sit amet dolor dictum arcu sodales ultrices id varius justo. Praesent ut pellentesque tellus. Maecenas dapibus justo consequat efficitur malesuada. Donec nec orci vel mauris efficitur bibendum. Sed sodales lorem ac nulla vestibulum hendrerit. "
-autowrap_mode = 2
-
-[node name="SlideButton" type="Sprite2D" parent="." unique_id=972562573]
+[node name="SlideButton" type="Sprite2D" parent="Layer3" unique_id=972562573]
+position = Vector2(2309, 908)
 texture = ExtResource("2_8ka13")
 script = ExtResource("3_ykoj7")
 metadata/_custom_type_script = "uid://bpq2uossvr2or"
 
-[connection signal="finished" from="Beat" to="Layer2" method="show_layer"]
 [connection signal="finished" from="Beat" to="Layer" method="hide_layer"]
+[connection signal="finished" from="Beat" to="Layer2" method="show_layer"]
 [connection signal="timeout" from="Beat/Timer" to="Beat" method="stop"]
 [connection signal="timeout" from="Beat2/Timer" to="Beat2" method="stop"]
 [connection signal="timeout" from="Beat3/Timer" to="Beat3" method="stop"]
