@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://d00bhmapnbkeq"
-path="res://.godot/imported/bafarada.png-dcc15a781377a02c0421ee199e578113.ctex"
+uid="uid://6qtkv7mawpnt"
+path="res://.godot/imported/dibujos1.png-ebfe6b85d2f9173b567df93657a1e196.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://components/placeholder/02_torreReloj/bafarada.png"
-dest_files=["res://.godot/imported/bafarada.png-dcc15a781377a02c0421ee199e578113.ctex"]
+source_file="res://scenes/part1/03_FundacionEscuela/03_fundacionEscuela/dibujos1.png"
+dest_files=["res://.godot/imported/dibujos1.png-ebfe6b85d2f9173b567df93657a1e196.ctex"]
 
 [params]
 

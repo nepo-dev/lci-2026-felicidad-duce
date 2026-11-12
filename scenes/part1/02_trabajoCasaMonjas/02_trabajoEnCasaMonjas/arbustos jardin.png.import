@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://blpkedjflxvle"
-path="res://.godot/imported/arbustos jardin.png-92f53603cbe6ad90c41dfcdf8aff4f62.ctex"
+path="res://.godot/imported/arbustos jardin.png-d2c9e64854e9140d35fdf0331659d14c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://components/placeholder/01_trabajoEnCasaMonjas/arbustos jardin.png"
-dest_files=["res://.godot/imported/arbustos jardin.png-92f53603cbe6ad90c41dfcdf8aff4f62.ctex"]
+source_file="res://scenes/part1/02_trabajoCasaMonjas/02_trabajoEnCasaMonjas/arbustos jardin.png"
+dest_files=["res://.godot/imported/arbustos jardin.png-d2c9e64854e9140d35fdf0331659d14c.ctex"]
 
 [params]
 

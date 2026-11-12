@@ -19,15 +19,15 @@ zoom_out = 0.9
 transition_type = 4
 metadata/_custom_type_script = "uid://ch0m0yimte0qe"
 
-[node name="CameraGuide" type="Node2D" parent="Beat" unique_id=1571246197]
-position = Vector2(1012, 763)
-script = ExtResource("2_fincd")
-metadata/_custom_type_script = "uid://vujrcsq3ycfk"
-
 [node name="Timer" type="Timer" parent="Beat" unique_id=576780571]
 wait_time = 3.0
 one_shot = true
 autostart = true
+
+[node name="CameraGuide" type="Node2D" parent="Beat" unique_id=1224848973]
+position = Vector2(1023, 769)
+script = ExtResource("2_fincd")
+metadata/_custom_type_script = "uid://vujrcsq3ycfk"
 
 [node name="Beat2" type="Node2D" parent="." unique_id=760073237]
 script = ExtResource("1_rrc2i")

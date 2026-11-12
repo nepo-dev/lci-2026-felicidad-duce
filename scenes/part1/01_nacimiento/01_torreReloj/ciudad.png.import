@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dl5hdguo4k6ux"
-path="res://.godot/imported/mapa barrio.png-5261f6b26ee09c8db0c54442774bb031.ctex"
+uid="uid://b52s1xckc2ujv"
+path="res://.godot/imported/ciudad.png-6f5b7235823bcf9c39c735d24be2d162.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://components/placeholder/03_fundacionEscuela/mapa barrio.png"
-dest_files=["res://.godot/imported/mapa barrio.png-5261f6b26ee09c8db0c54442774bb031.ctex"]
+source_file="res://scenes/part1/01_nacimiento/01_torreReloj/ciudad.png"
+dest_files=["res://.godot/imported/ciudad.png-6f5b7235823bcf9c39c735d24be2d162.ctex"]
 
 [params]
 

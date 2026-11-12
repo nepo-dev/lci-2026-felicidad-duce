@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b0ylcaldxws7f"
-path="res://.godot/imported/numeros escuelas.png-93a1a79a306b89f9e1fe516d5c2016e3.ctex"
+uid="uid://dnt4npi3cffm6"
+path="res://.godot/imported/Faith Camps.png-6e213df32da884d790e6cd4690b2a9b2.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://components/placeholder/03_fundacionEscuela/numeros escuelas.png"
-dest_files=["res://.godot/imported/numeros escuelas.png-93a1a79a306b89f9e1fe516d5c2016e3.ctex"]
+source_file="res://scenes/part1/03_FundacionEscuela/03_fundacionEscuela/Faith Camps.png"
+dest_files=["res://.godot/imported/Faith Camps.png-6e213df32da884d790e6cd4690b2a9b2.ctex"]
 
 [params]
 

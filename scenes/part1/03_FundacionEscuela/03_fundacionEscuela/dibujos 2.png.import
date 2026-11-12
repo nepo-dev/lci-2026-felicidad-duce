@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://r6hrvyd2q1k2"
-path="res://.godot/imported/estudiantes pasillo.png-adb75383b1b5c00c28169c7ed6e2616b.ctex"
+uid="uid://bbrfkt6ucyxhk"
+path="res://.godot/imported/dibujos 2.png-b0314434bab0d6c5d9741594579fb4d3.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://components/placeholder/01_trabajoEnCasaMonjas/estudiantes pasillo.png"
-dest_files=["res://.godot/imported/estudiantes pasillo.png-adb75383b1b5c00c28169c7ed6e2616b.ctex"]
+source_file="res://scenes/part1/03_FundacionEscuela/03_fundacionEscuela/dibujos 2.png"
+dest_files=["res://.godot/imported/dibujos 2.png-b0314434bab0d6c5d9741594579fb4d3.ctex"]
 
 [params]
 

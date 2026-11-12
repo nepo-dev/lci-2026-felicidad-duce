@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://y8bbkboglhoo"
-path="res://.godot/imported/estudiantes taller.png-b63c532ccc0a70f7d5bff778ceb9bda0.ctex"
+uid="uid://dl5hdguo4k6ux"
+path="res://.godot/imported/mapa barrio.png-d56e291e1421d28936fc6a89b8c22ebb.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://components/placeholder/03_fundacionEscuela/estudiantes taller.png"
-dest_files=["res://.godot/imported/estudiantes taller.png-b63c532ccc0a70f7d5bff778ceb9bda0.ctex"]
+source_file="res://scenes/part1/03_FundacionEscuela/03_fundacionEscuela/mapa barrio.png"
+dest_files=["res://.godot/imported/mapa barrio.png-d56e291e1421d28936fc6a89b8c22ebb.ctex"]
 
 [params]
 

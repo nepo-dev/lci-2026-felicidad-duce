@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dxmqrlxispifv"
-path="res://.godot/imported/llegando escuela.png-4a72dce6afa94d90e5ae39436d83ff56.ctex"
+uid="uid://bjycketxpitd"
+path="res://.godot/imported/estudiantyes clase.png-e23d71ee76a5aae1eed13cd029cd5ea1.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://components/placeholder/03_fundacionEscuela/llegando escuela.png"
-dest_files=["res://.godot/imported/llegando escuela.png-4a72dce6afa94d90e5ae39436d83ff56.ctex"]
+source_file="res://scenes/part1/02_trabajoCasaMonjas/02_trabajoEnCasaMonjas/estudiantyes clase.png"
+dest_files=["res://.godot/imported/estudiantyes clase.png-e23d71ee76a5aae1eed13cd029cd5ea1.ctex"]
 
 [params]
 

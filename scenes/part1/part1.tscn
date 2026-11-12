@@ -1,0 +1,382 @@
+[gd_scene format=3 uid="uid://med1uxn6fwdw"]
+
+[ext_resource type="Script" uid="uid://dsq7ol5atjcor" path="res://components/framework/sequence/sequence.gd" id="1_3euq0"]
+[ext_resource type="Texture2D" uid="uid://b52s1xckc2ujv" path="res://scenes/part1/01_nacimiento/01_torreReloj/ciudad.png" id="2_unelu"]
+[ext_resource type="Texture2D" uid="uid://c1e1fofqi2apy" path="res://scenes/part1/01_nacimiento/01_torreReloj/torre gracia.png" id="3_jcuij"]
+[ext_resource type="Texture2D" uid="uid://by4vppbugr8yn" path="res://scenes/part1/01_nacimiento/01_torreReloj/arboles.png" id="4_tkt5m"]
+[ext_resource type="Script" uid="uid://b5yui4s13ipdq" path="res://components/framework/layer/layer.gd" id="5_rx8lk"]
+[ext_resource type="Texture2D" uid="uid://d00bhmapnbkeq" path="res://scenes/part1/01_nacimiento/01_torreReloj/bafarada.png" id="6_da5y1"]
+[ext_resource type="Texture2D" uid="uid://d1m72q0o5oo7m" path="res://scenes/part1/01_nacimiento/01_torreReloj/retratos.png" id="7_4r21d"]
+[ext_resource type="Script" uid="uid://ch0m0yimte0qe" path="res://components/framework/beat/beat.gd" id="8_r4ud0"]
+[ext_resource type="Script" uid="uid://vujrcsq3ycfk" path="res://components/framework/camera_guide/camera_guide.gd" id="9_rrv0d"]
+[ext_resource type="PackedScene" uid="uid://gfrxcsbjyhwf" path="res://components/text_box/text_box.tscn" id="10_mk7yd"]
+[ext_resource type="Texture2D" uid="uid://0k4t3ook364v" path="res://scenes/part1/02_trabajoCasaMonjas/02_trabajoEnCasaMonjas/pared.png" id="11_4r21d"]
+[ext_resource type="Texture2D" uid="uid://fit2ahv17sob" path="res://scenes/part1/02_trabajoCasaMonjas/02_trabajoEnCasaMonjas/jardin.png" id="12_r4ud0"]
+[ext_resource type="Texture2D" uid="uid://bxfsnw7uu6eh7" path="res://scenes/part1/02_trabajoCasaMonjas/02_trabajoEnCasaMonjas/clase pintura.png" id="13_rrv0d"]
+[ext_resource type="Texture2D" uid="uid://bjycketxpitd" path="res://scenes/part1/02_trabajoCasaMonjas/02_trabajoEnCasaMonjas/estudiantyes clase.png" id="14_mk7yd"]
+[ext_resource type="Texture2D" uid="uid://r6hrvyd2q1k2" path="res://scenes/part1/02_trabajoCasaMonjas/02_trabajoEnCasaMonjas/estudiantes pasillo.png" id="15_bskdb"]
+[ext_resource type="Texture2D" uid="uid://blpkedjflxvle" path="res://scenes/part1/02_trabajoCasaMonjas/02_trabajoEnCasaMonjas/arbustos jardin.png" id="16_lwfhi"]
+[ext_resource type="Texture2D" uid="uid://dnt4npi3cffm6" path="res://scenes/part1/03_FundacionEscuela/03_fundacionEscuela/Faith Camps.png" id="17_arecf"]
+[ext_resource type="Texture2D" uid="uid://csjdsdjd1etym" path="res://scenes/part1/03_FundacionEscuela/03_fundacionEscuela/pared2.png" id="18_f761e"]
+[ext_resource type="Texture2D" uid="uid://dyqyudt31dab8" path="res://scenes/part1/03_FundacionEscuela/03_fundacionEscuela/empaquetando.png" id="19_lq0lg"]
+[ext_resource type="Texture2D" uid="uid://6qtkv7mawpnt" path="res://scenes/part1/03_FundacionEscuela/03_fundacionEscuela/dibujos1.png" id="20_jm8xe"]
+[ext_resource type="Texture2D" uid="uid://bbrfkt6ucyxhk" path="res://scenes/part1/03_FundacionEscuela/03_fundacionEscuela/dibujos 2.png" id="21_x75mo"]
+[ext_resource type="Texture2D" uid="uid://bsei432ps3ims" path="res://scenes/part1/03_FundacionEscuela/03_fundacionEscuela/escola farigola.png" id="22_l7amr"]
+[ext_resource type="Texture2D" uid="uid://dxmqrlxispifv" path="res://scenes/part1/03_FundacionEscuela/03_fundacionEscuela/llegando escuela.png" id="23_wsraw"]
+[ext_resource type="Texture2D" uid="uid://bs7hbfi6vrbdg" path="res://scenes/part1/03_FundacionEscuela/03_fundacionEscuela/arbustos farigola.png" id="24_wlwgk"]
+[ext_resource type="Texture2D" uid="uid://y8bbkboglhoo" path="res://scenes/part1/03_FundacionEscuela/03_fundacionEscuela/estudiantes taller.png" id="25_2j1b0"]
+[ext_resource type="Texture2D" uid="uid://b0ylcaldxws7f" path="res://scenes/part1/03_FundacionEscuela/03_fundacionEscuela/numeros escuelas.png" id="26_ghsao"]
+[ext_resource type="Texture2D" uid="uid://dl5hdguo4k6ux" path="res://scenes/part1/03_FundacionEscuela/03_fundacionEscuela/mapa barrio.png" id="27_jttf6"]
+
+[node name="Part1" type="Node2D" unique_id=1402624390]
+script = ExtResource("1_3euq0")
+metadata/_custom_type_script = "uid://dsq7ol5atjcor"
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=1206160363]
+position = Vector2(1024, 766)
+
+[node name="Ciudad" type="Sprite2D" parent="." unique_id=765174904]
+position = Vector2(882, 880)
+scale = Vector2(4, 4)
+texture = ExtResource("2_unelu")
+
+[node name="TorreGracia" type="Sprite2D" parent="." unique_id=894248738]
+position = Vector2(411, 691.00006)
+scale = Vector2(4, 4)
+texture = ExtResource("3_jcuij")
+
+[node name="Arboles" type="Sprite2D" parent="." unique_id=890975464]
+position = Vector2(776, 1197.0001)
+scale = Vector2(4, 4)
+texture = ExtResource("4_tkt5m")
+
+[node name="Layer 1" type="Node2D" parent="." unique_id=481993117]
+position = Vector2(1055, 636)
+script = ExtResource("5_rx8lk")
+metadata/_custom_type_script = "uid://b5yui4s13ipdq"
+
+[node name="TextBox" parent="Layer 1" unique_id=1603631282 instance=ExtResource("10_mk7yd")]
+offset_left = -96.0
+offset_top = -640.0
+offset_right = 822.0
+offset_bottom = -236.0
+text = "Mi nombre es Felicidad Duce Ripollés, llegué al mundo en el 7 marzo de 1907."
+metadata/_edit_use_anchors_ = true
+
+[node name="Bafarada" type="Sprite2D" parent="Layer 1" unique_id=1553642918]
+position = Vector2(266, 132)
+scale = Vector2(4, 4)
+texture = ExtResource("6_da5y1")
+
+[node name="Layer 2" type="Node2D" parent="." unique_id=1264145354]
+position = Vector2(1055, 636)
+script = ExtResource("5_rx8lk")
+visible_at_start = false
+metadata/_custom_type_script = "uid://b5yui4s13ipdq"
+
+[node name="Retratos" type="Sprite2D" parent="Layer 2" unique_id=1428597375]
+position = Vector2(274, -87)
+scale = Vector2(4, 4)
+texture = ExtResource("7_4r21d")
+
+[node name="Beat" type="Node2D" parent="." unique_id=1458654632 node_paths=PackedStringArray("camera_guide")]
+position = Vector2(-2, 44)
+script = ExtResource("8_r4ud0")
+camera_guide = NodePath("CameraGuide")
+duration = 5.0
+zoom_out = 1.0
+metadata/_custom_type_script = "uid://ch0m0yimte0qe"
+
+[node name="CameraGuide" type="Node2D" parent="Beat" unique_id=1126715186]
+position = Vector2(1037, 735)
+script = ExtResource("9_rrv0d")
+metadata/_custom_type_script = "uid://vujrcsq3ycfk"
+
+[node name="Timer" type="Timer" parent="Beat" unique_id=1871261106]
+wait_time = 5.0
+one_shot = true
+autostart = true
+
+[node name="Beat2" type="Node2D" parent="." unique_id=220442221 node_paths=PackedStringArray("camera_guide")]
+position = Vector2(0, 45)
+script = ExtResource("8_r4ud0")
+camera_guide = NodePath("CameraGuide")
+duration = 1.0
+zoom_out = 1.0
+metadata/_custom_type_script = "uid://ch0m0yimte0qe"
+
+[node name="CameraGuide" type="Node2D" parent="Beat2" unique_id=1546901994]
+position = Vector2(1037, 735)
+script = ExtResource("9_rrv0d")
+metadata/_custom_type_script = "uid://vujrcsq3ycfk"
+
+[node name="Timer" type="Timer" parent="Beat2" unique_id=1930025843]
+wait_time = 5.0
+one_shot = true
+autostart = true
+
+[node name="Beat3" type="Node2D" parent="." unique_id=1576427208 node_paths=PackedStringArray("camera_guide")]
+position = Vector2(3261, 0)
+script = ExtResource("8_r4ud0")
+camera_guide = NodePath("CameraGuide")
+zoom_out = 0.95
+transition_type = 4
+metadata/_custom_type_script = "uid://ch0m0yimte0qe"
+
+[node name="CameraGuide" type="Node2D" parent="Beat3" unique_id=562562235]
+position = Vector2(1095, 752)
+script = ExtResource("9_rrv0d")
+metadata/_custom_type_script = "uid://vujrcsq3ycfk"
+
+[node name="Timer" type="Timer" parent="Beat3" unique_id=1627254774]
+wait_time = 5.0
+one_shot = true
+autostart = true
+
+[node name="Beat4" type="Node2D" parent="." unique_id=1565303454 node_paths=PackedStringArray("camera_guide")]
+position = Vector2(6293, 0)
+script = ExtResource("8_r4ud0")
+camera_guide = NodePath("CameraGuide")
+zoom_out = 0.95
+transition_type = 4
+metadata/_custom_type_script = "uid://ch0m0yimte0qe"
+
+[node name="CameraGuide" type="Node2D" parent="Beat4" unique_id=188433583]
+position = Vector2(1095, 752)
+script = ExtResource("9_rrv0d")
+metadata/_custom_type_script = "uid://vujrcsq3ycfk"
+
+[node name="Timer" type="Timer" parent="Beat4" unique_id=1245447905]
+wait_time = 5.0
+one_shot = true
+autostart = true
+
+[node name="Beat5" type="Node2D" parent="." unique_id=1614294285 node_paths=PackedStringArray("camera_guide")]
+position = Vector2(8438, 0)
+script = ExtResource("8_r4ud0")
+camera_guide = NodePath("CameraGuide")
+zoom_out = 0.95
+transition_type = 4
+metadata/_custom_type_script = "uid://ch0m0yimte0qe"
+
+[node name="CameraGuide" type="Node2D" parent="Beat5" unique_id=854650164]
+position = Vector2(1095, 752)
+script = ExtResource("9_rrv0d")
+metadata/_custom_type_script = "uid://vujrcsq3ycfk"
+
+[node name="Timer" type="Timer" parent="Beat5" unique_id=1016113326]
+wait_time = 5.0
+one_shot = true
+autostart = true
+
+[node name="Beat6" type="Node2D" parent="." unique_id=1947654205 node_paths=PackedStringArray("camera_guide")]
+position = Vector2(10593, 0)
+script = ExtResource("8_r4ud0")
+camera_guide = NodePath("CameraGuide")
+zoom_out = 0.95
+transition_type = 4
+metadata/_custom_type_script = "uid://ch0m0yimte0qe"
+
+[node name="CameraGuide" type="Node2D" parent="Beat6" unique_id=731724070]
+position = Vector2(1095, 752)
+script = ExtResource("9_rrv0d")
+metadata/_custom_type_script = "uid://vujrcsq3ycfk"
+
+[node name="Timer" type="Timer" parent="Beat6" unique_id=1711596998]
+wait_time = 5.0
+one_shot = true
+autostart = true
+
+[node name="Beat7" type="Node2D" parent="." unique_id=1588251449 node_paths=PackedStringArray("camera_guide")]
+position = Vector2(12730, 0)
+script = ExtResource("8_r4ud0")
+camera_guide = NodePath("CameraGuide")
+zoom_out = 0.95
+transition_type = 4
+metadata/_custom_type_script = "uid://ch0m0yimte0qe"
+
+[node name="CameraGuide" type="Node2D" parent="Beat7" unique_id=477984233]
+position = Vector2(1095, 752)
+script = ExtResource("9_rrv0d")
+metadata/_custom_type_script = "uid://vujrcsq3ycfk"
+
+[node name="Timer" type="Timer" parent="Beat7" unique_id=1539945882]
+wait_time = 5.0
+one_shot = true
+autostart = true
+
+[node name="Beat8" type="Node2D" parent="." unique_id=14615374 node_paths=PackedStringArray("camera_guide")]
+position = Vector2(15233, 0)
+script = ExtResource("8_r4ud0")
+camera_guide = NodePath("CameraGuide")
+zoom_out = 0.95
+transition_type = 4
+metadata/_custom_type_script = "uid://ch0m0yimte0qe"
+
+[node name="CameraGuide" type="Node2D" parent="Beat8" unique_id=1525978415]
+position = Vector2(1095, 752)
+script = ExtResource("9_rrv0d")
+metadata/_custom_type_script = "uid://vujrcsq3ycfk"
+
+[node name="Timer" type="Timer" parent="Beat8" unique_id=924764702]
+wait_time = 5.0
+one_shot = true
+autostart = true
+
+[node name="Beat9" type="Node2D" parent="." unique_id=2044694621 node_paths=PackedStringArray("camera_guide")]
+position = Vector2(18322, 0)
+script = ExtResource("8_r4ud0")
+camera_guide = NodePath("CameraGuide")
+zoom_out = 0.95
+transition_type = 4
+metadata/_custom_type_script = "uid://ch0m0yimte0qe"
+
+[node name="CameraGuide" type="Node2D" parent="Beat9" unique_id=701368182]
+position = Vector2(1095, 752)
+script = ExtResource("9_rrv0d")
+metadata/_custom_type_script = "uid://vujrcsq3ycfk"
+
+[node name="Timer" type="Timer" parent="Beat9" unique_id=215939195]
+wait_time = 5.0
+one_shot = true
+autostart = true
+
+[node name="Beat10" type="Node2D" parent="." unique_id=1910831686 node_paths=PackedStringArray("camera_guide")]
+position = Vector2(20712, 0)
+script = ExtResource("8_r4ud0")
+camera_guide = NodePath("CameraGuide")
+zoom_out = 0.95
+transition_type = 4
+metadata/_custom_type_script = "uid://ch0m0yimte0qe"
+
+[node name="CameraGuide" type="Node2D" parent="Beat10" unique_id=1290261310]
+position = Vector2(1095, 752)
+script = ExtResource("9_rrv0d")
+metadata/_custom_type_script = "uid://vujrcsq3ycfk"
+
+[node name="Timer" type="Timer" parent="Beat10" unique_id=1436573078]
+wait_time = 5.0
+one_shot = true
+autostart = true
+
+[node name="Beat11" type="Node2D" parent="." unique_id=211966555 node_paths=PackedStringArray("camera_guide")]
+position = Vector2(23058, 2)
+script = ExtResource("8_r4ud0")
+camera_guide = NodePath("CameraGuide")
+zoom_out = 0.95
+transition_type = 4
+metadata/_custom_type_script = "uid://ch0m0yimte0qe"
+
+[node name="CameraGuide" type="Node2D" parent="Beat11" unique_id=1726020603]
+position = Vector2(1095, 752)
+script = ExtResource("9_rrv0d")
+metadata/_custom_type_script = "uid://vujrcsq3ycfk"
+
+[node name="Timer" type="Timer" parent="Beat11" unique_id=1444323687]
+wait_time = 5.0
+one_shot = true
+autostart = true
+
+[node name="Pared" type="Sprite2D" parent="." unique_id=186456705]
+position = Vector2(7735, 798)
+scale = Vector2(4, 4)
+texture = ExtResource("11_4r21d")
+
+[node name="Jardin" type="Sprite2D" parent="." unique_id=241324033]
+z_index = -1
+position = Vector2(8867, 816)
+scale = Vector2(4, 4)
+texture = ExtResource("12_r4ud0")
+
+[node name="ClasePintura" type="Sprite2D" parent="." unique_id=1582862466]
+z_index = -1
+position = Vector2(11609, 764)
+scale = Vector2(4, 4)
+texture = ExtResource("13_rrv0d")
+
+[node name="EstudiantyesClase" type="Sprite2D" parent="." unique_id=871510806]
+position = Vector2(9499, 1036)
+scale = Vector2(4, 4)
+texture = ExtResource("14_mk7yd")
+
+[node name="EstudiantesPasillo" type="Sprite2D" parent="." unique_id=549286356]
+position = Vector2(6947, 1169)
+scale = Vector2(4, 4)
+texture = ExtResource("15_bskdb")
+
+[node name="ArbustosJardin" type="Sprite2D" parent="." unique_id=437072574]
+position = Vector2(11167, 748)
+scale = Vector2(4, 4)
+texture = ExtResource("16_lwfhi")
+
+[node name="FaithCamps" type="Sprite2D" parent="." unique_id=439272078]
+position = Vector2(13785, 759)
+scale = Vector2(4, 4)
+texture = ExtResource("17_arecf")
+
+[node name="Pared2" type="Sprite2D" parent="." unique_id=1319951528]
+position = Vector2(13784, 822)
+scale = Vector2(4, 4)
+texture = ExtResource("18_f761e")
+
+[node name="Empaquetando" type="Sprite2D" parent="." unique_id=1174012897]
+position = Vector2(16412, 800)
+scale = Vector2(4, 4)
+texture = ExtResource("19_lq0lg")
+
+[node name="Dibujos1" type="Sprite2D" parent="." unique_id=1459488154]
+position = Vector2(15451, 728)
+scale = Vector2(4, 4)
+texture = ExtResource("20_jm8xe")
+
+[node name="Dibujos2" type="Sprite2D" parent="." unique_id=1483793696]
+position = Vector2(17927, 636)
+scale = Vector2(4, 4)
+texture = ExtResource("21_x75mo")
+
+[node name="EscolaFarigola" type="Sprite2D" parent="." unique_id=72335688]
+z_index = -1
+position = Vector2(19195, 767)
+scale = Vector2(4, 4)
+texture = ExtResource("22_l7amr")
+
+[node name="LlegandoEscuela" type="Sprite2D" parent="." unique_id=263109883]
+position = Vector2(18723, 1136)
+scale = Vector2(4, 4)
+texture = ExtResource("23_wsraw")
+
+[node name="ArbustosFarigola" type="Sprite2D" parent="." unique_id=2127601691]
+position = Vector2(21294, 946)
+scale = Vector2(4, 4)
+texture = ExtResource("24_wlwgk")
+
+[node name="EstudiantesTaller" type="Sprite2D" parent="." unique_id=868197726]
+z_index = -1
+position = Vector2(21844, 1072)
+scale = Vector2(4, 4)
+texture = ExtResource("25_2j1b0")
+
+[node name="NumerosEscuelas" type="Sprite2D" parent="." unique_id=1268090961]
+position = Vector2(23192, 642)
+scale = Vector2(4, 4)
+texture = ExtResource("26_ghsao")
+
+[node name="MapaBarrio" type="Sprite2D" parent="." unique_id=276089825]
+z_index = -1
+position = Vector2(24039, 722)
+scale = Vector2(4, 4)
+texture = ExtResource("27_jttf6")
+
+[connection signal="finished" from="Beat" to="Layer 1" method="hide_layer"]
+[connection signal="finished" from="Beat" to="Layer 2" method="show_layer"]
+[connection signal="timeout" from="Beat/Timer" to="Beat" method="stop"]
+[connection signal="timeout" from="Beat2/Timer" to="Beat2" method="stop"]
+[connection signal="timeout" from="Beat3/Timer" to="Beat3" method="stop"]
+[connection signal="timeout" from="Beat4/Timer" to="Beat4" method="stop"]
+[connection signal="timeout" from="Beat5/Timer" to="Beat5" method="stop"]
+[connection signal="timeout" from="Beat6/Timer" to="Beat6" method="stop"]
+[connection signal="timeout" from="Beat7/Timer" to="Beat7" method="stop"]
+[connection signal="timeout" from="Beat8/Timer" to="Beat8" method="stop"]
+[connection signal="timeout" from="Beat9/Timer" to="Beat9" method="stop"]
+[connection signal="timeout" from="Beat10/Timer" to="Beat10" method="stop"]
+[connection signal="timeout" from="Beat11/Timer" to="Beat11" method="stop"]

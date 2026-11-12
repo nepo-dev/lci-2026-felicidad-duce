@@ -1,0 +1,94 @@
+[gd_scene format=3 uid="uid://jl5to8wt4pod"]
+
+[ext_resource type="Texture2D" uid="uid://b52s1xckc2ujv" path="res://scenes/part1/01_nacimiento/01_torreReloj/ciudad.png" id="1_pnny0"]
+[ext_resource type="Texture2D" uid="uid://c1e1fofqi2apy" path="res://scenes/part1/01_nacimiento/01_torreReloj/torre gracia.png" id="2_y26g5"]
+[ext_resource type="Texture2D" uid="uid://by4vppbugr8yn" path="res://scenes/part1/01_nacimiento/01_torreReloj/arboles.png" id="3_u66vo"]
+[ext_resource type="Script" uid="uid://b5yui4s13ipdq" path="res://components/framework/layer/layer.gd" id="4_gmdh7"]
+[ext_resource type="Texture2D" uid="uid://d00bhmapnbkeq" path="res://scenes/part1/01_nacimiento/01_torreReloj/bafarada.png" id="5_gmdh7"]
+[ext_resource type="Texture2D" uid="uid://d1m72q0o5oo7m" path="res://scenes/part1/01_nacimiento/01_torreReloj/retratos.png" id="6_s4di7"]
+[ext_resource type="Script" uid="uid://ch0m0yimte0qe" path="res://components/framework/beat/beat.gd" id="7_e13vr"]
+[ext_resource type="Script" uid="uid://vujrcsq3ycfk" path="res://components/framework/camera_guide/camera_guide.gd" id="8_14bev"]
+[ext_resource type="PackedScene" uid="uid://gfrxcsbjyhwf" path="res://components/text_box/text_box.tscn" id="9_vhlst"]
+
+[node name="TorreReloj" type="Node2D" unique_id=168739651]
+
+[node name="Ciudad" type="Sprite2D" parent="." unique_id=2098452960]
+position = Vector2(864, 979)
+scale = Vector2(4, 4)
+texture = ExtResource("1_pnny0")
+
+[node name="TorreGracia" type="Sprite2D" parent="." unique_id=1488592472]
+position = Vector2(393, 790.00006)
+scale = Vector2(4, 4)
+texture = ExtResource("2_y26g5")
+
+[node name="Arboles" type="Sprite2D" parent="." unique_id=1128345891]
+position = Vector2(758, 1296.0001)
+scale = Vector2(4, 4)
+texture = ExtResource("3_u66vo")
+
+[node name="Layer 1" type="Node2D" parent="." unique_id=1741292506]
+position = Vector2(1037, 735)
+script = ExtResource("4_gmdh7")
+metadata/_custom_type_script = "uid://b5yui4s13ipdq"
+
+[node name="Bafarada" type="Sprite2D" parent="Layer 1" unique_id=2011198236]
+position = Vector2(266, 132)
+scale = Vector2(4, 4)
+texture = ExtResource("5_gmdh7")
+
+[node name="Layer 2" type="Node2D" parent="." unique_id=916461990]
+visible = false
+position = Vector2(1037, 735)
+script = ExtResource("4_gmdh7")
+visible_at_start = false
+metadata/_custom_type_script = "uid://b5yui4s13ipdq"
+
+[node name="Retratos" type="Sprite2D" parent="Layer 2" unique_id=1335814320]
+position = Vector2(274, -87)
+scale = Vector2(4, 4)
+texture = ExtResource("6_s4di7")
+
+[node name="Beat" type="Node2D" parent="." unique_id=380260341 node_paths=PackedStringArray("camera_guide")]
+position = Vector2(0, 85)
+script = ExtResource("7_e13vr")
+camera_guide = NodePath("CameraGuide")
+duration = 5.0
+metadata/_custom_type_script = "uid://ch0m0yimte0qe"
+
+[node name="CameraGuide" type="Node2D" parent="Beat" unique_id=6926210]
+position = Vector2(1037, 735)
+script = ExtResource("8_14bev")
+metadata/_custom_type_script = "uid://vujrcsq3ycfk"
+
+[node name="Timer" type="Timer" parent="Beat" unique_id=966059134]
+wait_time = 5.0
+one_shot = true
+autostart = true
+
+[node name="Beat2" type="Node2D" parent="." unique_id=2043324801 node_paths=PackedStringArray("camera_guide")]
+position = Vector2(0, 85)
+script = ExtResource("7_e13vr")
+camera_guide = NodePath("CameraGuide")
+duration = 5.0
+metadata/_custom_type_script = "uid://ch0m0yimte0qe"
+
+[node name="CameraGuide" type="Node2D" parent="Beat2" unique_id=804046030]
+position = Vector2(1037, 735)
+script = ExtResource("8_14bev")
+metadata/_custom_type_script = "uid://vujrcsq3ycfk"
+
+[node name="Timer" type="Timer" parent="Beat2" unique_id=153451589]
+wait_time = 5.0
+one_shot = true
+
+[node name="TextBox" parent="." unique_id=1603631282 instance=ExtResource("9_vhlst")]
+offset_left = 941.0
+offset_top = 95.0
+offset_right = 1859.0
+offset_bottom = 499.0
+text = "Mi nombre es Felicidad Duce Ripollés, llegué al mundo en el 7 marzo de 1907."
+
+[connection signal="finished" from="Beat" to="Layer 1" method="hide_layer"]
+[connection signal="finished" from="Beat" to="Layer 2" method="show_layer"]
+[connection signal="timeout" from="Beat/Timer" to="Beat" method="stop"]

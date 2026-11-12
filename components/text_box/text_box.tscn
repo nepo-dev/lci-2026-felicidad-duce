@@ -15,6 +15,7 @@ size_flags_vertical = 3
 script = ExtResource("1_obhgb")
 
 [node name="Label" type="Label" parent="." unique_id=291552607]
+modulate = Color(0, 0, 0, 1)
 custom_minimum_size = Vector2(50, 0)
 layout_mode = 2
 text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sodales semper gravida. Suspendisse potenti. Vivamus interdum condimentum facilisis. Maecenas ut elit ligula. Sed egestas eros sed mollis finibus. Donec sit amet dolor dictum arcu sodales ultrices id varius justo. Praesent ut pellentesque tellus. Maecenas dapibus justo consequat efficitur malesuada. Donec nec orci vel mauris efficitur bibendum. Sed sodales lorem ac nulla vestibulum hendrerit. "

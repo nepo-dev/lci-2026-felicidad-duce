@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bsei432ps3ims"
-path="res://.godot/imported/escola farigola.png-9346297f61d310fdc9591a676f641b2b.ctex"
+uid="uid://bs7hbfi6vrbdg"
+path="res://.godot/imported/arbustos farigola.png-8fe3ce4686223e93dee8bc1ba77a517a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://components/placeholder/03_fundacionEscuela/escola farigola.png"
-dest_files=["res://.godot/imported/escola farigola.png-9346297f61d310fdc9591a676f641b2b.ctex"]
+source_file="res://scenes/part1/03_FundacionEscuela/03_fundacionEscuela/arbustos farigola.png"
+dest_files=["res://.godot/imported/arbustos farigola.png-8fe3ce4686223e93dee8bc1ba77a517a.ctex"]
 
 [params]
 

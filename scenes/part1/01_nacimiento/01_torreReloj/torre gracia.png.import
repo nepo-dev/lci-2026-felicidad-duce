@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bxfsnw7uu6eh7"
-path="res://.godot/imported/clase pintura.png-ba8f57a517f14a1e4c29f00193ad2e69.ctex"
+uid="uid://c1e1fofqi2apy"
+path="res://.godot/imported/torre gracia.png-6bb0a5d0bee0a5e171406dcabe2b2cdd.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://components/placeholder/01_trabajoEnCasaMonjas/clase pintura.png"
-dest_files=["res://.godot/imported/clase pintura.png-ba8f57a517f14a1e4c29f00193ad2e69.ctex"]
+source_file="res://scenes/part1/01_nacimiento/01_torreReloj/torre gracia.png"
+dest_files=["res://.godot/imported/torre gracia.png-6bb0a5d0bee0a5e171406dcabe2b2cdd.ctex"]
 
 [params]
 

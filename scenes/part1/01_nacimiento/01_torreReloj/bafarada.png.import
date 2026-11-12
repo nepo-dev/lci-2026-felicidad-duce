@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bjycketxpitd"
-path="res://.godot/imported/estudiantyes clase.png-bdde48e1935deedcf2556ff6341035f5.ctex"
+uid="uid://d00bhmapnbkeq"
+path="res://.godot/imported/bafarada.png-6e04624f5924c0e2cbccbf3d16eb7fa7.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://components/placeholder/01_trabajoEnCasaMonjas/estudiantyes clase.png"
-dest_files=["res://.godot/imported/estudiantyes clase.png-bdde48e1935deedcf2556ff6341035f5.ctex"]
+source_file="res://scenes/part1/01_nacimiento/01_torreReloj/bafarada.png"
+dest_files=["res://.godot/imported/bafarada.png-6e04624f5924c0e2cbccbf3d16eb7fa7.ctex"]
 
 [params]
 

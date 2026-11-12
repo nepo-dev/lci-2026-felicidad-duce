@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b52s1xckc2ujv"
-path="res://.godot/imported/ciudad.png-142a45491f26e91d3ba2f645f0dd090d.ctex"
+uid="uid://0k4t3ook364v"
+path="res://.godot/imported/pared.png-d34c9384d730e12bf9e8afd1c9f7067a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://components/placeholder/02_torreReloj/ciudad.png"
-dest_files=["res://.godot/imported/ciudad.png-142a45491f26e91d3ba2f645f0dd090d.ctex"]
+source_file="res://scenes/part1/02_trabajoCasaMonjas/02_trabajoEnCasaMonjas/pared.png"
+dest_files=["res://.godot/imported/pared.png-d34c9384d730e12bf9e8afd1c9f7067a.ctex"]
 
 [params]
 

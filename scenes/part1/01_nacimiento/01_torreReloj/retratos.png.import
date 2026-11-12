@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c1e1fofqi2apy"
-path="res://.godot/imported/torre gracia.png-31a08b18920c66eb61045935681f9b84.ctex"
+uid="uid://d1m72q0o5oo7m"
+path="res://.godot/imported/retratos.png-ee4da93491dc56371d5bc9fc570da089.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://components/placeholder/02_torreReloj/torre gracia.png"
-dest_files=["res://.godot/imported/torre gracia.png-31a08b18920c66eb61045935681f9b84.ctex"]
+source_file="res://scenes/part1/01_nacimiento/01_torreReloj/retratos.png"
+dest_files=["res://.godot/imported/retratos.png-ee4da93491dc56371d5bc9fc570da089.ctex"]
 
 [params]
 
