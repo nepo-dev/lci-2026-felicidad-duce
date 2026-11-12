@@ -33,7 +33,7 @@ script = ExtResource("1_3euq0")
 metadata/_custom_type_script = "uid://dsq7ol5atjcor"
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=1206160363]
-position = Vector2(1024, 766)
+position = Vector2(1145, 629)
 
 [node name="Ciudad" type="Sprite2D" parent="." unique_id=765174904]
 position = Vector2(882, 880)
@@ -75,12 +75,12 @@ visible_at_start = false
 metadata/_custom_type_script = "uid://b5yui4s13ipdq"
 
 [node name="Retratos" type="Sprite2D" parent="Layer 2" unique_id=1428597375]
-position = Vector2(274, -87)
-scale = Vector2(4, 4)
+position = Vector2(251.99997, 240.99998)
+scale = Vector2(6.305556, 6.3055553)
 texture = ExtResource("7_4r21d")
 
 [node name="Beat" type="Node2D" parent="." unique_id=1458654632 node_paths=PackedStringArray("camera_guide")]
-position = Vector2(-2, 44)
+position = Vector2(105, -98)
 script = ExtResource("8_r4ud0")
 camera_guide = NodePath("CameraGuide")
 duration = 5.0
@@ -98,7 +98,7 @@ one_shot = true
 autostart = true
 
 [node name="Beat2" type="Node2D" parent="." unique_id=220442221 node_paths=PackedStringArray("camera_guide")]
-position = Vector2(0, 45)
+position = Vector2(107, -97)
 script = ExtResource("8_r4ud0")
 camera_guide = NodePath("CameraGuide")
 duration = 1.0
