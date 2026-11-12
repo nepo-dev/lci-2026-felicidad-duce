@@ -1,0 +1,73 @@
+[gd_scene format=3 uid="uid://cwgysb6i4fs73"]
+
+[ext_resource type="Texture2D" uid="uid://dnt4npi3cffm6" path="res://components/placeholder/03_fundacionEscuela/Faith Camps.png" id="1_gc3eh"]
+[ext_resource type="Texture2D" uid="uid://csjdsdjd1etym" path="res://components/placeholder/03_fundacionEscuela/pared2.png" id="2_l6sst"]
+[ext_resource type="Texture2D" uid="uid://dyqyudt31dab8" path="res://components/placeholder/03_fundacionEscuela/empaquetando.png" id="3_f8xsm"]
+[ext_resource type="Texture2D" uid="uid://6qtkv7mawpnt" path="res://components/placeholder/03_fundacionEscuela/dibujos1.png" id="4_dwsvu"]
+[ext_resource type="Texture2D" uid="uid://bbrfkt6ucyxhk" path="res://components/placeholder/03_fundacionEscuela/dibujos 2.png" id="5_558br"]
+[ext_resource type="Texture2D" uid="uid://bsei432ps3ims" path="res://components/placeholder/03_fundacionEscuela/escola farigola.png" id="6_a1vxk"]
+[ext_resource type="Texture2D" uid="uid://dxmqrlxispifv" path="res://components/placeholder/03_fundacionEscuela/llegando escuela.png" id="7_fr24e"]
+[ext_resource type="Texture2D" uid="uid://bs7hbfi6vrbdg" path="res://components/placeholder/03_fundacionEscuela/arbustos farigola.png" id="8_sjs8n"]
+[ext_resource type="Texture2D" uid="uid://y8bbkboglhoo" path="res://components/placeholder/03_fundacionEscuela/estudiantes taller.png" id="9_tkil7"]
+[ext_resource type="Texture2D" uid="uid://b0ylcaldxws7f" path="res://components/placeholder/03_fundacionEscuela/numeros escuelas.png" id="10_o6cr6"]
+[ext_resource type="Texture2D" uid="uid://dl5hdguo4k6ux" path="res://components/placeholder/03_fundacionEscuela/mapa barrio.png" id="11_rahhr"]
+
+[node name="04_fundacionEscuela" type="Node2D" unique_id=1385928965]
+
+[node name="FaithCamps" type="Sprite2D" parent="." unique_id=589276392]
+position = Vector2(992, 756)
+scale = Vector2(4, 4)
+texture = ExtResource("1_gc3eh")
+
+[node name="Pared2" type="Sprite2D" parent="." unique_id=130574135]
+position = Vector2(991, 819)
+scale = Vector2(4, 4)
+texture = ExtResource("2_l6sst")
+
+[node name="Empaquetando" type="Sprite2D" parent="." unique_id=2088649918]
+position = Vector2(3619, 797)
+scale = Vector2(4, 4)
+texture = ExtResource("3_f8xsm")
+
+[node name="Dibujos1" type="Sprite2D" parent="." unique_id=454430176]
+position = Vector2(2658, 725)
+scale = Vector2(4, 4)
+texture = ExtResource("4_dwsvu")
+
+[node name="Dibujos2" type="Sprite2D" parent="." unique_id=331887101]
+position = Vector2(5134, 633)
+scale = Vector2(4, 4)
+texture = ExtResource("5_558br")
+
+[node name="EscolaFarigola" type="Sprite2D" parent="." unique_id=1505824078]
+z_index = -1
+position = Vector2(6402, 764)
+scale = Vector2(4, 4)
+texture = ExtResource("6_a1vxk")
+
+[node name="LlegandoEscuela" type="Sprite2D" parent="." unique_id=125420694]
+position = Vector2(5930, 1133)
+scale = Vector2(4, 4)
+texture = ExtResource("7_fr24e")
+
+[node name="ArbustosFarigola" type="Sprite2D" parent="." unique_id=203219703]
+position = Vector2(8501, 943)
+scale = Vector2(4, 4)
+texture = ExtResource("8_sjs8n")
+
+[node name="EstudiantesTaller" type="Sprite2D" parent="." unique_id=1583574828]
+z_index = -1
+position = Vector2(9051, 1069)
+scale = Vector2(4, 4)
+texture = ExtResource("9_tkil7")
+
+[node name="NumerosEscuelas" type="Sprite2D" parent="." unique_id=1649762512]
+position = Vector2(10399, 639)
+scale = Vector2(4, 4)
+texture = ExtResource("10_o6cr6")
+
+[node name="MapaBarrio" type="Sprite2D" parent="." unique_id=201736626]
+z_index = -1
+position = Vector2(11246, 719)
+scale = Vector2(4, 4)
+texture = ExtResource("11_rahhr")
