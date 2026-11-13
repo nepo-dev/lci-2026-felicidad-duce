@@ -24,6 +24,16 @@ func _ready() -> void:
 		process_mode = Node.PROCESS_MODE_DISABLED
 		if camera_guide == null:
 			camera_guide = _get_camera_guide_or_null()
+	else:
+		if not _get_camera_guide_or_null():
+			_add_camera_guide()
+
+func _add_camera_guide():
+	if get_children() == []:
+		var guide = CameraGuide.new()
+		guide.set_name("CameraGuide")
+		add_child(guide)
+		guide.owner = get_tree().edited_scene_root
 
 func _get_camera_guide_or_null():
 	if camera_guide:
