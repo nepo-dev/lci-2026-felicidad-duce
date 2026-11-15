@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://b70os74mxo8od"]
+
+[ext_resource type="Script" uid="uid://dhrl706aicsm3" path="res://TestDrawingMinigame/DrawLayer.gd" id="1_1pcgo"]
+
+[node name="DrawingTest" type="Node2D" unique_id=1390601730]
+
+[node name="Background" type="ColorRect" parent="." unique_id=1027846362]
+offset_right = 500.0
+offset_bottom = 300.0
+color = Color(0, 1, 1, 1)
+
+[node name="RemoveLayer" type="ColorRect" parent="." unique_id=1756452223]
+offset_right = 500.0
+offset_bottom = 300.0
+script = ExtResource("1_1pcgo")
