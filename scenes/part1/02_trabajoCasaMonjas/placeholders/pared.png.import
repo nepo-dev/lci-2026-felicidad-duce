@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://blpkedjflxvle"
-path="res://.godot/imported/arbustos jardin.png-d2c9e64854e9140d35fdf0331659d14c.ctex"
+uid="uid://0k4t3ook364v"
+path="res://.godot/imported/pared.png-a3dd8d1c31cb5103737bc56459722028.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://scenes/part1/02_trabajoCasaMonjas/02_trabajoEnCasaMonjas/arbustos jardin.png"
-dest_files=["res://.godot/imported/arbustos jardin.png-d2c9e64854e9140d35fdf0331659d14c.ctex"]
+source_file="res://scenes/part1/02_trabajoCasaMonjas/placeholders/pared.png"
+dest_files=["res://.godot/imported/pared.png-a3dd8d1c31cb5103737bc56459722028.ctex"]
 
 [params]
 

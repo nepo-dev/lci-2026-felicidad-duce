@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bxfsnw7uu6eh7"
-path="res://.godot/imported/clase pintura.png-f82c81f3d5413a92a4280de2ca317bd5.ctex"
+uid="uid://b6pcylnue25u5"
+path="res://.godot/imported/pared_escuela_monjas.png-197981ed7ff28efd34f6bfe220a75573.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://scenes/part1/02_trabajoCasaMonjas/02_trabajoEnCasaMonjas/clase pintura.png"
-dest_files=["res://.godot/imported/clase pintura.png-f82c81f3d5413a92a4280de2ca317bd5.ctex"]
+source_file="res://scenes/part1/02_trabajoCasaMonjas/sprites_finales/pared_escuela_monjas.png"
+dest_files=["res://.godot/imported/pared_escuela_monjas.png-197981ed7ff28efd34f6bfe220a75573.ctex"]
 
 [params]
 

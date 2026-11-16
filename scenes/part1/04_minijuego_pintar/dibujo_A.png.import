@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://0k4t3ook364v"
-path="res://.godot/imported/pared.png-d34c9384d730e12bf9e8afd1c9f7067a.ctex"
+uid="uid://cdwiukhv3n1gc"
+path="res://.godot/imported/dibujo_A.png-5699baac46ee77e3fc36195582420689.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://scenes/part1/02_trabajoCasaMonjas/02_trabajoEnCasaMonjas/pared.png"
-dest_files=["res://.godot/imported/pared.png-d34c9384d730e12bf9e8afd1c9f7067a.ctex"]
+source_file="res://scenes/part1/04_minijuego_pintar/dibujo_A.png"
+dest_files=["res://.godot/imported/dibujo_A.png-5699baac46ee77e3fc36195582420689.ctex"]
 
 [params]
 

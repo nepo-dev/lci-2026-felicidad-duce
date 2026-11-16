@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b52s1xckc2ujv"
-path="res://.godot/imported/ciudad.png-6f5b7235823bcf9c39c735d24be2d162.ctex"
+uid="uid://cfdgj0s2qc0tb"
+path="res://.godot/imported/nube_B.png-306a28772301fad158956f4730441cdf.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://scenes/part1/01_nacimiento/01_torreReloj/ciudad.png"
-dest_files=["res://.godot/imported/ciudad.png-6f5b7235823bcf9c39c735d24be2d162.ctex"]
+source_file="res://scenes/part1/01_nacimiento/01_torreReloj/sprites_finales/nube_B.png"
+dest_files=["res://.godot/imported/nube_B.png-306a28772301fad158956f4730441cdf.ctex"]
 
 [params]
 

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://fit2ahv17sob"
-path="res://.godot/imported/jardin.png-681162c03f051f2b4ef035015242fee2.ctex"
+uid="uid://bjycketxpitd"
+path="res://.godot/imported/estudiantyes clase.png-2ed3dc7ad306b6892b2df7fbaa78e9d2.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://scenes/part1/02_trabajoCasaMonjas/02_trabajoEnCasaMonjas/jardin.png"
-dest_files=["res://.godot/imported/jardin.png-681162c03f051f2b4ef035015242fee2.ctex"]
+source_file="res://scenes/part1/02_trabajoCasaMonjas/placeholders/estudiantyes clase.png"
+dest_files=["res://.godot/imported/estudiantyes clase.png-2ed3dc7ad306b6892b2df7fbaa78e9d2.ctex"]
 
 [params]
 

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bjycketxpitd"
-path="res://.godot/imported/estudiantyes clase.png-e23d71ee76a5aae1eed13cd029cd5ea1.ctex"
+uid="uid://d1m72q0o5oo7m"
+path="res://.godot/imported/retratos.png-7c30e326d319f6f6b9e7e4f83dc590a7.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://scenes/part1/02_trabajoCasaMonjas/02_trabajoEnCasaMonjas/estudiantyes clase.png"
-dest_files=["res://.godot/imported/estudiantyes clase.png-e23d71ee76a5aae1eed13cd029cd5ea1.ctex"]
+source_file="res://scenes/part1/01_nacimiento/01_torreReloj/placeholders/retratos.png"
+dest_files=["res://.godot/imported/retratos.png-7c30e326d319f6f6b9e7e4f83dc590a7.ctex"]
 
 [params]
 

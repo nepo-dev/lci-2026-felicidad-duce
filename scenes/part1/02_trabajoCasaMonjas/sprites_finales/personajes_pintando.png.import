@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://d00bhmapnbkeq"
-path="res://.godot/imported/bafarada.png-6e04624f5924c0e2cbccbf3d16eb7fa7.ctex"
+uid="uid://co5mj1qih8nvx"
+path="res://.godot/imported/personajes_pintando.png-65e9680a3f7d419757998035316cc605.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://scenes/part1/01_nacimiento/01_torreReloj/bafarada.png"
-dest_files=["res://.godot/imported/bafarada.png-6e04624f5924c0e2cbccbf3d16eb7fa7.ctex"]
+source_file="res://scenes/part1/02_trabajoCasaMonjas/sprites_finales/personajes_pintando.png"
+dest_files=["res://.godot/imported/personajes_pintando.png-65e9680a3f7d419757998035316cc605.ctex"]
 
 [params]
 

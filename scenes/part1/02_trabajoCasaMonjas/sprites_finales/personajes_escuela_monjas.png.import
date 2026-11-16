@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://d1m72q0o5oo7m"
-path="res://.godot/imported/retratos.png-ee4da93491dc56371d5bc9fc570da089.ctex"
+uid="uid://cajg4uf5dk30c"
+path="res://.godot/imported/personajes_escuela_monjas.png-70568d30e594ba0448fe2179225920e6.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://scenes/part1/01_nacimiento/01_torreReloj/retratos.png"
-dest_files=["res://.godot/imported/retratos.png-ee4da93491dc56371d5bc9fc570da089.ctex"]
+source_file="res://scenes/part1/02_trabajoCasaMonjas/sprites_finales/personajes_escuela_monjas.png"
+dest_files=["res://.godot/imported/personajes_escuela_monjas.png-70568d30e594ba0448fe2179225920e6.ctex"]
 
 [params]
 

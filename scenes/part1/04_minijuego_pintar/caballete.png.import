@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c1e1fofqi2apy"
-path="res://.godot/imported/torre gracia.png-6bb0a5d0bee0a5e171406dcabe2b2cdd.ctex"
+uid="uid://vgngw188nejh"
+path="res://.godot/imported/caballete.png-6d1a04733e18cd28dc05b2d6bacf8067.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://scenes/part1/01_nacimiento/01_torreReloj/torre gracia.png"
-dest_files=["res://.godot/imported/torre gracia.png-6bb0a5d0bee0a5e171406dcabe2b2cdd.ctex"]
+source_file="res://scenes/part1/04_minijuego_pintar/caballete.png"
+dest_files=["res://.godot/imported/caballete.png-6d1a04733e18cd28dc05b2d6bacf8067.ctex"]
 
 [params]
 
