@@ -1,0 +1,6 @@
+[gd_resource type="ShaderMaterial" format=3 uid="uid://bvqknn1rb8hl8"]
+
+[ext_resource type="Shader" uid="uid://b8312ffhu8j6a" path="res://TestDrawingMinigame/mask.gdshader" id="1_ve2yy"]
+
+[resource]
+shader = ExtResource("1_ve2yy")
