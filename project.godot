@@ -21,7 +21,8 @@ config/icon="uid://crlgf286st7kd"
 
 window/size/viewport_width=2048
 window/size/viewport_height=1536
-window/stretch/mode="canvas_items"
+window/size/resizable=false
+window/stretch/mode="viewport"
 window/stretch/aspect="expand"
 
 [physics]
