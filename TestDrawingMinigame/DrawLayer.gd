@@ -24,7 +24,7 @@ func _ready():
 		false,
 		Image.FORMAT_RGBA8
 	)
-#Creamos una imajen nueva al empezar el juego
+#Creamos una imagen nueva al empezar el juego
 #False s para mipmaps
 #RGBA porque es el canal con alpah para modificar tranparencia
 	scratch_image.fill(Color.WHITE)
@@ -32,27 +32,11 @@ func _ready():
 	scratch_texture = ImageTexture.create_from_image(
 		scratch_image
 	)
-#Covertimos la imagen en textura
-	var material_shader = Shader.new()
-	material_shader.code = """
-        shader_type canvas_item;
 
-        uniform sampler2D mask_texture;
-
-        void fragment() {
-            vec4 mask = texture(mask_texture, UV);
-            COLOR = vec4(1.0, 1.0, 1.0, mask.a);
-			
-        }
-    """
 #La peor parte, creamos un shader. El shader mira la textura que hemos creado, comprueba el canal de alpha de cada uno de los pixeles
 #dibuja blanco donde el alpha sea 1,dibuja transparencia donde el alpha sea 0
 #En la parte de color los cuatro valores representan rojo verde azul y alpha por lo tanto siempre dibujamos en blanco peros u transparencia depende de la imagen
-	var mat = ShaderMaterial.new()
-	mat.shader = material_shader
-	mat.set_shader_parameter("mask_texture", scratch_texture)
-#Conectamos el shader al rectangulo y decimos a remove layer utilice nuestra textura como mascara
-	material = mat
+	material.set_shader_parameter("mask_texture", scratch_texture)
 
 	total_pixels = int(size.x * size.y)
 

@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://b70os74mxo8od"]
 
 [ext_resource type="Script" uid="uid://dhrl706aicsm3" path="res://TestDrawingMinigame/DrawLayer.gd" id="1_1pcgo"]
+[ext_resource type="Material" uid="uid://bvqknn1rb8hl8" path="res://TestDrawingMinigame/mask.tres" id="1_6xny3"]
 
 [node name="DrawingTest" type="Node2D" unique_id=1390601730]
 
@@ -10,6 +11,7 @@ offset_bottom = 300.0
 color = Color(0, 1, 1, 1)
 
 [node name="RemoveLayer" type="ColorRect" parent="." unique_id=1756452223]
+material = ExtResource("1_6xny3")
 offset_right = 500.0
 offset_bottom = 300.0
 script = ExtResource("1_1pcgo")
