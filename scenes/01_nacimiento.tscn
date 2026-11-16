@@ -1,4 +1,4 @@
-[gd_scene format=3 uid="uid://xe5mxmvsuo5"]
+[gd_scene format=3 uid="uid://xew1rdm2h64s"]
 
 [ext_resource type="Script" uid="uid://dsq7ol5atjcor" path="res://components/framework/sequence/sequence.gd" id="1_fincd"]
 [ext_resource type="Script" uid="uid://ch0m0yimte0qe" path="res://components/framework/beat/beat.gd" id="1_rrc2i"]
