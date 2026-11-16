@@ -15,7 +15,18 @@ size_flags_horizontal = 3
 size_flags_vertical = 3
 script = ExtResource("1_obhgb")
 
+[node name="RichTextLabel" type="RichTextLabel" parent="." unique_id=1224090887]
+layout_mode = 2
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+theme_override_fonts/normal_font = ExtResource("2_1mfum")
+theme_override_font_sizes/normal_font_size = 57
+bbcode_enabled = true
+text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sodales semper gravida. Suspendisse potenti. Vivamus interdum condimentum facilisis. Maecenas ut elit ligula. Sed egestas eros sed mollis finibus. Donec sit amet dolor dictum arcu sodales ultrices id varius justo. Praesent ut pellentesque tellus. Maecenas dapibus justo consequat efficitur malesuada. Donec nec orci vel mauris efficitur bibendum. Sed sodales lorem ac nulla vestibulum hendrerit. "
+fit_content = true
+autowrap_mode = 2
+
 [node name="Label" type="Label" parent="." unique_id=291552607]
+visible = false
 modulate = Color(0, 0, 0, 1)
 custom_minimum_size = Vector2(50, 0)
 layout_mode = 2

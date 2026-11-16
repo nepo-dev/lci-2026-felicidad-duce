@@ -67,10 +67,9 @@ position = Vector2(-710, -684)
 texture = ExtResource("9_4lk3m")
 
 [node name="Sprite2D" type="Sprite2D" parent="TorreReloj" unique_id=958470581]
-modulate = Color(0.9607843, 0.95686275, 0.93333334, 1)
-self_modulate = Color(0.9607843, 0.95686275, 0.93333334, 1)
+modulate = Color(0.9607843, 0.95686275, 0.92941177, 1)
 z_index = -10
-position = Vector2(53.5, -473)
+position = Vector2(59, -475)
 scale = Vector2(22.75, 16.84)
 texture = ExtResource("9_arecf")
 
@@ -91,7 +90,7 @@ offset_left = 74.0
 offset_top = -477.0
 offset_right = 886.0
 offset_bottom = -143.0
-text = "Mi nombre es Felicidad Duce Ripollés llegué al mundo en el 7 marzo de 1907."
+text = "Mi nombre es [color=#C61A29][font=res://scenes/fonts/Fraunces_72pt-SemiBold.ttf]Felicidad Duce Ripollés[/font][/color], llegué al mundo en el 7 marzo de 1907."
 
 [node name="Bocadillo" type="Sprite2D" parent="Layer 1" unique_id=62635504]
 position = Vector2(369, 372)
@@ -251,7 +250,7 @@ offset_left = 3443.0
 offset_top = 168.0
 offset_right = 3944.0
 offset_bottom = 858.0
-text = "Fui la segunda de seis hermanos y, como buena hermana mayor, siempre me ocupé de cuidar de mis hermanos y ayudar en los labores del hogar."
+text = "Fui la [color=#C61A29][font=res://scenes/fonts/Fraunces_72pt-SemiBold.ttf]segunda de seis hermanos[/font][/color] [br]y, como buena hermana mayor, siempre me ocupé de cuidar de mis hermanos y ayudar en los labores del hogar."
 
 [node name="Pared" type="Sprite2D" parent="ParedCuadros" unique_id=186456705]
 z_index = 5
@@ -279,11 +278,11 @@ texture = ExtResource("34_wlwgk")
 
 [node name="EscuelaMonjasText" parent="EscuelaMonjas" unique_id=1133325201 instance=ExtResource("10_mk7yd")]
 z_index = 15
-offset_left = 6574.0
-offset_top = 36.0
-offset_right = 7025.0
-offset_bottom = 726.0
-text = "A los 4 años fui acogida como estudiante en la escuela de monjas de la Presentación."
+offset_left = 6580.0
+offset_top = 39.0
+offset_right = 7031.0
+offset_bottom = 729.0
+text = "A los 4 años fui acogida como estudiante en la [color=#C61A29][font=res://scenes/fonts/Fraunces_72pt-SemiBold.ttf]escuela de monjas de la Presentación.[/font][/color]"
 
 [node name="EscuelaMonjasText2" parent="EscuelaMonjas" unique_id=717508414 instance=ExtResource("10_mk7yd")]
 z_index = 15
@@ -291,7 +290,7 @@ offset_left = 7630.0
 offset_top = 358.0
 offset_right = 8304.0
 offset_bottom = 701.0
-text = "Mi estadía fue marcada por la diferencia de beneficios entre yo y las alumnas de pago."
+text = "Mi estadía fue marcada por la [color=#C61A29][font=res://scenes/fonts/Fraunces_72pt-SemiBold.ttf]diferencia de beneficios[/font][/color] entre yo y las alumnas de pago."
 
 [node name="EscuelaMonjasText3" parent="EscuelaMonjas" unique_id=641133777 instance=ExtResource("10_mk7yd")]
 z_index = 15
@@ -299,17 +298,17 @@ offset_left = 8895.0
 offset_top = 249.0
 offset_right = 9663.0
 offset_bottom = 592.0
-text = "No dejé que eso me hundiese y me propuse esforzarme en los estudios."
+text = "No dejé que eso me hundiese y me propuse [color=#C61A29][font=res://scenes/fonts/Fraunces_72pt-SemiBold.ttf]esforzarme en los estudios.[/font][/color]"
 
 [node name="EscuelaMonjas2" type="Node" parent="." unique_id=334927508]
 
 [node name="EscuelaMonjasText4" parent="EscuelaMonjas2" unique_id=100275373 instance=ExtResource("10_mk7yd")]
 z_index = 15
-offset_left = 12034.0
-offset_top = 345.0
-offset_right = 10844.0
-offset_bottom = -655.0
-text = "Mis esfuerzos dieron frutos y las monjas consideraron que tenía un talento privilegiado. Premiaron mis esfuerzos con beneficios a los que antes no tenía acceso, clases de pintura etc."
+offset_left = 12039.0
+offset_top = 350.0
+offset_right = 10849.0
+offset_bottom = -650.0
+text = "Mis esfuerzos dieron frutos y las monjas consideraron que tenía un talento privilegiado. Premiaron mis esfuerzos con beneficios a los que antes no tenía acceso, las [color=#C61A29][font=res://scenes/fonts/Fraunces_72pt-SemiBold.ttf]clases de pintura etc.[/font][/color]"
 
 [node name="FondoAulaPintura" type="Sprite2D" parent="EscuelaMonjas2" unique_id=257099128]
 z_index = -2
