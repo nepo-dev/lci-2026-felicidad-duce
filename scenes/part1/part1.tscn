@@ -24,6 +24,7 @@
 [ext_resource type="Texture2D" uid="uid://ytpexrowgd6" path="res://scenes/part1/04_minijuego_pintar/dibujo_B.png" id="25_f761e"]
 [ext_resource type="Texture2D" uid="uid://12blrbwu3ug1" path="res://scenes/part1/04_minijuego_pintar/dibujo_C.png" id="26_lq0lg"]
 [ext_resource type="Script" uid="uid://dhrl706aicsm3" path="res://TestDrawingMinigame/DrawLayer.gd" id="28_f761e"]
+[ext_resource type="Material" uid="uid://bvqknn1rb8hl8" path="res://TestDrawingMinigame/mask.tres" id="28_lq0lg"]
 [ext_resource type="Texture2D" uid="uid://chhxs3f6isei7" path="res://scenes/part1/02_trabajoCasaMonjas/sprites_finales/pared_marcos.png" id="31_x75mo"]
 [ext_resource type="Texture2D" uid="uid://cajg4uf5dk30c" path="res://scenes/part1/02_trabajoCasaMonjas/sprites_finales/personajes_escuela_monjas.png" id="32_wsraw"]
 [ext_resource type="Texture2D" uid="uid://b6pcylnue25u5" path="res://scenes/part1/02_trabajoCasaMonjas/sprites_finales/pared_escuela_monjas.png" id="33_wlwgk"]
@@ -43,7 +44,7 @@ position = Vector2(1146, 1241)
 texture = ExtResource("2_l7amr")
 
 [node name="CasaPrincipal" type="Sprite2D" parent="TorreReloj" unique_id=59333274]
-position = Vector2(230, 146)
+position = Vector2(230, 131)
 texture = ExtResource("3_wsraw")
 
 [node name="TorreReloj" type="Sprite2D" parent="TorreReloj" unique_id=463137640]
@@ -93,7 +94,7 @@ offset_bottom = -143.0
 text = "Mi nombre es [color=#C61A29][font=res://scenes/fonts/Fraunces_72pt-SemiBold.ttf]Felicidad Duce Ripollés[/font][/color], llegué al mundo en el 7 marzo de 1907."
 
 [node name="Bocadillo" type="Sprite2D" parent="Layer 1" unique_id=62635504]
-position = Vector2(369, 372)
+position = Vector2(384, 466)
 texture = ExtResource("7_jttf6")
 
 [node name="Layer 2" type="Node2D" parent="." unique_id=1264145354]
@@ -102,6 +103,14 @@ position = Vector2(1055, 636)
 script = ExtResource("5_rx8lk")
 visible_at_start = false
 metadata/_custom_type_script = "uid://b5yui4s13ipdq"
+
+[node name="TextTorreReloj2" parent="Layer 2" unique_id=1105710684 instance=ExtResource("10_mk7yd")]
+offset_left = -286.0
+offset_top = -366.0
+offset_right = 941.0
+offset_bottom = -32.0
+text = "En un apartamento del barrio de [color=#C61A29][font=res://scenes/fonts/Fraunces_72pt-SemiBold.ttf]Grácia[/font][/color], mis padres [color=#C61A29][font=res://scenes/fonts/Fraunces_72pt-SemiBold.ttf]Elies Duce[/font][/color] y [color=#C61A29][font=res://scenes/fonts/Fraunces_72pt-SemiBold.ttf]Mercè Ripolles[/font][/color] me vieron dar mis primeros pasos.
+"
 
 [node name="Retratos" type="Sprite2D" parent="Layer 2" unique_id=1428597375]
 position = Vector2(251.99997, 240.99998)
@@ -356,6 +365,7 @@ position = Vector2(9, 1)
 texture = ExtResource("26_lq0lg")
 
 [node name="ColorRect" type="ColorRect" parent="Dibujar" unique_id=664104384]
+material = ExtResource("28_lq0lg")
 offset_left = -447.0
 offset_top = -486.0
 offset_right = 451.0
