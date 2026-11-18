@@ -98,7 +98,7 @@ position = Vector2(384, 466)
 texture = ExtResource("7_jttf6")
 
 [node name="Layer 2" type="Node2D" parent="." unique_id=1264145354]
-visible = false
+z_index = 1
 position = Vector2(1055, 636)
 script = ExtResource("5_rx8lk")
 visible_at_start = false
@@ -319,13 +319,13 @@ offset_bottom = -650.0
 text = "Mis esfuerzos dieron frutos y las monjas consideraron que tenía un talento privilegiado. Premiaron mis esfuerzos con beneficios a los que antes no tenía acceso, las [color=#C61A29][font=res://scenes/fonts/Fraunces_72pt-SemiBold.ttf]clases de pintura etc.[/font][/color]"
 
 [node name="FondoAulaPintura" type="Sprite2D" parent="EscuelaMonjas2" unique_id=257099128]
-z_index = -2
+z_index = -5
 position = Vector2(12596, 790.99994)
 scale = Vector2(1.05, 1.05)
 texture = ExtResource("19_3p71s")
 
 [node name="FondoAulaPintura2" type="Sprite2D" parent="EscuelaMonjas2" unique_id=1439326574]
-z_index = -2
+z_index = -5
 position = Vector2(14533.999, 792)
 scale = Vector2(1.05, 1.05)
 texture = ExtResource("19_3p71s")
