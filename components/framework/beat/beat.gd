@@ -54,14 +54,15 @@ func center_camera() -> void:
 		return
 
 	if is_equal_approx(duration, 0):
+		_on_transition_finished()
 		return
 
 	_is_camera_moving = true
-	var tween := create_tween()
+	var tween := get_tree().create_tween()
 	tween.set_trans(transition_type)
 	tween.tween_property(cam, "global_position", camera_guide.global_position, duration)
 
-	var tween2 := create_tween()
+	var tween2 := get_tree().create_tween()
 	tween2.set_trans(transition_type)
 	tween2.set_ease(Tween.EASE_IN_OUT)
 	tween2.tween_property(cam, "zoom", Vector2.ONE * zoom_out, duration/2)
@@ -70,6 +71,7 @@ func center_camera() -> void:
 
 func _on_transition_finished() -> void:
 	_is_camera_moving = false
+	process_mode = PROCESS_MODE_INHERIT
 
 func has_transition_finished() -> bool:
 	return not _is_camera_moving
@@ -77,7 +79,6 @@ func has_transition_finished() -> bool:
 ## Call this method when the scene starts. It will center the camera and enable
 ## its components
 func start() -> void:
-	process_mode = PROCESS_MODE_INHERIT
 	center_camera()
 
 ## Call this method when the scene finishes. It will move on to the next scene
@@ -89,7 +90,7 @@ func stop() -> void:
 		while not has_transition_finished():
 			await user_clicked
 	finished.emit()
-	process_mode = PROCESS_MODE_DISABLED
+	#process_mode = PROCESS_MODE_DISABLED
 
 func _input(event: InputEvent):
 	if event is InputEventMouseButton \

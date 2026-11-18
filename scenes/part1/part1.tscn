@@ -81,42 +81,6 @@ position = Vector2(13974.001, -505)
 scale = Vector2(22.75, 16.84)
 texture = ExtResource("9_arecf")
 
-[node name="Layer 1" type="Node2D" parent="." unique_id=481993117]
-position = Vector2(1055, 636)
-script = ExtResource("5_rx8lk")
-metadata/_custom_type_script = "uid://b5yui4s13ipdq"
-
-[node name="TextTorreReloj" parent="Layer 1" unique_id=1603631282 instance=ExtResource("10_mk7yd")]
-offset_left = 74.0
-offset_top = -477.0
-offset_right = 886.0
-offset_bottom = -143.0
-text = "Mi nombre es [color=#C61A29][font=res://scenes/fonts/Fraunces_72pt-SemiBold.ttf]Felicidad Duce Ripollés[/font][/color], llegué al mundo en el 7 marzo de 1907."
-
-[node name="Bocadillo" type="Sprite2D" parent="Layer 1" unique_id=62635504]
-position = Vector2(384, 466)
-texture = ExtResource("7_jttf6")
-
-[node name="Layer 2" type="Node2D" parent="." unique_id=1264145354]
-z_index = 1
-position = Vector2(1055, 636)
-script = ExtResource("5_rx8lk")
-visible_at_start = false
-metadata/_custom_type_script = "uid://b5yui4s13ipdq"
-
-[node name="TextTorreReloj2" parent="Layer 2" unique_id=1105710684 instance=ExtResource("10_mk7yd")]
-offset_left = -286.0
-offset_top = -366.0
-offset_right = 941.0
-offset_bottom = -32.0
-text = "En un apartamento del barrio de [color=#C61A29][font=res://scenes/fonts/Fraunces_72pt-SemiBold.ttf]Grácia[/font][/color], mis padres [color=#C61A29][font=res://scenes/fonts/Fraunces_72pt-SemiBold.ttf]Elies Duce[/font][/color] y [color=#C61A29][font=res://scenes/fonts/Fraunces_72pt-SemiBold.ttf]Mercè Ripolles[/font][/color] me vieron dar mis primeros pasos.
-"
-
-[node name="Retratos" type="Sprite2D" parent="Layer 2" unique_id=1428597375]
-position = Vector2(251.99997, 240.99998)
-scale = Vector2(6.305556, 6.3055553)
-texture = ExtResource("7_4r21d")
-
 [node name="Beat" type="Node2D" parent="." unique_id=1458654632 node_paths=PackedStringArray("camera_guide")]
 z_index = 15
 position = Vector2(105, 0)
@@ -125,6 +89,22 @@ camera_guide = NodePath("CameraGuide")
 duration = 0.0
 zoom_out = 1.0
 metadata/_custom_type_script = "uid://ch0m0yimte0qe"
+
+[node name="Layer 1" type="Node2D" parent="Beat" unique_id=481993117]
+position = Vector2(950, 636)
+script = ExtResource("5_rx8lk")
+metadata/_custom_type_script = "uid://b5yui4s13ipdq"
+
+[node name="TextTorreReloj" parent="Beat/Layer 1" unique_id=1603631282 instance=ExtResource("10_mk7yd")]
+offset_left = 74.0
+offset_top = -477.0
+offset_right = 886.0
+offset_bottom = -143.0
+text = "Mi nombre es [color=#C61A29][font=res://scenes/fonts/Fraunces_72pt-SemiBold.ttf]Felicidad Duce Ripollés[/font][/color], llegué al mundo en el 7 marzo de 1907."
+
+[node name="Bocadillo" type="Sprite2D" parent="Beat/Layer 1" unique_id=62635504]
+position = Vector2(384, 466)
+texture = ExtResource("7_jttf6")
 
 [node name="CameraGuide" type="Node2D" parent="Beat" unique_id=1126715186]
 position = Vector2(1037, 735)
@@ -145,6 +125,26 @@ duration = 1.0
 zoom_out = 1.0
 metadata/_custom_type_script = "uid://ch0m0yimte0qe"
 
+[node name="Layer 2" type="Node2D" parent="Beat2" unique_id=1264145354]
+z_index = 1
+position = Vector2(948, 636)
+script = ExtResource("5_rx8lk")
+visible_at_start = false
+metadata/_custom_type_script = "uid://b5yui4s13ipdq"
+
+[node name="TextTorreReloj2" parent="Beat2/Layer 2" unique_id=1105710684 instance=ExtResource("10_mk7yd")]
+offset_left = -180.0
+offset_top = -536.0
+offset_right = 944.0
+offset_bottom = -202.0
+text = "En un apartamento del barrio de [color=#C61A29][font=res://scenes/fonts/Fraunces_72pt-SemiBold.ttf]Grácia[/font][/color], mis padres [color=#C61A29][font=res://scenes/fonts/Fraunces_72pt-SemiBold.ttf]Elies Duce[/font][/color] y [color=#C61A29][font=res://scenes/fonts/Fraunces_72pt-SemiBold.ttf]Mercè Ripolles[/font][/color] me vieron dar mis primeros pasos.
+"
+
+[node name="Retratos" type="Sprite2D" parent="Beat2/Layer 2" unique_id=1428597375]
+position = Vector2(251.99997, 240.99998)
+scale = Vector2(6.305556, 6.3055553)
+texture = ExtResource("7_4r21d")
+
 [node name="CameraGuide" type="Node2D" parent="Beat2" unique_id=1546901994]
 position = Vector2(1037, 735)
 script = ExtResource("9_rrv0d")
@@ -162,6 +162,23 @@ camera_guide = NodePath("CameraGuide")
 zoom_out = 1.0
 transition_type = 4
 metadata/_custom_type_script = "uid://ch0m0yimte0qe"
+
+[node name="ParedCuadros" type="Node2D" parent="Beat3" unique_id=1142854656]
+position = Vector2(-3261, 96)
+
+[node name="ParedCuadrosText" parent="Beat3/ParedCuadros" unique_id=1876953193 instance=ExtResource("10_mk7yd")]
+z_index = 15
+offset_left = 3443.0
+offset_top = 168.0
+offset_right = 3944.0
+offset_bottom = 858.0
+text = "Fui la [color=#C61A29][font=res://scenes/fonts/Fraunces_72pt-SemiBold.ttf]segunda de seis hermanos[/font][/color] [br]y, como buena hermana mayor, siempre me ocupé de cuidar de mis hermanos y ayudar en los labores del hogar."
+
+[node name="Pared" type="Sprite2D" parent="Beat3/ParedCuadros" unique_id=186456705]
+z_index = 5
+position = Vector2(4010, 645)
+scale = Vector2(1.01, 1.01)
+texture = ExtResource("31_x75mo")
 
 [node name="CameraGuide" type="Node2D" parent="Beat3" unique_id=562562235]
 position = Vector2(1095, 752)
@@ -182,6 +199,48 @@ zoom_out = 1.0
 transition_type = 4
 metadata/_custom_type_script = "uid://ch0m0yimte0qe"
 
+[node name="EscuelaMonjas" type="Node2D" parent="Beat4" unique_id=1505098089]
+position = Vector2(-6293, 0)
+
+[node name="PersonajesEscuelaMonjas" type="Sprite2D" parent="Beat4/EscuelaMonjas" unique_id=1894290940]
+z_index = 1
+position = Vector2(6863, 1162)
+texture = ExtResource("32_wsraw")
+
+[node name="ParedEscuelaMonjas" type="Sprite2D" parent="Beat4/EscuelaMonjas" unique_id=1088419778]
+position = Vector2(8138, 741)
+scale = Vector2(1.05, 1.05)
+texture = ExtResource("33_wlwgk")
+
+[node name="JardinProhibido" type="Sprite2D" parent="Beat4/EscuelaMonjas" unique_id=859389563]
+z_index = -1
+position = Vector2(9018, 764)
+scale = Vector2(1.05, 1.05)
+texture = ExtResource("34_wlwgk")
+
+[node name="EscuelaMonjasText" parent="Beat4/EscuelaMonjas" unique_id=1133325201 instance=ExtResource("10_mk7yd")]
+z_index = 15
+offset_left = 6580.0
+offset_top = 39.0
+offset_right = 7031.0
+offset_bottom = 729.0
+text = "A los 4 años fui acogida como estudiante en la [color=#C61A29][font=res://scenes/fonts/Fraunces_72pt-SemiBold.ttf]escuela de monjas de la Presentación.[/font][/color]"
+
+[node name="Timer" type="Timer" parent="Beat4/EscuelaMonjas" unique_id=1405375724]
+process_mode = 4
+wait_time = 0.7
+one_shot = true
+autostart = true
+
+[node name="EscuelaMonjasText2" parent="Beat4/EscuelaMonjas" unique_id=717508414 instance=ExtResource("10_mk7yd")]
+process_mode = 4
+z_index = 15
+offset_left = 7630.0
+offset_top = 358.0
+offset_right = 8304.0
+offset_bottom = 701.0
+text = "Mi estadía fue marcada por la [color=#C61A29][font=res://scenes/fonts/Fraunces_72pt-SemiBold.ttf]diferencia de beneficios[/font][/color] entre yo y las alumnas de pago."
+
 [node name="CameraGuide" type="Node2D" parent="Beat4" unique_id=188433583]
 position = Vector2(1095, 752)
 script = ExtResource("9_rrv0d")
@@ -200,6 +259,17 @@ camera_guide = NodePath("CameraGuide")
 zoom_out = 1.0
 transition_type = 4
 metadata/_custom_type_script = "uid://ch0m0yimte0qe"
+
+[node name="EscuelaMonjas2" type="Node2D" parent="Beat5" unique_id=786075957]
+position = Vector2(-8639, 0)
+
+[node name="EscuelaMonjasText3" parent="Beat5/EscuelaMonjas2" unique_id=1969452792 instance=ExtResource("10_mk7yd")]
+z_index = 15
+offset_left = 8895.0
+offset_top = 249.0
+offset_right = 9663.0
+offset_bottom = 592.0
+text = "No dejé que eso me hundiese y me propuse [color=#C61A29][font=res://scenes/fonts/Fraunces_72pt-SemiBold.ttf]esforzarme en los estudios.[/font][/color]"
 
 [node name="CameraGuide" type="Node2D" parent="Beat5" unique_id=854650164]
 position = Vector2(1095, 752)
@@ -220,6 +290,43 @@ zoom_out = 1.0
 transition_type = 4
 metadata/_custom_type_script = "uid://ch0m0yimte0qe"
 
+[node name="EscuelaMonjas2" type="Node" parent="Beat6" unique_id=334927508]
+
+[node name="EscuelaMonjasText4" parent="Beat6/EscuelaMonjas2" unique_id=100275373 instance=ExtResource("10_mk7yd")]
+z_index = 15
+offset_left = 12039.0
+offset_top = 350.0
+offset_right = 10849.0
+offset_bottom = -650.0
+text = "Mis esfuerzos dieron frutos y las monjas consideraron que tenía un talento privilegiado. Premiaron mis esfuerzos con beneficios a los que antes no tenía acceso, las [color=#C61A29][font=res://scenes/fonts/Fraunces_72pt-SemiBold.ttf]clases de pintura etc.[/font][/color]"
+
+[node name="FondoAulaPintura" type="Sprite2D" parent="Beat6/EscuelaMonjas2" unique_id=257099128]
+z_index = -5
+position = Vector2(12596, 790.99994)
+scale = Vector2(1.05, 1.05)
+texture = ExtResource("19_3p71s")
+
+[node name="FondoAulaPintura2" type="Sprite2D" parent="Beat6/EscuelaMonjas2" unique_id=1439326574]
+z_index = -5
+position = Vector2(14533.999, 792)
+scale = Vector2(1.05, 1.05)
+texture = ExtResource("19_3p71s")
+
+[node name="VentanaEscuelaMonjas" type="Sprite2D" parent="Beat6/EscuelaMonjas2" unique_id=482635862]
+z_index = -1
+position = Vector2(12668.5, 752)
+scale = Vector2(1.05, 1.05)
+texture = ExtResource("20_kk1cl")
+
+[node name="ArbustosVentanaEscuelaMonjas" type="Sprite2D" parent="Beat6/EscuelaMonjas2" unique_id=1905961923]
+position = Vector2(12561, 1344)
+texture = ExtResource("21_vqgxu")
+
+[node name="PersonajesPintando" type="Sprite2D" parent="Beat6/EscuelaMonjas2" unique_id=1235596890]
+z_index = -2
+position = Vector2(13096, 1091)
+texture = ExtResource("22_daai0")
+
 [node name="CameraGuide" type="Node2D" parent="Beat6" unique_id=731724070]
 position = Vector2(1095, 752)
 script = ExtResource("9_rrv0d")
@@ -239,6 +346,33 @@ zoom_out = 1.0
 transition_type = 4
 metadata/_custom_type_script = "uid://ch0m0yimte0qe"
 
+[node name="Dibujar" type="Node2D" parent="Beat7" unique_id=988370130]
+position = Vector2(1119, 800)
+
+[node name="Caballete" type="Sprite2D" parent="Beat7/Dibujar" unique_id=1399479178]
+texture = ExtResource("23_i6si6")
+
+[node name="DibujoA" type="Sprite2D" parent="Beat7/Dibujar" unique_id=306422745]
+position = Vector2(9, 1)
+texture = ExtResource("24_arecf")
+
+[node name="DibujoB" type="Sprite2D" parent="Beat7/Dibujar" unique_id=1945559083]
+position = Vector2(9, 1)
+texture = ExtResource("25_f761e")
+
+[node name="DibujoC" type="Sprite2D" parent="Beat7/Dibujar" unique_id=2021425987]
+position = Vector2(9, 1)
+texture = ExtResource("26_lq0lg")
+
+[node name="ColorRect" type="ColorRect" parent="Beat7/Dibujar" unique_id=664104384]
+material = ExtResource("28_lq0lg")
+offset_left = -447.0
+offset_top = -486.0
+offset_right = 451.0
+offset_bottom = 458.0
+color = Color(0.9607843, 0.95686275, 0.92941177, 1)
+script = ExtResource("28_f761e")
+
 [node name="CameraGuide" type="Node2D" parent="Beat7" unique_id=477984233]
 position = Vector2(1095, 752)
 script = ExtResource("9_rrv0d")
@@ -249,134 +383,13 @@ wait_time = 2.0
 one_shot = true
 autostart = true
 
-[node name="ParedCuadros" type="Node2D" parent="." unique_id=1142854656]
-position = Vector2(0, 96)
-
-[node name="ParedCuadrosText" parent="ParedCuadros" unique_id=1876953193 instance=ExtResource("10_mk7yd")]
-z_index = 15
-offset_left = 3443.0
-offset_top = 168.0
-offset_right = 3944.0
-offset_bottom = 858.0
-text = "Fui la [color=#C61A29][font=res://scenes/fonts/Fraunces_72pt-SemiBold.ttf]segunda de seis hermanos[/font][/color] [br]y, como buena hermana mayor, siempre me ocupé de cuidar de mis hermanos y ayudar en los labores del hogar."
-
-[node name="Pared" type="Sprite2D" parent="ParedCuadros" unique_id=186456705]
-z_index = 5
-position = Vector2(4010, 645)
-scale = Vector2(1.01, 1.01)
-texture = ExtResource("31_x75mo")
-
-[node name="EscuelaMonjas" type="Node2D" parent="." unique_id=1505098089]
-
-[node name="PersonajesEscuelaMonjas" type="Sprite2D" parent="EscuelaMonjas" unique_id=1894290940]
-z_index = 1
-position = Vector2(6863, 1162)
-texture = ExtResource("32_wsraw")
-
-[node name="ParedEscuelaMonjas" type="Sprite2D" parent="EscuelaMonjas" unique_id=1088419778]
-position = Vector2(8138, 741)
-scale = Vector2(1.05, 1.05)
-texture = ExtResource("33_wlwgk")
-
-[node name="JardinProhibido" type="Sprite2D" parent="EscuelaMonjas" unique_id=859389563]
-z_index = -1
-position = Vector2(9018, 764)
-scale = Vector2(1.05, 1.05)
-texture = ExtResource("34_wlwgk")
-
-[node name="EscuelaMonjasText" parent="EscuelaMonjas" unique_id=1133325201 instance=ExtResource("10_mk7yd")]
-z_index = 15
-offset_left = 6580.0
-offset_top = 39.0
-offset_right = 7031.0
-offset_bottom = 729.0
-text = "A los 4 años fui acogida como estudiante en la [color=#C61A29][font=res://scenes/fonts/Fraunces_72pt-SemiBold.ttf]escuela de monjas de la Presentación.[/font][/color]"
-
-[node name="EscuelaMonjasText2" parent="EscuelaMonjas" unique_id=717508414 instance=ExtResource("10_mk7yd")]
-z_index = 15
-offset_left = 7630.0
-offset_top = 358.0
-offset_right = 8304.0
-offset_bottom = 701.0
-text = "Mi estadía fue marcada por la [color=#C61A29][font=res://scenes/fonts/Fraunces_72pt-SemiBold.ttf]diferencia de beneficios[/font][/color] entre yo y las alumnas de pago."
-
-[node name="EscuelaMonjasText3" parent="EscuelaMonjas" unique_id=641133777 instance=ExtResource("10_mk7yd")]
-z_index = 15
-offset_left = 8895.0
-offset_top = 249.0
-offset_right = 9663.0
-offset_bottom = 592.0
-text = "No dejé que eso me hundiese y me propuse [color=#C61A29][font=res://scenes/fonts/Fraunces_72pt-SemiBold.ttf]esforzarme en los estudios.[/font][/color]"
-
-[node name="EscuelaMonjas2" type="Node" parent="." unique_id=334927508]
-
-[node name="EscuelaMonjasText4" parent="EscuelaMonjas2" unique_id=100275373 instance=ExtResource("10_mk7yd")]
-z_index = 15
-offset_left = 12039.0
-offset_top = 350.0
-offset_right = 10849.0
-offset_bottom = -650.0
-text = "Mis esfuerzos dieron frutos y las monjas consideraron que tenía un talento privilegiado. Premiaron mis esfuerzos con beneficios a los que antes no tenía acceso, las [color=#C61A29][font=res://scenes/fonts/Fraunces_72pt-SemiBold.ttf]clases de pintura etc.[/font][/color]"
-
-[node name="FondoAulaPintura" type="Sprite2D" parent="EscuelaMonjas2" unique_id=257099128]
-z_index = -5
-position = Vector2(12596, 790.99994)
-scale = Vector2(1.05, 1.05)
-texture = ExtResource("19_3p71s")
-
-[node name="FondoAulaPintura2" type="Sprite2D" parent="EscuelaMonjas2" unique_id=1439326574]
-z_index = -5
-position = Vector2(14533.999, 792)
-scale = Vector2(1.05, 1.05)
-texture = ExtResource("19_3p71s")
-
-[node name="VentanaEscuelaMonjas" type="Sprite2D" parent="EscuelaMonjas2" unique_id=482635862]
-z_index = -1
-position = Vector2(12668.5, 752)
-scale = Vector2(1.05, 1.05)
-texture = ExtResource("20_kk1cl")
-
-[node name="ArbustosVentanaEscuelaMonjas" type="Sprite2D" parent="EscuelaMonjas2" unique_id=1905961923]
-position = Vector2(12561, 1344)
-texture = ExtResource("21_vqgxu")
-
-[node name="PersonajesPintando" type="Sprite2D" parent="EscuelaMonjas2" unique_id=1235596890]
-z_index = -2
-position = Vector2(13096, 1091)
-texture = ExtResource("22_daai0")
-
-[node name="Dibujar" type="Node2D" parent="." unique_id=988370130]
-position = Vector2(15224, 800)
-
-[node name="Caballete" type="Sprite2D" parent="Dibujar" unique_id=1399479178]
-texture = ExtResource("23_i6si6")
-
-[node name="DibujoA" type="Sprite2D" parent="Dibujar" unique_id=306422745]
-position = Vector2(9, 1)
-texture = ExtResource("24_arecf")
-
-[node name="DibujoB" type="Sprite2D" parent="Dibujar" unique_id=1945559083]
-position = Vector2(9, 1)
-texture = ExtResource("25_f761e")
-
-[node name="DibujoC" type="Sprite2D" parent="Dibujar" unique_id=2021425987]
-position = Vector2(9, 1)
-texture = ExtResource("26_lq0lg")
-
-[node name="ColorRect" type="ColorRect" parent="Dibujar" unique_id=664104384]
-material = ExtResource("28_lq0lg")
-offset_left = -447.0
-offset_top = -486.0
-offset_right = 451.0
-offset_bottom = 458.0
-color = Color(0.9607843, 0.95686275, 0.92941177, 1)
-script = ExtResource("28_f761e")
-
-[connection signal="finished" from="Beat" to="Layer 1" method="hide_layer"]
-[connection signal="finished" from="Beat" to="Layer 2" method="show_layer"]
+[connection signal="finished" from="Beat" to="Beat/Layer 1" method="hide_layer"]
+[connection signal="finished" from="Beat" to="Beat2/Layer 2" method="show_layer"]
 [connection signal="timeout" from="Beat/Timer" to="Beat" method="stop"]
 [connection signal="timeout" from="Beat2/Timer" to="Beat2" method="stop"]
 [connection signal="timeout" from="Beat3/Timer" to="Beat3" method="stop"]
+[connection signal="finished" from="Beat4/EscuelaMonjas/EscuelaMonjasText" to="Beat4/EscuelaMonjas/Timer" method="set_process_mode" binds= [0]]
+[connection signal="timeout" from="Beat4/EscuelaMonjas/Timer" to="Beat4/EscuelaMonjas/EscuelaMonjasText2" method="set_process_mode" binds= [0]]
 [connection signal="timeout" from="Beat4/Timer" to="Beat4" method="stop"]
 [connection signal="timeout" from="Beat5/Timer" to="Beat5" method="stop"]
 [connection signal="timeout" from="Beat6/Timer" to="Beat6" method="stop"]
