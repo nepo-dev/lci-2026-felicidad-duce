@@ -122,7 +122,7 @@ z_index = 15
 position = Vector2(105, 0)
 script = ExtResource("8_r4ud0")
 camera_guide = NodePath("CameraGuide")
-duration = 5.0
+duration = 0.0
 zoom_out = 1.0
 metadata/_custom_type_script = "uid://ch0m0yimte0qe"
 
@@ -132,7 +132,7 @@ script = ExtResource("9_rrv0d")
 metadata/_custom_type_script = "uid://vujrcsq3ycfk"
 
 [node name="Timer" type="Timer" parent="Beat" unique_id=1871261106]
-wait_time = 5.0
+wait_time = 2.0
 one_shot = true
 autostart = true
 
@@ -151,7 +151,6 @@ script = ExtResource("9_rrv0d")
 metadata/_custom_type_script = "uid://vujrcsq3ycfk"
 
 [node name="Timer" type="Timer" parent="Beat2" unique_id=1930025843]
-wait_time = 5.0
 one_shot = true
 autostart = true
 
@@ -170,7 +169,7 @@ script = ExtResource("9_rrv0d")
 metadata/_custom_type_script = "uid://vujrcsq3ycfk"
 
 [node name="Timer" type="Timer" parent="Beat3" unique_id=1627254774]
-wait_time = 5.0
+wait_time = 2.0
 one_shot = true
 autostart = true
 
@@ -189,7 +188,7 @@ script = ExtResource("9_rrv0d")
 metadata/_custom_type_script = "uid://vujrcsq3ycfk"
 
 [node name="Timer" type="Timer" parent="Beat4" unique_id=1245447905]
-wait_time = 5.0
+wait_time = 2.0
 one_shot = true
 autostart = true
 
@@ -208,7 +207,7 @@ script = ExtResource("9_rrv0d")
 metadata/_custom_type_script = "uid://vujrcsq3ycfk"
 
 [node name="Timer" type="Timer" parent="Beat5" unique_id=1016113326]
-wait_time = 5.0
+wait_time = 2.0
 one_shot = true
 autostart = true
 
@@ -227,7 +226,7 @@ script = ExtResource("9_rrv0d")
 metadata/_custom_type_script = "uid://vujrcsq3ycfk"
 
 [node name="Timer" type="Timer" parent="Beat6" unique_id=1711596998]
-wait_time = 5.0
+wait_time = 2.0
 one_shot = true
 autostart = true
 
@@ -246,7 +245,7 @@ script = ExtResource("9_rrv0d")
 metadata/_custom_type_script = "uid://vujrcsq3ycfk"
 
 [node name="Timer" type="Timer" parent="Beat7" unique_id=1539945882]
-wait_time = 5.0
+wait_time = 2.0
 one_shot = true
 autostart = true
 
