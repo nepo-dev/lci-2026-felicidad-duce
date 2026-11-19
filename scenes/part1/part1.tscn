@@ -7,28 +7,650 @@
 [ext_resource type="Texture2D" uid="uid://cfdgj0s2qc0tb" path="res://scenes/part1/01_nacimiento/01_torreReloj/sprites_finales/nube_B.png" id="5_2j1b0"]
 [ext_resource type="Script" uid="uid://b5yui4s13ipdq" path="res://components/framework/layer/layer.gd" id="5_rx8lk"]
 [ext_resource type="Texture2D" uid="uid://c3tdcfbe6agu7" path="res://scenes/part1/01_nacimiento/01_torreReloj/sprites_finales/nube_A.png" id="6_ghsao"]
-[ext_resource type="Texture2D" uid="uid://d1m72q0o5oo7m" path="res://scenes/part1/01_nacimiento/01_torreReloj/placeholders/retratos.png" id="7_4r21d"]
-[ext_resource type="Texture2D" uid="uid://dax3cbcwdvj5i" path="res://scenes/part1/01_nacimiento/01_torreReloj/sprites_finales/bocadillo.png" id="7_jttf6"]
 [ext_resource type="Texture2D" uid="uid://dupobbqykakjq" path="res://scenes/part1/01_nacimiento/01_torreReloj/sprites_finales/aguja_reloj_A.png" id="8_83hwk"]
 [ext_resource type="Script" uid="uid://ch0m0yimte0qe" path="res://components/framework/beat/beat.gd" id="8_r4ud0"]
 [ext_resource type="Texture2D" uid="uid://xfjd2s3k277k" path="res://scenes/part1/01_nacimiento/01_torreReloj/sprites_finales/aguja_reloj_B.png" id="9_4lk3m"]
 [ext_resource type="Texture2D" uid="uid://dem7dku0ossms" path="res://components/placeholder/square.svg" id="9_arecf"]
 [ext_resource type="Script" uid="uid://vujrcsq3ycfk" path="res://components/framework/camera_guide/camera_guide.gd" id="9_rrv0d"]
 [ext_resource type="PackedScene" uid="uid://gfrxcsbjyhwf" path="res://components/text_box/text_box.tscn" id="10_mk7yd"]
+[ext_resource type="Texture2D" uid="uid://de7l3pkt0tlpc" path="res://scenes/part1/01_nacimiento/01_torreReloj/animations/arbusto/Anim_Arbusto0001.png" id="10_y83tw"]
+[ext_resource type="Texture2D" uid="uid://cnl6ippnhay5a" path="res://scenes/part1/01_nacimiento/01_torreReloj/animations/arbusto/Anim_Arbusto0002.png" id="11_wlxq7"]
+[ext_resource type="Texture2D" uid="uid://dof54e030iqfk" path="res://scenes/part1/01_nacimiento/01_torreReloj/animations/arbusto/Anim_Arbusto0003.png" id="12_iktxc"]
+[ext_resource type="Texture2D" uid="uid://b1dgagb5rrq10" path="res://scenes/part1/01_nacimiento/01_torreReloj/animations/bocadillo/Anim_Bocadillo0001.png" id="13_c0tch"]
+[ext_resource type="Texture2D" uid="uid://blftdrx4g6kc8" path="res://scenes/part1/01_nacimiento/01_torreReloj/animations/arbusto/Anim_Arbusto0004.png" id="13_d71bd"]
+[ext_resource type="Texture2D" uid="uid://bc4gmypd8jax0" path="res://scenes/part1/01_nacimiento/01_torreReloj/animations/bocadillo/Anim_Bocadillo0002.png" id="14_8hknf"]
+[ext_resource type="Texture2D" uid="uid://bj1c4n5k1riij" path="res://scenes/part1/01_nacimiento/01_torreReloj/animations/arbusto/Anim_Arbusto0005.png" id="14_d42p8"]
+[ext_resource type="Texture2D" uid="uid://bhsv70xrxuirm" path="res://scenes/part1/01_nacimiento/01_torreReloj/animations/arbusto/Anim_Arbusto0006.png" id="15_kiahs"]
+[ext_resource type="Texture2D" uid="uid://diw011rl88y13" path="res://scenes/part1/01_nacimiento/01_torreReloj/animations/bocadillo/Anim_Bocadillo0003.png" id="15_uiln6"]
+[ext_resource type="Texture2D" uid="uid://c36bjc355w82k" path="res://scenes/part1/01_nacimiento/01_torreReloj/animations/arbusto/Anim_Arbusto0007.png" id="16_2htyk"]
+[ext_resource type="Texture2D" uid="uid://dv8q7f2fmnel3" path="res://scenes/part1/01_nacimiento/01_torreReloj/animations/bocadillo/Anim_Bocadillo0004.png" id="16_38yoj"]
+[ext_resource type="Texture2D" uid="uid://ibxyiidav481" path="res://scenes/part1/01_nacimiento/01_torreReloj/animations/bocadillo/Anim_Bocadillo0005.png" id="17_6v6qu"]
+[ext_resource type="Texture2D" uid="uid://c8eaq4qt5m0wg" path="res://scenes/part1/01_nacimiento/01_torreReloj/animations/arbusto/Anim_Arbusto0008.png" id="17_blyt3"]
+[ext_resource type="Texture2D" uid="uid://cbj25iptk4rta" path="res://scenes/part1/01_nacimiento/01_torreReloj/animations/bocadillo/Anim_Bocadillo0006.png" id="18_cupa7"]
+[ext_resource type="Texture2D" uid="uid://b2gu2t2oa8hqr" path="res://scenes/part1/01_nacimiento/01_torreReloj/animations/arbusto/Anim_Arbusto0009.png" id="18_p5u5w"]
 [ext_resource type="Texture2D" uid="uid://deqnbemc8lb56" path="res://scenes/part1/02_trabajoCasaMonjas/sprites_finales/fondo_aula_pintura.png" id="19_3p71s"]
+[ext_resource type="Texture2D" uid="uid://b1okfdh07f04x" path="res://scenes/part1/01_nacimiento/01_torreReloj/animations/arbusto/Anim_Arbusto0010.png" id="19_bfrmt"]
+[ext_resource type="Texture2D" uid="uid://baariba45g4h2" path="res://scenes/part1/01_nacimiento/01_torreReloj/animations/bocadillo/Anim_Bocadillo0007.png" id="19_m21vd"]
+[ext_resource type="Texture2D" uid="uid://5lx5ee7l57vx" path="res://scenes/part1/01_nacimiento/01_torreReloj/animations/arbusto/Anim_Arbusto0011.png" id="20_2w2ub"]
+[ext_resource type="Texture2D" uid="uid://cibuoya1iy2bh" path="res://scenes/part1/01_nacimiento/01_torreReloj/animations/bocadillo/Anim_Bocadillo0008.png" id="20_63mri"]
 [ext_resource type="Texture2D" uid="uid://cm0d14r80t3kl" path="res://scenes/part1/02_trabajoCasaMonjas/sprites_finales/ventana_escuela_monjas.png" id="20_kk1cl"]
+[ext_resource type="Texture2D" uid="uid://b7oi41vic3q46" path="res://scenes/part1/01_nacimiento/01_torreReloj/animations/bocadillo/Anim_Bocadillo0009.png" id="21_8wsx4"]
+[ext_resource type="Texture2D" uid="uid://dkl7j2ekqtn3y" path="res://scenes/part1/01_nacimiento/01_torreReloj/animations/arbusto/Anim_Arbusto0012.png" id="21_qqt5d"]
 [ext_resource type="Texture2D" uid="uid://nx84cpgpx62o" path="res://scenes/part1/02_trabajoCasaMonjas/sprites_finales/arbustos_ventana_escuela_monjas.png" id="21_vqgxu"]
 [ext_resource type="Texture2D" uid="uid://co5mj1qih8nvx" path="res://scenes/part1/02_trabajoCasaMonjas/sprites_finales/personajes_pintando.png" id="22_daai0"]
+[ext_resource type="Texture2D" uid="uid://djxi0l6fgnuop" path="res://scenes/part1/01_nacimiento/01_torreReloj/animations/arbusto/Anim_Arbusto0013.png" id="22_dfwyw"]
+[ext_resource type="Texture2D" uid="uid://c0e868tvqjknu" path="res://scenes/part1/01_nacimiento/01_torreReloj/animations/bocadillo/Anim_Bocadillo0010.png" id="22_yr4fh"]
+[ext_resource type="Texture2D" uid="uid://ojgx01nnu24o" path="res://scenes/part1/01_nacimiento/01_torreReloj/animations/arbusto/Anim_Arbusto0014.png" id="23_4strt"]
 [ext_resource type="Texture2D" uid="uid://vgngw188nejh" path="res://scenes/part1/04_minijuego_pintar/caballete.png" id="23_i6si6"]
+[ext_resource type="Texture2D" uid="uid://catoe2d6uhff6" path="res://scenes/part1/01_nacimiento/01_torreReloj/animations/bocadillo/Anim_Bocadillo0011.png" id="23_yvgnj"]
+[ext_resource type="Texture2D" uid="uid://brripsoutdboq" path="res://scenes/part1/01_nacimiento/01_torreReloj/animations/bocadillo/Anim_Bocadillo0012.png" id="24_8cbdk"]
 [ext_resource type="Texture2D" uid="uid://cdwiukhv3n1gc" path="res://scenes/part1/04_minijuego_pintar/dibujo_A.png" id="24_arecf"]
+[ext_resource type="Texture2D" uid="uid://b04t1mb6ruxvu" path="res://scenes/part1/01_nacimiento/01_torreReloj/animations/arbusto/Anim_Arbusto0015.png" id="24_c37kj"]
+[ext_resource type="Texture2D" uid="uid://cxs4jcad8b5rb" path="res://scenes/part1/01_nacimiento/01_torreReloj/animations/arbusto/Anim_Arbusto0016.png" id="25_d27ea"]
 [ext_resource type="Texture2D" uid="uid://ytpexrowgd6" path="res://scenes/part1/04_minijuego_pintar/dibujo_B.png" id="25_f761e"]
+[ext_resource type="Texture2D" uid="uid://bhy3w1a8uo077" path="res://scenes/part1/01_nacimiento/01_torreReloj/animations/bocadillo/Anim_Bocadillo0013.png" id="25_l0b4n"]
+[ext_resource type="Texture2D" uid="uid://0kt8fttbhmi" path="res://scenes/part1/01_nacimiento/01_torreReloj/animations/bocadillo/Anim_Bocadillo0014.png" id="26_3kmk1"]
+[ext_resource type="Texture2D" uid="uid://4lkreguamkh7" path="res://scenes/part1/01_nacimiento/01_torreReloj/animations/arbusto/Anim_Arbusto0017.png" id="26_hsqry"]
 [ext_resource type="Texture2D" uid="uid://12blrbwu3ug1" path="res://scenes/part1/04_minijuego_pintar/dibujo_C.png" id="26_lq0lg"]
+[ext_resource type="Texture2D" uid="uid://dkrtr6nuobtx2" path="res://scenes/part1/01_nacimiento/01_torreReloj/animations/arbusto/Anim_Arbusto0018.png" id="27_hdygg"]
+[ext_resource type="Texture2D" uid="uid://hjph2ka1jdp4" path="res://scenes/part1/01_nacimiento/01_torreReloj/animations/arbusto/Anim_Arbusto0019.png" id="28_dg6qf"]
 [ext_resource type="Script" uid="uid://dhrl706aicsm3" path="res://TestDrawingMinigame/DrawLayer.gd" id="28_f761e"]
 [ext_resource type="Material" uid="uid://bvqknn1rb8hl8" path="res://TestDrawingMinigame/mask.tres" id="28_lq0lg"]
+[ext_resource type="Texture2D" uid="uid://cg6iqi6bjyjy5" path="res://scenes/part1/01_nacimiento/01_torreReloj/animations/retratos/madre/Anim_Retrato_Madre0001.png" id="28_ygclx"]
+[ext_resource type="Texture2D" uid="uid://cdgva31uro5ov" path="res://scenes/part1/01_nacimiento/01_torreReloj/animations/arbusto/Anim_Arbusto0020.png" id="29_a0q47"]
+[ext_resource type="Texture2D" uid="uid://c4xljga8wh3u5" path="res://scenes/part1/01_nacimiento/01_torreReloj/animations/retratos/madre/Anim_Retrato_Madre0002.png" id="29_k68y8"]
+[ext_resource type="Texture2D" uid="uid://brymo4jjit31q" path="res://scenes/part1/01_nacimiento/01_torreReloj/animations/retratos/madre/Anim_Retrato_Madre0003.png" id="30_ikgw0"]
+[ext_resource type="Texture2D" uid="uid://c7li3nm3e3sgg" path="res://scenes/part1/01_nacimiento/01_torreReloj/animations/arbusto/Anim_Arbusto0021.png" id="30_kxcxg"]
+[ext_resource type="Texture2D" uid="uid://bbv3477bkuqv4" path="res://scenes/part1/01_nacimiento/01_torreReloj/animations/retratos/madre/Anim_Retrato_Madre0004.png" id="31_ce0ob"]
+[ext_resource type="Texture2D" uid="uid://crkhx7byxwtej" path="res://scenes/part1/01_nacimiento/01_torreReloj/animations/arbusto/Anim_Arbusto0022.png" id="31_pyuv4"]
 [ext_resource type="Texture2D" uid="uid://chhxs3f6isei7" path="res://scenes/part1/02_trabajoCasaMonjas/sprites_finales/pared_marcos.png" id="31_x75mo"]
+[ext_resource type="Texture2D" uid="uid://cx6hlrmetvk1v" path="res://scenes/part1/01_nacimiento/01_torreReloj/animations/arbusto/Anim_Arbusto0023.png" id="32_bphiu"]
+[ext_resource type="Texture2D" uid="uid://d2rujbglbrgip" path="res://scenes/part1/01_nacimiento/01_torreReloj/animations/retratos/madre/Anim_Retrato_Madre0005.png" id="32_ihgrf"]
 [ext_resource type="Texture2D" uid="uid://cajg4uf5dk30c" path="res://scenes/part1/02_trabajoCasaMonjas/sprites_finales/personajes_escuela_monjas.png" id="32_wsraw"]
+[ext_resource type="Texture2D" uid="uid://cuo1jyvgqp24r" path="res://scenes/part1/01_nacimiento/01_torreReloj/animations/retratos/madre/Anim_Retrato_Madre0006.png" id="33_d8ben"]
+[ext_resource type="Texture2D" uid="uid://dli0q7fhgi880" path="res://scenes/part1/01_nacimiento/01_torreReloj/animations/arbusto/Anim_Arbusto0024.png" id="33_gyw7s"]
 [ext_resource type="Texture2D" uid="uid://b6pcylnue25u5" path="res://scenes/part1/02_trabajoCasaMonjas/sprites_finales/pared_escuela_monjas.png" id="33_wlwgk"]
+[ext_resource type="Texture2D" uid="uid://dbhul5x2ukye8" path="res://scenes/part1/01_nacimiento/01_torreReloj/animations/retratos/madre/Anim_Retrato_Madre0007.png" id="34_1bsxy"]
 [ext_resource type="Texture2D" uid="uid://hop62tmcoia2" path="res://scenes/part1/02_trabajoCasaMonjas/sprites_finales/jardin_prohibido.png" id="34_wlwgk"]
+[ext_resource type="Texture2D" uid="uid://djjnttj2rlltm" path="res://scenes/part1/01_nacimiento/01_torreReloj/animations/retratos/madre/Anim_Retrato_Madre0008.png" id="35_skrd7"]
+[ext_resource type="Texture2D" uid="uid://c72s4osce2hvg" path="res://scenes/part1/01_nacimiento/01_torreReloj/animations/retratos/madre/Anim_Retrato_Madre0009.png" id="36_ppgxs"]
+[ext_resource type="Texture2D" uid="uid://cersyxtl63d62" path="res://scenes/part1/01_nacimiento/01_torreReloj/animations/retratos/madre/Anim_Retrato_Madre0010.png" id="37_6kqu0"]
+[ext_resource type="Texture2D" uid="uid://citiq7ruhoxbl" path="res://scenes/part1/01_nacimiento/01_torreReloj/animations/retratos/madre/Anim_Retrato_Madre0011.png" id="38_y83tw"]
+[ext_resource type="Texture2D" uid="uid://cmon0l5edrqiy" path="res://scenes/part1/01_nacimiento/01_torreReloj/animations/retratos/madre/Anim_Retrato_Madre0012.png" id="39_wlxq7"]
+[ext_resource type="Texture2D" uid="uid://cy582vf6w8nk" path="res://scenes/part1/01_nacimiento/01_torreReloj/animations/retratos/madre/Anim_Retrato_Madre0013.png" id="40_iktxc"]
+[ext_resource type="Texture2D" uid="uid://cnnfis6v0kpcf" path="res://scenes/part1/01_nacimiento/01_torreReloj/animations/retratos/madre/Anim_Retrato_Madre0014.png" id="41_d71bd"]
+[ext_resource type="Texture2D" uid="uid://bhdr23pc0lapq" path="res://scenes/part1/01_nacimiento/01_torreReloj/animations/retratos/madre/Anim_Retrato_Madre0015.png" id="42_d42p8"]
+[ext_resource type="Texture2D" uid="uid://dewth3kfqjv81" path="res://scenes/part1/01_nacimiento/01_torreReloj/animations/retratos/madre/Anim_Retrato_Madre0016.png" id="43_kiahs"]
+[ext_resource type="Texture2D" uid="uid://ck8xya1v5hni1" path="res://scenes/part1/01_nacimiento/01_torreReloj/animations/retratos/madre/Anim_Retrato_Madre0017.png" id="44_2htyk"]
+[ext_resource type="Texture2D" uid="uid://c2y6pfavosl05" path="res://scenes/part1/01_nacimiento/01_torreReloj/animations/retratos/madre/Anim_Retrato_Madre0018.png" id="45_blyt3"]
+[ext_resource type="Texture2D" uid="uid://cdn4wr51tq0d1" path="res://scenes/part1/01_nacimiento/01_torreReloj/animations/retratos/madre/Anim_Retrato_Madre0019.png" id="46_p5u5w"]
+[ext_resource type="Texture2D" uid="uid://b2adgregrg18o" path="res://scenes/part1/01_nacimiento/01_torreReloj/animations/retratos/madre/Anim_Retrato_Madre0020.png" id="47_bfrmt"]
+[ext_resource type="Texture2D" uid="uid://b4ryeng2ggei5" path="res://scenes/part1/01_nacimiento/01_torreReloj/animations/retratos/madre/Anim_Retrato_Madre0021.png" id="48_2w2ub"]
+[ext_resource type="Texture2D" uid="uid://cq1j10t2112b" path="res://scenes/part1/01_nacimiento/01_torreReloj/animations/retratos/madre/Anim_Retrato_Madre0022.png" id="49_qqt5d"]
+[ext_resource type="Texture2D" uid="uid://oj4r5u2fyse" path="res://scenes/part1/01_nacimiento/01_torreReloj/animations/retratos/madre/Anim_Retrato_Madre0023.png" id="50_dfwyw"]
+[ext_resource type="Texture2D" uid="uid://bnp0c5oq3uyjm" path="res://scenes/part1/01_nacimiento/01_torreReloj/animations/retratos/madre/Anim_Retrato_Madre0024.png" id="51_4strt"]
+[ext_resource type="Texture2D" uid="uid://dujm5nnal5an7" path="res://scenes/part1/01_nacimiento/01_torreReloj/animations/retratos/madre/Anim_Retrato_Madre0025.png" id="52_c37kj"]
+[ext_resource type="Texture2D" uid="uid://cxnk7m2k06a3y" path="res://scenes/part1/01_nacimiento/01_torreReloj/animations/retratos/madre/Anim_Retrato_Madre0026.png" id="53_d27ea"]
+[ext_resource type="Texture2D" uid="uid://nvlgdnufocvk" path="res://scenes/part1/01_nacimiento/01_torreReloj/animations/retratos/madre/Anim_Retrato_Madre0027.png" id="54_hsqry"]
+[ext_resource type="Texture2D" uid="uid://bx7ke5tpxmidi" path="res://scenes/part1/01_nacimiento/01_torreReloj/animations/retratos/madre/Anim_Retrato_Madre0028.png" id="55_hdygg"]
+[ext_resource type="Texture2D" uid="uid://bjvkl58f6wkcr" path="res://scenes/part1/01_nacimiento/01_torreReloj/animations/retratos/madre/Anim_Retrato_Madre0029.png" id="56_dg6qf"]
+[ext_resource type="Texture2D" uid="uid://b18b7pv70a6gj" path="res://scenes/part1/01_nacimiento/01_torreReloj/animations/retratos/madre/Anim_Retrato_Madre0030.png" id="57_a0q47"]
+[ext_resource type="Texture2D" uid="uid://manac23ctor4" path="res://scenes/part1/01_nacimiento/01_torreReloj/animations/retratos/madre/Anim_Retrato_Madre0031.png" id="58_kxcxg"]
+[ext_resource type="Texture2D" uid="uid://by8ud4rugrhky" path="res://scenes/part1/01_nacimiento/01_torreReloj/animations/retratos/madre/Anim_Retrato_Madre0032.png" id="59_pyuv4"]
+[ext_resource type="Texture2D" uid="uid://dnegkng15cf0n" path="res://scenes/part1/01_nacimiento/01_torreReloj/animations/retratos/madre/Anim_Retrato_Madre0033.png" id="60_bphiu"]
+[ext_resource type="Texture2D" uid="uid://buuw1b2j8c24n" path="res://scenes/part1/01_nacimiento/01_torreReloj/animations/retratos/madre/Anim_Retrato_Madre0034.png" id="61_gyw7s"]
+[ext_resource type="Texture2D" uid="uid://ctl7dkpchbycd" path="res://scenes/part1/01_nacimiento/01_torreReloj/animations/retratos/madre/Anim_Retrato_Madre0035.png" id="62_ruxbp"]
+[ext_resource type="Texture2D" uid="uid://cxslgirh4cwlr" path="res://scenes/part1/01_nacimiento/01_torreReloj/animations/retratos/madre/Anim_Retrato_Madre0036.png" id="63_ls25y"]
+[ext_resource type="Texture2D" uid="uid://5dfr4a5clh11" path="res://scenes/part1/01_nacimiento/01_torreReloj/animations/retratos/madre/Anim_Retrato_Madre0037.png" id="64_d7a1e"]
+[ext_resource type="Texture2D" uid="uid://cupb8bpjrfxbj" path="res://scenes/part1/01_nacimiento/01_torreReloj/animations/retratos/madre/Anim_Retrato_Madre0038.png" id="65_a4lpm"]
+[ext_resource type="Texture2D" uid="uid://dbyqo1boi2i6u" path="res://scenes/part1/01_nacimiento/01_torreReloj/animations/retratos/madre/Anim_Retrato_Madre0039.png" id="66_2kv42"]
+[ext_resource type="Texture2D" uid="uid://dvtypwiqusxyt" path="res://scenes/part1/01_nacimiento/01_torreReloj/animations/retratos/madre/Anim_Retrato_Madre0040.png" id="67_pt22x"]
+[ext_resource type="Texture2D" uid="uid://d0r2lc2ddvg25" path="res://scenes/part1/01_nacimiento/01_torreReloj/animations/retratos/madre/Anim_Retrato_Madre0041.png" id="68_o1llj"]
+[ext_resource type="Texture2D" uid="uid://uo7glitfq56a" path="res://scenes/part1/01_nacimiento/01_torreReloj/animations/retratos/madre/Anim_Retrato_Madre0042.png" id="69_m6uk2"]
+[ext_resource type="Texture2D" uid="uid://cpy8gajfvta0s" path="res://scenes/part1/01_nacimiento/01_torreReloj/animations/retratos/padre/Anim_Retrato_Padre0001.png" id="70_kgklh"]
+[ext_resource type="Texture2D" uid="uid://cu36p3nodpc6x" path="res://scenes/part1/01_nacimiento/01_torreReloj/animations/retratos/padre/Anim_Retrato_Padre0002.png" id="71_5b6of"]
+[ext_resource type="Texture2D" uid="uid://bryumcw6oyf0i" path="res://scenes/part1/01_nacimiento/01_torreReloj/animations/retratos/padre/Anim_Retrato_Padre0003.png" id="72_3b2h5"]
+[ext_resource type="Texture2D" uid="uid://b0i2ntm16d54s" path="res://scenes/part1/01_nacimiento/01_torreReloj/animations/retratos/padre/Anim_Retrato_Padre0004.png" id="73_woy78"]
+[ext_resource type="Texture2D" uid="uid://jkx2hmal3lnv" path="res://scenes/part1/01_nacimiento/01_torreReloj/animations/retratos/padre/Anim_Retrato_Padre0005.png" id="74_cln12"]
+[ext_resource type="Texture2D" uid="uid://3bkwycpoyd13" path="res://scenes/part1/01_nacimiento/01_torreReloj/animations/retratos/padre/Anim_Retrato_Padre0006.png" id="75_npbpa"]
+[ext_resource type="Texture2D" uid="uid://bpmdi52r2mrsd" path="res://scenes/part1/01_nacimiento/01_torreReloj/animations/retratos/padre/Anim_Retrato_Padre0007.png" id="76_30xsm"]
+[ext_resource type="Texture2D" uid="uid://x5bvl41pti66" path="res://scenes/part1/01_nacimiento/01_torreReloj/animations/retratos/padre/Anim_Retrato_Padre0008.png" id="77_c2amw"]
+[ext_resource type="Texture2D" uid="uid://dcq0n0g3xkm3o" path="res://scenes/part1/01_nacimiento/01_torreReloj/animations/retratos/padre/Anim_Retrato_Padre0009.png" id="78_nbkpa"]
+[ext_resource type="Texture2D" uid="uid://csbhuqkd76l5k" path="res://scenes/part1/01_nacimiento/01_torreReloj/animations/retratos/padre/Anim_Retrato_Padre0010.png" id="79_bpl0m"]
+[ext_resource type="Texture2D" uid="uid://cigvhvigkx6r2" path="res://scenes/part1/01_nacimiento/01_torreReloj/animations/retratos/padre/Anim_Retrato_Padre0011.png" id="80_5fle2"]
+[ext_resource type="Texture2D" uid="uid://dn2e1tpj8ansy" path="res://scenes/part1/01_nacimiento/01_torreReloj/animations/retratos/padre/Anim_Retrato_Padre0012.png" id="81_q4fin"]
+[ext_resource type="Texture2D" uid="uid://bxdm2k8l4n33r" path="res://scenes/part1/01_nacimiento/01_torreReloj/animations/retratos/padre/Anim_Retrato_Padre0013.png" id="82_nvq3w"]
+[ext_resource type="Texture2D" uid="uid://dvndv5q6gjcae" path="res://scenes/part1/01_nacimiento/01_torreReloj/animations/retratos/padre/Anim_Retrato_Padre0014.png" id="83_bkstp"]
+[ext_resource type="Texture2D" uid="uid://cj2c5owsa7jxo" path="res://scenes/part1/01_nacimiento/01_torreReloj/animations/retratos/padre/Anim_Retrato_Padre0015.png" id="84_kbnnv"]
+[ext_resource type="Texture2D" uid="uid://qp8u421kigmb" path="res://scenes/part1/01_nacimiento/01_torreReloj/animations/retratos/padre/Anim_Retrato_Padre0016.png" id="85_7lwxi"]
+[ext_resource type="Texture2D" uid="uid://y17fon2d8jjg" path="res://scenes/part1/01_nacimiento/01_torreReloj/animations/retratos/padre/Anim_Retrato_Padre0017.png" id="86_cciw0"]
+[ext_resource type="Texture2D" uid="uid://c31k5ena38loj" path="res://scenes/part1/01_nacimiento/01_torreReloj/animations/retratos/padre/Anim_Retrato_Padre0018.png" id="87_dikgk"]
+[ext_resource type="Texture2D" uid="uid://bj4yxi4mb2a68" path="res://scenes/part1/01_nacimiento/01_torreReloj/animations/retratos/padre/Anim_Retrato_Padre0019.png" id="88_bc36s"]
+[ext_resource type="Texture2D" uid="uid://dqu36er4iwjdc" path="res://scenes/part1/01_nacimiento/01_torreReloj/animations/retratos/padre/Anim_Retrato_Padre0020.png" id="89_8fwjt"]
+[ext_resource type="Texture2D" uid="uid://b6rtge61ha58c" path="res://scenes/part1/01_nacimiento/01_torreReloj/animations/retratos/padre/Anim_Retrato_Padre0021.png" id="90_csdku"]
+[ext_resource type="Texture2D" uid="uid://yqf6u72w4qja" path="res://scenes/part1/01_nacimiento/01_torreReloj/animations/retratos/padre/Anim_Retrato_Padre0022.png" id="91_nn4ob"]
+[ext_resource type="Texture2D" uid="uid://dt51840cgcyyw" path="res://scenes/part1/01_nacimiento/01_torreReloj/animations/retratos/padre/Anim_Retrato_Padre0023.png" id="92_2defe"]
+[ext_resource type="Texture2D" uid="uid://bpjfo6lic2y4s" path="res://scenes/part1/01_nacimiento/01_torreReloj/animations/retratos/padre/Anim_Retrato_Padre0024.png" id="93_s6gt1"]
+[ext_resource type="Texture2D" uid="uid://dkjm54irrn3vj" path="res://scenes/part1/01_nacimiento/01_torreReloj/animations/retratos/padre/Anim_Retrato_Padre0025.png" id="94_tuscw"]
+[ext_resource type="Texture2D" uid="uid://cgtvhgf2k8v6l" path="res://scenes/part1/01_nacimiento/01_torreReloj/animations/retratos/padre/Anim_Retrato_Padre0026.png" id="95_0vjbg"]
+[ext_resource type="Texture2D" uid="uid://b257ivta4x85n" path="res://scenes/part1/01_nacimiento/01_torreReloj/animations/retratos/padre/Anim_Retrato_Padre0027.png" id="96_oeia5"]
+[ext_resource type="Texture2D" uid="uid://cgqm3v3egtj2p" path="res://scenes/part1/01_nacimiento/01_torreReloj/animations/retratos/padre/Anim_Retrato_Padre0028.png" id="97_xg47p"]
+[ext_resource type="Texture2D" uid="uid://2jmqrucp7wra" path="res://scenes/part1/01_nacimiento/01_torreReloj/animations/retratos/padre/Anim_Retrato_Padre0029.png" id="98_wv1g4"]
+[ext_resource type="Texture2D" uid="uid://bstmab2g54vh4" path="res://scenes/part1/01_nacimiento/01_torreReloj/animations/retratos/padre/Anim_Retrato_Padre0030.png" id="99_0hlyk"]
+[ext_resource type="Texture2D" uid="uid://411aenb0hn6g" path="res://scenes/part1/01_nacimiento/01_torreReloj/animations/retratos/padre/Anim_Retrato_Padre0031.png" id="100_iybld"]
+[ext_resource type="Texture2D" uid="uid://dwwtwmkjkux4x" path="res://scenes/part1/01_nacimiento/01_torreReloj/animations/retratos/padre/Anim_Retrato_Padre0032.png" id="101_qmc2a"]
+[ext_resource type="Texture2D" uid="uid://claq2enmpu6pi" path="res://scenes/part1/01_nacimiento/01_torreReloj/animations/retratos/padre/Anim_Retrato_Padre0033.png" id="102_xn8ln"]
+[ext_resource type="Texture2D" uid="uid://dnt0cedbnkmqu" path="res://scenes/part1/01_nacimiento/01_torreReloj/animations/retratos/padre/Anim_Retrato_Padre0034.png" id="103_oedn3"]
+[ext_resource type="Texture2D" uid="uid://xebljh046a4t" path="res://scenes/part1/01_nacimiento/01_torreReloj/animations/retratos/padre/Anim_Retrato_Padre0035.png" id="104_rsss4"]
+[ext_resource type="Texture2D" uid="uid://bfohhcip36aye" path="res://scenes/part1/01_nacimiento/01_torreReloj/animations/retratos/padre/Anim_Retrato_Padre0036.png" id="105_ovpib"]
+[ext_resource type="Texture2D" uid="uid://xq1caqi45rob" path="res://scenes/part1/01_nacimiento/01_torreReloj/animations/retratos/padre/Anim_Retrato_Padre0037.png" id="106_bv4ls"]
+[ext_resource type="Texture2D" uid="uid://dsddgxri5tic6" path="res://scenes/part1/01_nacimiento/01_torreReloj/animations/retratos/padre/Anim_Retrato_Padre0038.png" id="107_ppt0v"]
+[ext_resource type="Texture2D" uid="uid://ct5fttkxemw77" path="res://scenes/part1/01_nacimiento/01_torreReloj/animations/retratos/padre/Anim_Retrato_Padre0039.png" id="108_h57aj"]
+[ext_resource type="Texture2D" uid="uid://xa37b2qdjtjp" path="res://scenes/part1/01_nacimiento/01_torreReloj/animations/retratos/padre/Anim_Retrato_Padre0040.png" id="109_t238u"]
+[ext_resource type="Texture2D" uid="uid://c1m3ie6gmicph" path="res://scenes/part1/01_nacimiento/01_torreReloj/animations/retratos/padre/Anim_Retrato_Padre0041.png" id="110_2aatb"]
+[ext_resource type="Texture2D" uid="uid://duhbmdh5l0b2f" path="res://scenes/part1/01_nacimiento/01_torreReloj/animations/retratos/padre/Anim_Retrato_Padre0042.png" id="111_6mvr2"]
+[ext_resource type="Texture2D" uid="uid://bjycketxpitd" path="res://scenes/part1/02_trabajoCasaMonjas/placeholders/estudiantyes clase.png" id="138_d27ea"]
+[ext_resource type="Texture2D" uid="uid://ev3euvqholil" path="res://scenes/part1/02_trabajoCasaMonjas/placeholders/cuadro.png" id="141_hdygg"]
+[ext_resource type="Texture2D" uid="uid://bb0esg7ykftpj" path="res://scenes/part1/02_trabajoCasaMonjas/placeholders/pelota.png" id="142_dg6qf"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_ccrme"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("10_y83tw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_wlxq7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_iktxc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_d71bd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_d42p8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_kiahs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_2htyk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_blyt3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_p5u5w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_bfrmt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_2w2ub")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_qqt5d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_dfwyw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_4strt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_c37kj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_d27ea")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_hsqry")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_hdygg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_dg6qf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_a0q47")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_kxcxg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_pyuv4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_bphiu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_gyw7s")
+}],
+"loop": 1,
+"name": &"arbusto",
+"speed": 12.0
+}]
+
+[sub_resource type="Animation" id="Animation_c37kj"]
+length = 0.001
+tracks/0/type = "bezier"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("NubeB:position:x")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"handle_modes": PackedInt32Array(0),
+"points": PackedFloat32Array(-651.5, -0.25, 0, 0.25, 0),
+"times": PackedFloat32Array(0)
+}
+tracks/1/type = "bezier"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("NubeB:position:y")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"handle_modes": PackedInt32Array(0),
+"points": PackedFloat32Array(-850, -0.25, 0, 0.25, 0),
+"times": PackedFloat32Array(0)
+}
+tracks/2/type = "bezier"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("NubeA:position:x")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"handle_modes": PackedInt32Array(0),
+"points": PackedFloat32Array(220.059, -0.25, 0, 0.25, 0),
+"times": PackedFloat32Array(0)
+}
+tracks/3/type = "bezier"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("NubeA:position:y")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"handle_modes": PackedInt32Array(0),
+"points": PackedFloat32Array(-712.459, -0.25, 0, 0.25, 0),
+"times": PackedFloat32Array(0)
+}
+
+[sub_resource type="Animation" id="Animation_d27ea"]
+resource_name = "nubes"
+length = 154.73334
+tracks/0/type = "bezier"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("NubeA:position:x")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"handle_modes": PackedInt32Array(2, 0),
+"points": PackedFloat32Array(220.059, -0.25, 0, 0.25, 0, 1567.0591, -16.666668, -224.50003, 0, 0),
+"times": PackedFloat32Array(0, 153.63333)
+}
+tracks/1/type = "bezier"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("NubeA:position:y")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"handle_modes": PackedInt32Array(2, 0),
+"points": PackedFloat32Array(-712.459, -0.25, 0, 0.25, 0, -646.459, -16.666668, -11.000001, 0, 0),
+"times": PackedFloat32Array(0, 153.63333)
+}
+tracks/2/type = "bezier"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("NubeB:position:x")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"handle_modes": PackedInt32Array(2, 0),
+"points": PackedFloat32Array(-651.5, -0.25, 0, 0.25, 0, 695.5, -16.666668, -224.50002, 0, 0),
+"times": PackedFloat32Array(0, 153.63333)
+}
+tracks/3/type = "bezier"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("NubeB:position:y")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"handle_modes": PackedInt32Array(2, 0),
+"points": PackedFloat32Array(-850, -0.25, 0, 0.25, 0, -784, -16.666668, -11.000001, 0, 0),
+"times": PackedFloat32Array(0, 153.63333)
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_hsqry"]
+_data = {
+&"RESET": SubResource("Animation_c37kj"),
+&"nubes": SubResource("Animation_d27ea")
+}
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_6snss"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("13_c0tch")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_8hknf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_uiln6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_38yoj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_6v6qu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_cupa7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_m21vd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_63mri")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_8wsx4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_yr4fh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_yvgnj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_8cbdk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_l0b4n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_3kmk1")
+}],
+"loop": 1,
+"name": &"bocadillo",
+"speed": 12.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_c0tch"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("28_ygclx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_k68y8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_ikgw0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_ce0ob")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_ihgrf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_d8ben")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_1bsxy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_skrd7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_ppgxs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37_6kqu0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38_y83tw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39_wlxq7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40_iktxc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41_d71bd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42_d42p8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43_kiahs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44_2htyk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45_blyt3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46_p5u5w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47_bfrmt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48_2w2ub")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49_qqt5d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50_dfwyw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51_4strt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("52_c37kj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("53_d27ea")
+}, {
+"duration": 1.0,
+"texture": ExtResource("54_hsqry")
+}, {
+"duration": 1.0,
+"texture": ExtResource("55_hdygg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("56_dg6qf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("57_a0q47")
+}, {
+"duration": 1.0,
+"texture": ExtResource("58_kxcxg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("59_pyuv4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("60_bphiu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("61_gyw7s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("62_ruxbp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("63_ls25y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("64_d7a1e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("65_a4lpm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("66_2kv42")
+}, {
+"duration": 1.0,
+"texture": ExtResource("67_pt22x")
+}, {
+"duration": 1.0,
+"texture": ExtResource("68_o1llj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("69_m6uk2")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 15.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_8hknf"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("70_kgklh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("71_5b6of")
+}, {
+"duration": 1.0,
+"texture": ExtResource("72_3b2h5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("73_woy78")
+}, {
+"duration": 1.0,
+"texture": ExtResource("74_cln12")
+}, {
+"duration": 1.0,
+"texture": ExtResource("75_npbpa")
+}, {
+"duration": 1.0,
+"texture": ExtResource("76_30xsm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("77_c2amw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("78_nbkpa")
+}, {
+"duration": 1.0,
+"texture": ExtResource("79_bpl0m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("80_5fle2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("81_q4fin")
+}, {
+"duration": 1.0,
+"texture": ExtResource("82_nvq3w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("83_bkstp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("84_kbnnv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("85_7lwxi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("86_cciw0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("87_dikgk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("88_bc36s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("89_8fwjt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("90_csdku")
+}, {
+"duration": 1.0,
+"texture": ExtResource("91_nn4ob")
+}, {
+"duration": 1.0,
+"texture": ExtResource("92_2defe")
+}, {
+"duration": 1.0,
+"texture": ExtResource("93_s6gt1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("94_tuscw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("95_0vjbg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("96_oeia5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("97_xg47p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("98_wv1g4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("99_0hlyk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("100_iybld")
+}, {
+"duration": 1.0,
+"texture": ExtResource("101_qmc2a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("102_xn8ln")
+}, {
+"duration": 1.0,
+"texture": ExtResource("103_oedn3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("104_rsss4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("105_ovpib")
+}, {
+"duration": 1.0,
+"texture": ExtResource("106_bv4ls")
+}, {
+"duration": 1.0,
+"texture": ExtResource("107_ppt0v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("108_h57aj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("109_t238u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("110_2aatb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("111_6mvr2")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 15.0
+}]
 
 [node name="Part1" type="Node2D" unique_id=1402624390]
 script = ExtResource("1_3euq0")
@@ -51,14 +673,6 @@ texture = ExtResource("3_wsraw")
 position = Vector2(-714, -323)
 texture = ExtResource("4_wlwgk")
 
-[node name="NubeB" type="Sprite2D" parent="TorreReloj" unique_id=1646706112]
-position = Vector2(-353, -759)
-texture = ExtResource("5_2j1b0")
-
-[node name="NubeA" type="Sprite2D" parent="TorreReloj" unique_id=1559904134]
-position = Vector2(485, -607)
-texture = ExtResource("6_ghsao")
-
 [node name="AgujaRelojA" type="Sprite2D" parent="TorreReloj" unique_id=984019287]
 position = Vector2(-711, -697)
 texture = ExtResource("8_83hwk")
@@ -74,12 +688,33 @@ position = Vector2(59, -475)
 scale = Vector2(22.75, 16.84)
 texture = ExtResource("9_arecf")
 
-[node name="Sprite2D2" type="Sprite2D" parent="TorreReloj" unique_id=961638486]
+[node name="fondo" type="Sprite2D" parent="TorreReloj" unique_id=961638486]
 modulate = Color(0.9607843, 0.95686275, 0.92941177, 1)
 z_index = -1
 position = Vector2(13974.001, -505)
 scale = Vector2(22.75, 16.84)
 texture = ExtResource("9_arecf")
+
+[node name="arbusto" type="AnimatedSprite2D" parent="TorreReloj" unique_id=1358396441]
+position = Vector2(-156, -243)
+sprite_frames = SubResource("SpriteFrames_ccrme")
+animation = &"arbusto"
+autoplay = "arbusto"
+
+[node name="nubes" type="Node2D" parent="TorreReloj" unique_id=1049864347]
+
+[node name="NubeB" type="Sprite2D" parent="TorreReloj/nubes" unique_id=1646706112]
+z_index = -1
+position = Vector2(-651.5, -850)
+texture = ExtResource("5_2j1b0")
+
+[node name="NubeA" type="Sprite2D" parent="TorreReloj/nubes" unique_id=1559904134]
+position = Vector2(220.059, -712.459)
+texture = ExtResource("6_ghsao")
+
+[node name="animNubes" type="AnimationPlayer" parent="TorreReloj/nubes" unique_id=187521485]
+libraries/ = SubResource("AnimationLibrary_hsqry")
+autoplay = &"nubes"
 
 [node name="Beat" type="Node2D" parent="." unique_id=1458654632 node_paths=PackedStringArray("camera_guide")]
 z_index = 15
@@ -102,9 +737,11 @@ offset_right = 886.0
 offset_bottom = -143.0
 text = "Mi nombre es [color=#C61A29][font=res://scenes/fonts/Fraunces_72pt-SemiBold.ttf]Felicidad Duce Ripollés[/font][/color], llegué al mundo en el 7 marzo de 1907."
 
-[node name="Bocadillo" type="Sprite2D" parent="Beat/Layer 1" unique_id=62635504]
-position = Vector2(384, 466)
-texture = ExtResource("7_jttf6")
+[node name="Bocadillo" type="AnimatedSprite2D" parent="Beat/Layer 1" unique_id=1818837936]
+position = Vector2(154, 382)
+sprite_frames = SubResource("SpriteFrames_6snss")
+animation = &"bocadillo"
+autoplay = "bocadillo"
 
 [node name="CameraGuide" type="Node2D" parent="Beat" unique_id=1126715186]
 position = Vector2(1037, 735)
@@ -140,10 +777,17 @@ offset_bottom = -202.0
 text = "En un apartamento del barrio de [color=#C61A29][font=res://scenes/fonts/Fraunces_72pt-SemiBold.ttf]Grácia[/font][/color], mis padres [color=#C61A29][font=res://scenes/fonts/Fraunces_72pt-SemiBold.ttf]Elies Duce[/font][/color] y [color=#C61A29][font=res://scenes/fonts/Fraunces_72pt-SemiBold.ttf]Mercè Ripolles[/font][/color] me vieron dar mis primeros pasos.
 "
 
-[node name="Retratos" type="Sprite2D" parent="Beat2/Layer 2" unique_id=1428597375]
-position = Vector2(251.99997, 240.99998)
-scale = Vector2(6.305556, 6.3055553)
-texture = ExtResource("7_4r21d")
+[node name="retratoMadre" type="AnimatedSprite2D" parent="Beat2/Layer 2" unique_id=406980719]
+z_index = 3
+position = Vector2(0, 57)
+sprite_frames = SubResource("SpriteFrames_c0tch")
+autoplay = "default"
+
+[node name="retratoPadre" type="AnimatedSprite2D" parent="Beat2/Layer 2" unique_id=732667043]
+z_index = 3
+position = Vector2(59, 57)
+sprite_frames = SubResource("SpriteFrames_8hknf")
+autoplay = "default"
 
 [node name="CameraGuide" type="Node2D" parent="Beat2" unique_id=1546901994]
 position = Vector2(1037, 735)
@@ -207,6 +851,12 @@ z_index = 1
 position = Vector2(6863, 1162)
 texture = ExtResource("32_wsraw")
 
+[node name="EstudiantyesClase" type="Sprite2D" parent="Beat4/EscuelaMonjas" unique_id=1550179101]
+z_index = 5
+position = Vector2(9742, 1157)
+scale = Vector2(4, 4)
+texture = ExtResource("138_d27ea")
+
 [node name="ParedEscuelaMonjas" type="Sprite2D" parent="Beat4/EscuelaMonjas" unique_id=1088419778]
 position = Vector2(8138, 741)
 scale = Vector2(1.05, 1.05)
@@ -227,7 +877,6 @@ offset_bottom = 729.0
 text = "A los 4 años fui acogida como estudiante en la [color=#C61A29][font=res://scenes/fonts/Fraunces_72pt-SemiBold.ttf]escuela de monjas de la Presentación.[/font][/color]"
 
 [node name="Timer" type="Timer" parent="Beat4/EscuelaMonjas" unique_id=1405375724]
-process_mode = 4
 wait_time = 0.7
 one_shot = true
 autostart = true
@@ -240,6 +889,16 @@ offset_top = 358.0
 offset_right = 8304.0
 offset_bottom = 701.0
 text = "Mi estadía fue marcada por la [color=#C61A29][font=res://scenes/fonts/Fraunces_72pt-SemiBold.ttf]diferencia de beneficios[/font][/color] entre yo y las alumnas de pago."
+
+[node name="Cuadro" type="Sprite2D" parent="Beat4/EscuelaMonjas" unique_id=675417352]
+position = Vector2(4562.0005, 588.00006)
+scale = Vector2(3.7, 3.7)
+texture = ExtResource("141_hdygg")
+
+[node name="Pelota" type="Sprite2D" parent="Beat4/EscuelaMonjas" unique_id=1233734635]
+position = Vector2(7821, 1029)
+scale = Vector2(4, 4)
+texture = ExtResource("142_dg6qf")
 
 [node name="CameraGuide" type="Node2D" parent="Beat4" unique_id=188433583]
 position = Vector2(1095, 752)
@@ -298,7 +957,7 @@ offset_left = 12039.0
 offset_top = 350.0
 offset_right = 10849.0
 offset_bottom = -650.0
-text = "Mis esfuerzos dieron frutos y las monjas consideraron que tenía un talento privilegiado. Premiaron mis esfuerzos con beneficios a los que antes no tenía acceso, las [color=#C61A29][font=res://scenes/fonts/Fraunces_72pt-SemiBold.ttf]clases de pintura etc.[/font][/color]"
+text = "Mis esfuerzos dieron frutos y las monjas consideraron que tenía un talento privilegiado. Premiaron mis esfuerzos con beneficios a los que antes no tenía acceso, [color=#C61A29][font=res://scenes/fonts/Fraunces_72pt-SemiBold.ttf]clases de pintura.[/font][/color]"
 
 [node name="FondoAulaPintura" type="Sprite2D" parent="Beat6/EscuelaMonjas2" unique_id=257099128]
 z_index = -5
