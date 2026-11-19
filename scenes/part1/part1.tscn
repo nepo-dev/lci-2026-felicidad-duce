@@ -150,8 +150,79 @@
 [ext_resource type="Texture2D" uid="uid://c1m3ie6gmicph" path="res://scenes/part1/01_nacimiento/01_torreReloj/animations/retratos/padre/Anim_Retrato_Padre0041.png" id="110_2aatb"]
 [ext_resource type="Texture2D" uid="uid://duhbmdh5l0b2f" path="res://scenes/part1/01_nacimiento/01_torreReloj/animations/retratos/padre/Anim_Retrato_Padre0042.png" id="111_6mvr2"]
 [ext_resource type="Texture2D" uid="uid://bjycketxpitd" path="res://scenes/part1/02_trabajoCasaMonjas/placeholders/estudiantyes clase.png" id="138_d27ea"]
-[ext_resource type="Texture2D" uid="uid://ev3euvqholil" path="res://scenes/part1/02_trabajoCasaMonjas/placeholders/cuadro.png" id="141_hdygg"]
+[ext_resource type="Texture2D" uid="uid://dbushpthxu7jj" path="res://scenes/part1/02_trabajoCasaMonjas/animations/cuadro/final-0001.png" id="141_u6o3a"]
 [ext_resource type="Texture2D" uid="uid://bb0esg7ykftpj" path="res://scenes/part1/02_trabajoCasaMonjas/placeholders/pelota.png" id="142_dg6qf"]
+[ext_resource type="Texture2D" uid="uid://dutvjlimcnn2" path="res://scenes/part1/02_trabajoCasaMonjas/animations/cuadro/final-0002.png" id="142_xgcfd"]
+[ext_resource type="Texture2D" uid="uid://crh3fcyv0bdcj" path="res://scenes/part1/02_trabajoCasaMonjas/animations/cuadro/final-0003.png" id="143_8clgy"]
+[ext_resource type="Texture2D" uid="uid://bkio0mrl4thh8" path="res://scenes/part1/02_trabajoCasaMonjas/animations/cuadro/final-0004.png" id="144_3p7q2"]
+[ext_resource type="Texture2D" uid="uid://ehjt482d6iid" path="res://scenes/part1/02_trabajoCasaMonjas/animations/cuadro/final-0005.png" id="145_bmjws"]
+[ext_resource type="Texture2D" uid="uid://drxkcc3spmagq" path="res://scenes/part1/02_trabajoCasaMonjas/animations/cuadro/final-0006.png" id="146_4537r"]
+[ext_resource type="Texture2D" uid="uid://buso2y25ua2vp" path="res://scenes/part1/02_trabajoCasaMonjas/animations/cuadro/final-0007.png" id="147_42mbo"]
+[ext_resource type="Texture2D" uid="uid://br8dtt8h0dwu5" path="res://scenes/part1/02_trabajoCasaMonjas/animations/cuadro/final-0008.png" id="148_qjwcc"]
+[ext_resource type="Texture2D" uid="uid://b0h3yk6iuuyfm" path="res://scenes/part1/02_trabajoCasaMonjas/animations/cuadro/final-0009.png" id="149_0t18b"]
+[ext_resource type="Texture2D" uid="uid://d2h412vi24s30" path="res://scenes/part1/02_trabajoCasaMonjas/animations/cuadro/final-0010.png" id="150_3aacf"]
+[ext_resource type="Texture2D" uid="uid://c5xnjvy5rl60d" path="res://scenes/part1/02_trabajoCasaMonjas/animations/cuadro/final-0011.png" id="151_e1hxs"]
+[ext_resource type="Texture2D" uid="uid://cxi55dk42nf3y" path="res://scenes/part1/02_trabajoCasaMonjas/animations/cuadro/final-0012.png" id="152_jwyun"]
+[ext_resource type="Texture2D" uid="uid://d1xpj5nwnq8ab" path="res://scenes/part1/02_trabajoCasaMonjas/animations/cuadro/final-0013.png" id="153_4eujo"]
+[ext_resource type="Texture2D" uid="uid://duo3jslth7fjp" path="res://scenes/part1/02_trabajoCasaMonjas/animations/cuadro/final-0014.png" id="154_pho7g"]
+[ext_resource type="Texture2D" uid="uid://drayxokppcdsl" path="res://scenes/part1/02_trabajoCasaMonjas/animations/cuadro/final-0015.png" id="155_3mlyr"]
+[ext_resource type="Texture2D" uid="uid://c6bbf42moyq14" path="res://scenes/part1/02_trabajoCasaMonjas/animations/cuadro/final-0016.png" id="156_4ljeo"]
+[ext_resource type="Texture2D" uid="uid://d3w083sfq3prn" path="res://scenes/part1/02_trabajoCasaMonjas/animations/cuadro/final-0017.png" id="157_ew6sr"]
+[ext_resource type="Texture2D" uid="uid://bnyj5y61xwkut" path="res://scenes/part1/02_trabajoCasaMonjas/animations/cuadro/final-0018.png" id="158_xgaed"]
+[ext_resource type="Texture2D" uid="uid://cowkpmxig5qhh" path="res://scenes/part1/02_trabajoCasaMonjas/animations/cuadro/final-0019.png" id="159_71q5n"]
+[ext_resource type="Texture2D" uid="uid://bcfh4r6j06t51" path="res://scenes/part1/02_trabajoCasaMonjas/animations/cuadro/final-0020.png" id="160_prx7i"]
+[ext_resource type="Texture2D" uid="uid://ccfn5kq53lt4w" path="res://scenes/part1/02_trabajoCasaMonjas/animations/cuadro/final-0021.png" id="161_6p4fq"]
+[ext_resource type="Texture2D" uid="uid://dqwutvdle7l1q" path="res://scenes/part1/02_trabajoCasaMonjas/animations/cuadro/final-0022.png" id="162_2e072"]
+[ext_resource type="Texture2D" uid="uid://dksb63lgbxwj4" path="res://scenes/part1/02_trabajoCasaMonjas/animations/cuadro/final-0023.png" id="163_f6ei5"]
+[ext_resource type="Texture2D" uid="uid://b2wsh6cthh8os" path="res://scenes/part1/02_trabajoCasaMonjas/animations/cuadro/final-0024.png" id="164_pou0v"]
+[ext_resource type="Texture2D" uid="uid://t5vgunqi7l4o" path="res://scenes/part1/02_trabajoCasaMonjas/animations/cuadro/final-0025.png" id="165_rbqow"]
+[ext_resource type="Texture2D" uid="uid://buir4ua0meoyn" path="res://scenes/part1/02_trabajoCasaMonjas/animations/cuadro/final-0026.png" id="166_ab6pm"]
+[ext_resource type="Texture2D" uid="uid://byujclawq0jg6" path="res://scenes/part1/02_trabajoCasaMonjas/animations/cuadro/final-0027.png" id="167_unuuu"]
+[ext_resource type="Texture2D" uid="uid://rq5dimv5itm5" path="res://scenes/part1/02_trabajoCasaMonjas/animations/cuadro/final-0028.png" id="168_p58pq"]
+[ext_resource type="Texture2D" uid="uid://wvn2q5p3avcc" path="res://scenes/part1/02_trabajoCasaMonjas/animations/cuadro/final-0029.png" id="169_21nad"]
+[ext_resource type="Texture2D" uid="uid://x6r82we41kxf" path="res://scenes/part1/02_trabajoCasaMonjas/animations/cuadro/final-0030.png" id="170_dhtr0"]
+[ext_resource type="Texture2D" uid="uid://c6j66q8jccyun" path="res://scenes/part1/02_trabajoCasaMonjas/animations/cuadro/final-0031.png" id="171_qyxwx"]
+[ext_resource type="Texture2D" uid="uid://dtxw0tsaceitg" path="res://scenes/part1/02_trabajoCasaMonjas/animations/cuadro/final-0032.png" id="172_4g44h"]
+[ext_resource type="Texture2D" uid="uid://llsd5w3lfmjb" path="res://scenes/part1/02_trabajoCasaMonjas/animations/cuadro/final-0033.png" id="173_3yyye"]
+[ext_resource type="Texture2D" uid="uid://khjgn7736gyr" path="res://scenes/part1/02_trabajoCasaMonjas/animations/cuadro/final-0034.png" id="174_qtu2c"]
+[ext_resource type="Texture2D" uid="uid://bctv8prmpgfrw" path="res://scenes/part1/02_trabajoCasaMonjas/animations/cuadro/final-0035.png" id="175_rus5j"]
+[ext_resource type="Texture2D" uid="uid://chi5iq1f3u4pe" path="res://scenes/part1/02_trabajoCasaMonjas/animations/cuadro/final-0036.png" id="176_dixpp"]
+[ext_resource type="Texture2D" uid="uid://u8yt0wqt4c3p" path="res://scenes/part1/02_trabajoCasaMonjas/animations/cuadro/final-0037.png" id="177_131t3"]
+[ext_resource type="Texture2D" uid="uid://c6nuc6e7sw50t" path="res://scenes/part1/02_trabajoCasaMonjas/animations/cuadro/final-0038.png" id="178_b1g44"]
+[ext_resource type="Texture2D" uid="uid://1f7sk682ogab" path="res://scenes/part1/02_trabajoCasaMonjas/animations/cuadro/final-0039.png" id="179_823f2"]
+[ext_resource type="Texture2D" uid="uid://c0ewt8p2ld0st" path="res://scenes/part1/02_trabajoCasaMonjas/animations/cuadro/final-0040.png" id="180_p75kl"]
+[ext_resource type="Texture2D" uid="uid://c8cosgn5vgdyv" path="res://scenes/part1/02_trabajoCasaMonjas/animations/cuadro/final-0041.png" id="181_ndevu"]
+[ext_resource type="Texture2D" uid="uid://eqis54uy6cvy" path="res://scenes/part1/02_trabajoCasaMonjas/animations/cuadro/final-0042.png" id="182_s7wi5"]
+[ext_resource type="Texture2D" uid="uid://dhjf6k7d7t1g3" path="res://scenes/part1/02_trabajoCasaMonjas/animations/cuadro/final-0043.png" id="183_n8yma"]
+[ext_resource type="Texture2D" uid="uid://rw3pgqpj1sk6" path="res://scenes/part1/02_trabajoCasaMonjas/animations/cuadro/final-0044.png" id="184_2lpy8"]
+[ext_resource type="Texture2D" uid="uid://diwlt6punldmq" path="res://scenes/part1/02_trabajoCasaMonjas/animations/cuadro/final-0045.png" id="185_1nw4p"]
+[ext_resource type="Texture2D" uid="uid://yn46g8yu08ef" path="res://scenes/part1/02_trabajoCasaMonjas/animations/cuadro/final-0046.png" id="186_pk05u"]
+[ext_resource type="Texture2D" uid="uid://c5yfr2tuouqqg" path="res://scenes/part1/02_trabajoCasaMonjas/animations/cuadro/final-0047.png" id="187_vamq7"]
+[ext_resource type="Texture2D" uid="uid://cfcwhah332vhe" path="res://scenes/part1/02_trabajoCasaMonjas/animations/cuadro/final-0048.png" id="188_7anff"]
+[ext_resource type="Texture2D" uid="uid://dvc1g6gxgklgp" path="res://scenes/part1/02_trabajoCasaMonjas/animations/cuadro/final-0049.png" id="189_e0akw"]
+[ext_resource type="Texture2D" uid="uid://c5hgwyycq1df1" path="res://scenes/part1/02_trabajoCasaMonjas/animations/cuadro/final-0050.png" id="190_dq44c"]
+[ext_resource type="Texture2D" uid="uid://djcnhi72paxhr" path="res://scenes/part1/02_trabajoCasaMonjas/animations/cuadro/final-0051.png" id="191_2uqbh"]
+[ext_resource type="Texture2D" uid="uid://4oud0ddu7g5p" path="res://scenes/part1/02_trabajoCasaMonjas/animations/cuadro/final-0052.png" id="192_shl1q"]
+[ext_resource type="Texture2D" uid="uid://bpibdjsjpc0lp" path="res://scenes/part1/02_trabajoCasaMonjas/animations/cuadro/final-0053.png" id="193_3b854"]
+[ext_resource type="Texture2D" uid="uid://b7wsxqghnvt0l" path="res://scenes/part1/02_trabajoCasaMonjas/animations/cuadro/final-0054.png" id="194_0liqn"]
+[ext_resource type="Texture2D" uid="uid://cjauoj2h1uctu" path="res://scenes/part1/02_trabajoCasaMonjas/animations/cuadro/final-0055.png" id="195_cmoat"]
+[ext_resource type="Texture2D" uid="uid://bssn5mw78hlr1" path="res://scenes/part1/02_trabajoCasaMonjas/animations/cuadro/final-0056.png" id="196_ha7ds"]
+[ext_resource type="Texture2D" uid="uid://ct6h8acql8vjc" path="res://scenes/part1/02_trabajoCasaMonjas/animations/cuadro/final-0057.png" id="197_5kxey"]
+[ext_resource type="Texture2D" uid="uid://dwndno814t1xa" path="res://scenes/part1/02_trabajoCasaMonjas/animations/cuadro/final-0058.png" id="198_yra7v"]
+[ext_resource type="Texture2D" uid="uid://bru0biovbu8l3" path="res://scenes/part1/02_trabajoCasaMonjas/animations/cuadro/final-0059.png" id="199_ejc1o"]
+[ext_resource type="Texture2D" uid="uid://6it3rmxfftva" path="res://scenes/part1/02_trabajoCasaMonjas/animations/cuadro/final-0060.png" id="200_taa13"]
+[ext_resource type="Texture2D" uid="uid://bnl0i226fkwgj" path="res://scenes/part1/02_trabajoCasaMonjas/animations/cuadro/final-0061.png" id="201_l0fym"]
+[ext_resource type="Texture2D" uid="uid://bovapljd4la0w" path="res://scenes/part1/02_trabajoCasaMonjas/animations/cuadro/final-0062.png" id="202_t6i5j"]
+[ext_resource type="Texture2D" uid="uid://dmcaux7vqva5g" path="res://scenes/part1/02_trabajoCasaMonjas/animations/cuadro/final-0063.png" id="203_n2svl"]
+[ext_resource type="Texture2D" uid="uid://croil2o4jyt4p" path="res://scenes/part1/02_trabajoCasaMonjas/animations/cuadro/final-0064.png" id="204_qfluw"]
+[ext_resource type="Texture2D" uid="uid://cxs8fjkqvrdy8" path="res://scenes/part1/02_trabajoCasaMonjas/animations/cuadro/final-0065.png" id="205_3hm8d"]
+[ext_resource type="Texture2D" uid="uid://b0jm0aavs1cw1" path="res://scenes/part1/02_trabajoCasaMonjas/animations/cuadro/final-0066.png" id="206_r4hvm"]
+[ext_resource type="Texture2D" uid="uid://dpmj1sput4cgw" path="res://scenes/part1/02_trabajoCasaMonjas/animations/cuadro/final-0067.png" id="207_0npg0"]
+[ext_resource type="Texture2D" uid="uid://oay3yy2l4mbe" path="res://scenes/part1/02_trabajoCasaMonjas/animations/cuadro/final-0068.png" id="208_ewueq"]
+[ext_resource type="Texture2D" uid="uid://d1tt1c60qx0il" path="res://scenes/part1/02_trabajoCasaMonjas/animations/cuadro/final-0069.png" id="209_uku8j"]
+[ext_resource type="Texture2D" uid="uid://igohaq5fet1m" path="res://scenes/part1/02_trabajoCasaMonjas/animations/cuadro/final-0070.png" id="210_yy0m4"]
+[ext_resource type="Texture2D" uid="uid://ccx0ymv71jbjo" path="res://scenes/part1/02_trabajoCasaMonjas/animations/cuadro/final-0071.png" id="211_33g6t"]
+[ext_resource type="Texture2D" uid="uid://bbmf8hdvmm7e3" path="res://scenes/part1/02_trabajoCasaMonjas/animations/cuadro/final-0072.png" id="212_4oinh"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_ccrme"]
 animations = [{
@@ -652,6 +723,230 @@ animations = [{
 "speed": 15.0
 }]
 
+[sub_resource type="SpriteFrames" id="SpriteFrames_dwrc3"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("141_u6o3a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("142_xgcfd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("143_8clgy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("144_3p7q2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("145_bmjws")
+}, {
+"duration": 1.0,
+"texture": ExtResource("146_4537r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("147_42mbo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("148_qjwcc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("149_0t18b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("150_3aacf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("151_e1hxs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("152_jwyun")
+}, {
+"duration": 1.0,
+"texture": ExtResource("153_4eujo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("154_pho7g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("155_3mlyr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("156_4ljeo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("157_ew6sr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("158_xgaed")
+}, {
+"duration": 1.0,
+"texture": ExtResource("159_71q5n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("160_prx7i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("161_6p4fq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("162_2e072")
+}, {
+"duration": 1.0,
+"texture": ExtResource("163_f6ei5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("164_pou0v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("165_rbqow")
+}, {
+"duration": 1.0,
+"texture": ExtResource("166_ab6pm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("167_unuuu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("168_p58pq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("169_21nad")
+}, {
+"duration": 1.0,
+"texture": ExtResource("170_dhtr0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("171_qyxwx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("172_4g44h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("173_3yyye")
+}, {
+"duration": 1.0,
+"texture": ExtResource("174_qtu2c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("175_rus5j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("176_dixpp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("177_131t3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("178_b1g44")
+}, {
+"duration": 1.0,
+"texture": ExtResource("179_823f2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("180_p75kl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("181_ndevu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("182_s7wi5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("183_n8yma")
+}, {
+"duration": 1.0,
+"texture": ExtResource("184_2lpy8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("185_1nw4p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("186_pk05u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("187_vamq7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("188_7anff")
+}, {
+"duration": 1.0,
+"texture": ExtResource("189_e0akw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("190_dq44c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("191_2uqbh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("192_shl1q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("193_3b854")
+}, {
+"duration": 1.0,
+"texture": ExtResource("194_0liqn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("195_cmoat")
+}, {
+"duration": 1.0,
+"texture": ExtResource("196_ha7ds")
+}, {
+"duration": 1.0,
+"texture": ExtResource("197_5kxey")
+}, {
+"duration": 1.0,
+"texture": ExtResource("198_yra7v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("199_ejc1o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("200_taa13")
+}, {
+"duration": 1.0,
+"texture": ExtResource("201_l0fym")
+}, {
+"duration": 1.0,
+"texture": ExtResource("202_t6i5j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("203_n2svl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("204_qfluw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("205_3hm8d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("206_r4hvm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("207_0npg0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("208_ewueq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("209_uku8j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("210_yy0m4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("211_33g6t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("212_4oinh")
+}],
+"loop": 2,
+"name": &"cuadroFelicidadDuce",
+"speed": 14.0
+}]
+
 [node name="Part1" type="Node2D" unique_id=1402624390]
 script = ExtResource("1_3euq0")
 metadata/_custom_type_script = "uid://dsq7ol5atjcor"
@@ -807,6 +1102,13 @@ zoom_out = 1.0
 transition_type = 4
 metadata/_custom_type_script = "uid://ch0m0yimte0qe"
 
+[node name="Cuadro" type="AnimatedSprite2D" parent="Beat3" unique_id=616681379]
+position = Vector2(726, 730)
+scale = Vector2(1.5, 1.5)
+sprite_frames = SubResource("SpriteFrames_dwrc3")
+animation = &"cuadroFelicidadDuce"
+frame_progress = 0.8654456
+
 [node name="ParedCuadros" type="Node2D" parent="Beat3" unique_id=1142854656]
 position = Vector2(-3261, 96)
 
@@ -881,18 +1183,12 @@ wait_time = 0.7
 one_shot = true
 
 [node name="EscuelaMonjasText2" parent="Beat4/EscuelaMonjas" unique_id=717508414 instance=ExtResource("10_mk7yd")]
-process_mode = 4
 z_index = 15
 offset_left = 7630.0
 offset_top = 358.0
 offset_right = 8304.0
 offset_bottom = 701.0
 text = "Mi estadía fue marcada por la [color=#C61A29][font=res://scenes/fonts/Fraunces_72pt-SemiBold.ttf]diferencia de beneficios[/font][/color] entre yo y las alumnas de pago."
-
-[node name="Cuadro" type="Sprite2D" parent="Beat4/EscuelaMonjas" unique_id=675417352]
-position = Vector2(4562.0005, 588.00006)
-scale = Vector2(3.7, 3.7)
-texture = ExtResource("141_hdygg")
 
 [node name="Pelota" type="Sprite2D" parent="Beat4/EscuelaMonjas" unique_id=1233734635]
 position = Vector2(7821, 1029)
@@ -1044,6 +1340,7 @@ autostart = true
 [connection signal="finished" from="Beat" to="Beat/Layer 1" method="hide_layer"]
 [connection signal="finished" from="Beat" to="Beat2/Layer 2" method="show_layer"]
 [connection signal="timeout" from="Beat/Timer" to="Beat" method="stop"]
+[connection signal="finished" from="Beat2" to="Beat3/Cuadro" method="play"]
 [connection signal="timeout" from="Beat2/Timer" to="Beat2" method="stop"]
 [connection signal="timeout" from="Beat3/Timer" to="Beat3" method="stop"]
 [connection signal="finished" from="Beat4/EscuelaMonjas/EscuelaMonjasText" to="Beat4/EscuelaMonjas/Timer" method="start"]
