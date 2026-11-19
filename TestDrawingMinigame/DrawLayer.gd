@@ -3,9 +3,8 @@ extends ColorRect
 
 var scratch_texture: DrawableTexture2D
 
-
+#Holaaaa ahora usamos un png para el pincel!! 
 var brush_texture: Texture2D = preload("res://TestDrawingMinigame/Brush.png")
-
 
 var brush_material: ShaderMaterial
 
@@ -40,7 +39,7 @@ func _ready():
 
 	brush_material = ShaderMaterial.new()
 	brush_material.shader = preload("res://TestDrawingMinigame/brush.gdshader")
-
+#Shader de el pincel para borrar
 
 	material.set_shader_parameter("mask_texture", scratch_texture)
 
@@ -100,9 +99,8 @@ func erase_at(pos: Vector2):
 		brush_material
 	)
 
-	#Aplicamos toda la imagen del pincel de una sola vez
 
-
+	#con esto rollo solo calculamos donde empieza y termina el area del pincel
 	var columns = ceili(size.x / float(grid_size))
 	var rows = ceili(size.y / float(grid_size))
 
@@ -126,8 +124,6 @@ func erase_at(pos: Vector2):
 					erased_grid[grid_index] = true
 					erased_pixels += 1
 
-
-	#Comprobamos solamente los puntos cercanos al pincel
 
 	var percentage = float(erased_pixels) / total_pixels * 100.0
 
