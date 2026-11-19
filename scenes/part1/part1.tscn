@@ -879,7 +879,6 @@ text = "A los 4 años fui acogida como estudiante en la [color=#C61A29][font=res
 [node name="Timer" type="Timer" parent="Beat4/EscuelaMonjas" unique_id=1405375724]
 wait_time = 0.7
 one_shot = true
-autostart = true
 
 [node name="EscuelaMonjasText2" parent="Beat4/EscuelaMonjas" unique_id=717508414 instance=ExtResource("10_mk7yd")]
 process_mode = 4
@@ -1047,7 +1046,7 @@ autostart = true
 [connection signal="timeout" from="Beat/Timer" to="Beat" method="stop"]
 [connection signal="timeout" from="Beat2/Timer" to="Beat2" method="stop"]
 [connection signal="timeout" from="Beat3/Timer" to="Beat3" method="stop"]
-[connection signal="finished" from="Beat4/EscuelaMonjas/EscuelaMonjasText" to="Beat4/EscuelaMonjas/Timer" method="set_process_mode" binds= [0]]
+[connection signal="finished" from="Beat4/EscuelaMonjas/EscuelaMonjasText" to="Beat4/EscuelaMonjas/Timer" method="start"]
 [connection signal="timeout" from="Beat4/EscuelaMonjas/Timer" to="Beat4/EscuelaMonjas/EscuelaMonjasText2" method="set_process_mode" binds= [0]]
 [connection signal="timeout" from="Beat4/Timer" to="Beat4" method="stop"]
 [connection signal="timeout" from="Beat5/Timer" to="Beat5" method="stop"]
