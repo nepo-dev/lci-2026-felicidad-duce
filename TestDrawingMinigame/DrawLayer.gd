@@ -1,47 +1,61 @@
 
 extends ColorRect
 
-var scratch_image: Image
-#Imagen blanca que vamos a modificar
-var scratch_texture: ImageTexture
-#versionde la imagen q godot muestra
+var scratch_texture: DrawableTexture2D
+
+
+var brush_texture: Texture2D = preload("res://TestDrawingMinigame/Brush.png")
+
+
+var brush_material: ShaderMaterial
+
+
 var is_scratching := false
-#boton izquierdo si esta manteniendo
 
 
 var brush_size := 35
-#tamamno brush
+
+
 var total_pixels := 0
 var erased_pixels := 0
-#Cuantos pixeles borrados
-#Pixeles del rectangulo
+
+var grid_size := 10
+
+
+var erased_grid := []
 var last_position := Vector2.ZERO
-#Ultima posicion raton
+
+
 func _ready():
-	scratch_image = Image.create(
-		size.x,
-		size.y,
-		false,
-		Image.FORMAT_RGBA8
-	)
-#Creamos una imagen nueva al empezar el juego
-#False s para mipmaps
-#RGBA porque es el canal con alpah para modificar tranparencia
-	scratch_image.fill(Color.WHITE)
-#Rellenamos toda la imagen de blanco,creamos la superficie que vamos a "Rascar"
-	scratch_texture = ImageTexture.create_from_image(
-		scratch_image
+
+	scratch_texture = DrawableTexture2D.new()
+
+	scratch_texture.setup(
+		int(size.x),
+		int(size.y),
+		DrawableTexture2D.DRAWABLE_FORMAT_RGBA8,
+		Color.WHITE
 	)
 
-#La peor parte, creamos un shader. El shader mira la textura que hemos creado, comprueba el canal de alpha de cada uno de los pixeles
-#dibuja blanco donde el alpha sea 1,dibuja transparencia donde el alpha sea 0
-#En la parte de color los cuatro valores representan rojo verde azul y alpha por lo tanto siempre dibujamos en blanco peros u transparencia depende de la imagen
+
+	brush_material = ShaderMaterial.new()
+	brush_material.shader = preload("res://TestDrawingMinigame/brush.gdshader")
+
+
 	material.set_shader_parameter("mask_texture", scratch_texture)
 
-	total_pixels = int(size.x * size.y)
+
+	total_pixels = 0
+
+	for x in range(0, int(size.x), grid_size):
+		for y in range(0, int(size.y), grid_size):
+			total_pixels += 1
+			erased_grid.append(false)
+
 
 
 func _input(event):
+
 	if event is InputEventMouseButton:
 		if event.button_index == MOUSE_BUTTON_LEFT:
 			is_scratching = event.pressed
@@ -49,59 +63,73 @@ func _input(event):
 			if is_scratching:
 				last_position = get_local_mouse_position()
 				erase_at(last_position)
-#Logica mouse
+
+	#Logica mouse
+
 	if event is InputEventMouseMotion and is_scratching:
 		var current_position = get_local_mouse_position()
 
 		erase_line(last_position, current_position)
 		last_position = current_position
-#Guardamos posicion actual y dibujamos una linea netre la posicion actual y la anterior
-#Asihacemos que no hayan pequenos espacion sin borrar de un movimiento a lotro
+
 
 func erase_line(from: Vector2, to: Vector2):
+
 	var distance = from.distance_to(to)
 	var steps = int(distance / 5.0) + 1
 
 	for i in range(steps):
 		var point = from.lerp(to, float(i) / steps)
 		erase_at(point)
-#donde estaba el raton antes . donde esta el raton ahora.
-#Calculamos cuantos puntos necesitamos para rellenar el especia 
-#usamos lerp para calucalr posiciones intermedias entre los dos puntos y asi hacemos un rascado que sea continuo
 
 
 func erase_at(pos: Vector2):
-	var radius = brush_size
-#La funcion mas importante, recibimos una posicion y establecemos el radio del pincel(Radio del pincel esta puesta arriba)
-	for x in range(-radius, radius + 1):
-		for y in range(-radius, radius + 1):
-#Creamos dos bucles, uno recorre los pixeles horizontalmente y otro verticalmente, basicamente creamos un cuadrado alrededor del raton
-#ESto no mola mucho porque queremos un cuadrado asi qeu hacemos esto
-#
-			if Vector2(x, y).length() > radius:
-				continue
-#Esto calcula la distancia entre el centro del pincel y cada pixel
-#Si esta fuera del radio lo ignoramos.
-			var px = int(pos.x) + x
-			var py = int(pos.y) + y
-#Comprobamos que no estamso intentando borrar fuera del rectangulo
-			if px < 0 or py < 0:
-				continue
 
-			if px >= size.x or py >= size.y:
-				continue
+	var rect = Rect2i(
+		int(pos.x) - brush_size,
+		int(pos.y) - brush_size,
+		brush_size * 2 + 1,
+		brush_size * 2 + 1
+	)
 
-			if scratch_image.get_pixel(px, py).a > 0:
-				scratch_image.set_pixel(
-					px, py, Color.TRANSPARENT
-				)
-				erased_pixels += 1
-#Tres cosas, comprobamos si el pixel es visible, si lo es convertimos en transparente
-#Sumamos un al contandor de pixeles borrados
-	scratch_texture.update(scratch_image)
+	scratch_texture.blit_rect(
+		rect,
+		brush_texture,
+		Color.WHITE,
+		0,
+		brush_material
+	)
+
+	#Aplicamos toda la imagen del pincel de una sola vez
+
+
+	var columns = ceili(size.x / float(grid_size))
+	var rows = ceili(size.y / float(grid_size))
+
+	var start_x = max(0, int(floor((pos.x - brush_size) / grid_size)))
+	var end_x = min(columns, int(floor((pos.x + brush_size) / grid_size)) + 1)
+
+	var start_y = max(0, int(floor((pos.y - brush_size) / grid_size)))
+	var end_y = min(rows, int(floor((pos.y + brush_size) / grid_size)) + 1)
+
+	for x in range(start_x, end_x):
+		for y in range(start_y, end_y):
+
+			var grid_index = x * rows + y
+
+			if not erased_grid[grid_index]:
+
+				var point = Vector2(x * grid_size, y * grid_size)
+
+				if point.distance_to(pos) <= brush_size:
+
+					erased_grid[grid_index] = true
+					erased_pixels += 1
+
+
+	#Comprobamos solamente los puntos cercanos al pincel
 
 	var percentage = float(erased_pixels) / total_pixels * 100.0
-	#Porcentaje es igual a la division entre pixeles borrados y pixeles totales multiplicado entre 100
 
 	if percentage >= 80.0:
 		print("Dibujo borrado al 80%!!!!!!!!!!! hecho next.")
